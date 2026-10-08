@@ -1,0 +1,3 @@
+showStaminaHUD = true
+# Расстояние от низа экрана до первой строки показателей
+centeredHudBottomOffset = 39

@@ -1,0 +1,9 @@
+# Пример, не включён в баланс автоматически.
+# Перенесите секцию в <мир>/serverconfig/rpgprogression-server.toml.
+# ID предмета или #тег = минимальный атрибут; все требования применяются вместе.
+[itemRequirements]
+strength = ["minecraft:diamond_sword=20", "#minecraft:axes=15"]
+endurance = ["minecraft:diamond_chestplate=15"]
+agility = ["minecraft:bow=12"]
+vitality = ["minecraft:diamond_chestplate=18"]
+intelligence = ["minecraft:ender_pearl=14"]
