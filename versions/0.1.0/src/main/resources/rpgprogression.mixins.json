@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.rpgprogression.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "rpgprogression.refmap.json",
+  "mixins": ["SlotMixin", "ResultSlotMixin", "ContainerMenuMixin", "InventoryMixin", "CraftingMenuMixin", "CraftingQuickMoveMixin", "ServerPlayerMixin", "PlayerMixin", "MiningMixin", "CreativeInventoryMixin", "InventoryWrapperMixin"],
+  "injectors": {"defaultRequire": 1}
+}

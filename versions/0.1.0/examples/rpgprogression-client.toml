@@ -1,0 +1,7 @@
+showStaminaHUD = true
+#Offset from screen center; default bar sits to the right of the hotbar.
+#Range: -2000 ~ 2000
+staminaHudOffsetX = 104
+#Range: 0 ~ 2000
+staminaHudBottomOffset = 17
+
