@@ -1,0 +1,3 @@
+Все поставляемые PNG меню, кнопок, HUD и иконки истощения искры предоставлены пользователем. В 0.6.0 menu main.png, skill_tree_buttons.png и spark_ex.png скопированы без изменения пикселей. MIT-лицензия исходного кода не изменяет права на изображения. Сторонние моды не включены в распространяемый JAR. В 0.6.0 временная рамка дерева рисовалась кодом GuiGraphics; с 0.7.0 используется рамка пользователя.
+
+0.7.0: skill tree.png (416x329), tab_top_selected_1.png and tab_top_unselected_1.png (26x32) supplied by the user. Copied byte-for-byte. Vanilla items are rendered by Minecraft for tab icons; no external mod assets are bundled.
