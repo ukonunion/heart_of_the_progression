@@ -1,0 +1,3 @@
+showStaminaHUD = true
+# Расстояние от низа экрана до HP; минимум 45 оставляет место ванильному XP. Стамина выше HP.
+centeredHudBottomOffset = 45
