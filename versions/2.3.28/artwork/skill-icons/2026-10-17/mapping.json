@@ -1,0 +1,109 @@
+{
+  "version": "2.3.12",
+  "textureRevision": 2,
+  "icons": [
+    {
+      "attachment": 6,
+      "skill": "parcool:skydive",
+      "name": "Свободное падение",
+      "originalName": "Pix.Свободное падение (2).png",
+      "source": "artwork/skill-icons/2026-10-17/corrected/06.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/skydive.png",
+      "sha256": "63775aefc1d2b63c4e2f18ba902246e055bc5656bb8951351f73e5b8bee0e28d",
+      "originalFileByteIdentical": true,
+      "pixelSha256": "be4f15094b0d60eef0b4de91cebac9dace8fc992712dbcc42be199e97aff76a8",
+      "previousSha256": "0d6ca7f58e6cb6153014a74e4c52e185630974f2a41ab23210d76c7f5e2ac3e5",
+      "mode": "P",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "attachment": 2,
+      "skill": "parcool:horizontal_wall_run",
+      "name": "Бег по стене",
+      "originalName": "Pix.Бег по стене.png",
+      "source": "artwork/skill-icons/2026-10-17/corrected/02.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/horizontal_wall_run.png",
+      "sha256": "bea681a03005aee8f103a53dca84786322638eaed132484f4a4a999215482699",
+      "originalFileByteIdentical": true,
+      "pixelSha256": "a90994eb9f1e4c597d31c9defbde10723b0ba20660c4455f84f8bd84a431b859",
+      "previousSha256": "78d7fb9701bb27823177c6610b68c3780137b0bb8cab549c8a213c5e7caf9db1",
+      "mode": "P",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "attachment": 4,
+      "skill": "parcool:wall_run",
+      "name": "Подъём по стене",
+      "originalName": "Pix.Ползанье по стене.png",
+      "source": "artwork/skill-icons/2026-10-17/corrected/04.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/wall_run.png",
+      "sha256": "7ff4d0e71044f2e4eaad173eb22dac06e53da8e55d78ea4e3e7a3524e62bb688",
+      "originalFileByteIdentical": true,
+      "pixelSha256": "4f7e4573082012e057251b2f0b7a37f01283b35c392b705daf33080357d35e47",
+      "previousSha256": "67d4fe44cbbd270cdbefa8e570090a5a11fcb137d2ec74fca3133ed2d0fe6720",
+      "mode": "P",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "attachment": 5,
+      "skill": "parcool:wall_jump",
+      "name": "Прыжок от стены",
+      "originalName": "Pix.Прыжок от стены.png",
+      "source": "artwork/skill-icons/2026-10-17/corrected/05.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/wall_jump.png",
+      "sha256": "b7c3d2141269b0ef3a2d3d8a7f22e244015ad60a7e93d8177769fb894fef3fcf",
+      "originalFileByteIdentical": true,
+      "pixelSha256": "5e4e0f349046967644c739ebfa6ef027193d30e3ed25e64a5de5083f8c80322f",
+      "previousSha256": "d3d0f6b3fd64fe9d48e6d0ab59b1a7fdb718886510b68fdbb1edeaa17a15032c",
+      "mode": "P",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "attachment": 1,
+      "skill": "parcool:trick_jump",
+      "name": "Акробатический прыжок",
+      "originalName": "Pix.АКРОБАТ.png",
+      "source": "artwork/skill-icons/2026-10-17/corrected/01.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/trick_jump.png",
+      "sha256": "a557b92fc660cf40e8df814cf298ac05c3fe345113033229ae3121f87cc7a05f",
+      "originalFileByteIdentical": true,
+      "pixelSha256": "90dac7127b0b596237a18be1e836a5e9e46797d797b62d3b529876003f99e46a",
+      "previousSha256": "23d357a0f5d854003250119ca591f5212a9eeabd6c1f462d188cf67f52755e5e",
+      "mode": "P",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "attachment": 3,
+      "skill": "parcool:vault",
+      "name": "Перемахивание",
+      "originalName": "Pix.Перемахивание.png",
+      "source": "artwork/skill-icons/2026-10-17/corrected/03.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/vault.png",
+      "sha256": "95a532382b7c317a558df9213430e8ac0d036dcffb80204561681b40db2d8cf3",
+      "originalFileByteIdentical": true,
+      "pixelSha256": "22380ded019824d94593c045735f6b0549fadac22416a86ab671cb3f1c84d1ba",
+      "previousSha256": "e9669bd507d651c4c32c2a8235e2c593062cb826d7f9f119b590265d2f5b0243",
+      "mode": "P",
+      "alphaRange": [
+        0,
+        255
+      ]
+    }
+  ],
+  "replaces": "original texture set of 2.3.12"
+}

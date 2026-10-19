@@ -1,0 +1,69 @@
+{
+  "version": "2.3.12",
+  "icons": [
+    {
+      "attachment": 1,
+      "skill": "parcool:skydive",
+      "name": "Свободное падение",
+      "originalName": "Pix.Свободное падение (2).png",
+      "source": "artwork/skill-icons/2026-10-17/01.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/skydive.png",
+      "sha256": "0d6ca7f58e6cb6153014a74e4c52e185630974f2a41ab23210d76c7f5e2ac3e5",
+      "originalFileByteIdentical": true
+    },
+    {
+      "attachment": 2,
+      "skill": "parcool:horizontal_wall_run",
+      "name": "Бег по стене",
+      "originalName": "Pix.Бег по стене.png",
+      "source": "artwork/skill-icons/2026-10-17/02.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/horizontal_wall_run.png",
+      "sha256": "78d7fb9701bb27823177c6610b68c3780137b0bb8cab549c8a213c5e7caf9db1",
+      "originalFileByteIdentical": true
+    },
+    {
+      "attachment": 3,
+      "skill": "parcool:wall_run",
+      "name": "Подъём по стене",
+      "originalName": "Pix.Ползанье по стене.png",
+      "source": "artwork/skill-icons/2026-10-17/03.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/wall_run.png",
+      "sha256": "67d4fe44cbbd270cdbefa8e570090a5a11fcb137d2ec74fca3133ed2d0fe6720",
+      "originalFileByteIdentical": true
+    },
+    {
+      "attachment": 4,
+      "skill": "parcool:wall_jump",
+      "name": "Прыжок от стены",
+      "originalName": "Pix.Прыжок от стены.png",
+      "source": "artwork/skill-icons/2026-10-17/04.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/wall_jump.png",
+      "sha256": "d3d0f6b3fd64fe9d48e6d0ab59b1a7fdb718886510b68fdbb1edeaa17a15032c",
+      "originalFileByteIdentical": true
+    },
+    {
+      "attachment": 5,
+      "skill": "parcool:trick_jump",
+      "name": "Акробатический прыжок",
+      "originalName": "Pix.АКРОБАТ.png",
+      "source": "artwork/skill-icons/2026-10-17/05.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/trick_jump.png",
+      "sha256": "23d357a0f5d854003250119ca591f5212a9eeabd6c1f462d188cf67f52755e5e",
+      "originalFileByteIdentical": true
+    },
+    {
+      "attachment": 6,
+      "skill": "parcool:vault",
+      "name": "Перемахивание",
+      "originalName": "Pix.Перемахивание.png",
+      "source": "artwork/skill-icons/2026-10-17/06.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/vault.png",
+      "sha256": "e9669bd507d651c4c32c2a8235e2c593062cb826d7f9f119b590265d2f5b0243",
+      "originalFileByteIdentical": true
+    }
+  ],
+  "duplicateAttachment": {
+    "number": 7,
+    "sameAs": 6
+  }
+}

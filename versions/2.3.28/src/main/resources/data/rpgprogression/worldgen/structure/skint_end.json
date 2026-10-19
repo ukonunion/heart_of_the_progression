@@ -1,0 +1,9 @@
+{
+  "type": "rpgprogression:skint",
+  "biomes": "#c:is_end",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "template": "rpgprogression:skint_end",
+  "placement": "end"
+}

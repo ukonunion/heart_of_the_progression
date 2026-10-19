@@ -1,0 +1,86 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
+group = 'dev.rpgprogression'
+version = '2.3.28'
+if (project.hasProperty('portBuildDir')) layout.buildDirectory = file(project.property('portBuildDir'))
+base { archivesName = 'heart-of-the-progression-neoforge' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+neoFormRuntime { useEclipseCompiler = false }
+sourceSets.main.java.exclude('dev/rpgprogression/gametest/**')
+neoForge {
+    version = '21.1.256'
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run/client')
+            programArguments.addAll '--width','1280','--height','720'
+    if (project.hasProperty('renderMods') || project.hasProperty('clientRendering')) systemProperty 'rpgprogression.portRenderMods','true'
+            if (project.hasProperty('portSmoke')) systemProperty 'rpgprogression.portSmoke','true'
+            if (project.hasProperty('portRelogin')) systemProperty 'rpgprogression.portRelogin','true'
+            if (project.hasProperty('smokeWorld')) systemProperty 'rpgprogression.smokeWorld',project.property('smokeWorld')
+            if (project.hasProperty('skintSmoke')) systemProperty 'rpgprogression.skintSmoke','true'
+            if (project.hasProperty('skintFlowUpgrade')) systemProperty 'rpgprogression.skintFlowUpgrade','true'
+            if (project.hasProperty('skintFlowSmoke')) systemProperty 'rpgprogression.skintFlowSmoke','true'
+            if (project.hasProperty('skintFlowRelogin')) systemProperty 'rpgprogression.skintFlowRelogin','true'
+            if (project.hasProperty('skintAnimationSmoke')) systemProperty 'rpgprogression.skintAnimationSmoke','true'
+            if (project.hasProperty('skintAnimationRelogin')) systemProperty 'rpgprogression.skintAnimationRelogin','true'
+            if (project.hasProperty('skintSeatSmoke')) systemProperty 'rpgprogression.skintSeatSmoke','true'
+            if (project.hasProperty('skintSeatRelogin')) systemProperty 'rpgprogression.skintSeatRelogin','true'
+            if (project.hasProperty('skintReturnSmoke')) systemProperty 'rpgprogression.skintReturnSmoke','true'
+            if (project.hasProperty('skintCameraSmoke')) systemProperty 'rpgprogression.skintCameraSmoke','true'
+            if (project.hasProperty('skintCameraRelogin')) systemProperty 'rpgprogression.skintCameraRelogin','true'
+            if (project.hasProperty('skintMenuSmoke')) systemProperty 'rpgprogression.skintMenuSmoke','true'
+            if (project.hasProperty('skintMenuRelogin')) systemProperty 'rpgprogression.skintMenuRelogin','true'
+            if (project.hasProperty('skintTravelSmoke')) systemProperty 'rpgprogression.skintTravelSmoke','true'
+            if (project.hasProperty('skintTravelRelogin')) systemProperty 'rpgprogression.skintTravelRelogin','true'
+        }
+        server { server(); gameDirectory = project.file(project.hasProperty('skintTravelSmoke')?'run/skint230-server':project.hasProperty('skintSmoke')?'run/skint-server':'run/server'); programArgument '--nogui'; if(project.hasProperty('skintSmoke')) systemProperty 'rpgprogression.skintServerSmoke','true'; if(project.hasProperty('skintTravelSmoke')) systemProperty 'rpgprogression.skintTravelServerSmoke','true' }
+        gameTestServer { type = 'gameTestServer'; gameDirectory = project.file('run/gametests'); systemProperty 'neoforge.enabledGameTestNamespaces','rpgprogression' }
+        configureEach { logLevel = org.slf4j.event.Level.INFO }
+    }
+    mods { rpgprogression { sourceSet(sourceSets.main) } }
+}
+repositories {
+    mavenCentral()
+    maven { url = 'https://api.modrinth.com/maven' }
+    maven { url = 'https://code.redspace.io/releases' }
+}
+configurations { runtimeClasspath.extendsFrom localRuntime }
+dependencies {
+    compileOnly 'maven.modrinth:epic-fight:dSV7xWi5'
+    compileOnly 'maven.modrinth:parcool:1LKu9AXX'
+    compileOnly 'maven.modrinth:irons-spells-n-spellbooks:slKLosTb'
+    compileOnly 'maven.modrinth:geckolib:Grwn5rUB'
+    compileOnly 'maven.modrinth:curios:yohfFbgD'
+    compileOnly 'maven.modrinth:playeranimator:HJZB6bmA'
+    compileOnly 'io.redspace:irons_lib:1.21.1-2.2.0'
+    if (project.hasProperty('parcool') || project.hasProperty('allMods')) {
+        localRuntime 'maven.modrinth:parcool:1LKu9AXX'
+    }
+    if (project.hasProperty('epicfight') || project.hasProperty('allMods')) {
+        localRuntime 'maven.modrinth:epic-fight:dSV7xWi5'
+    }
+    if (project.hasProperty('irons') || project.hasProperty('allMods')) {
+        localRuntime 'maven.modrinth:irons-spells-n-spellbooks:slKLosTb'
+        localRuntime 'maven.modrinth:geckolib:Grwn5rUB'
+        localRuntime 'maven.modrinth:curios:yohfFbgD'
+        localRuntime 'maven.modrinth:playeranimator:HJZB6bmA'
+        localRuntime 'io.redspace:irons_lib:1.21.1-2.2.0'
+    }
+    if (project.hasProperty('epicparcool') || project.hasProperty('allMods')) { localRuntime 'maven.modrinth:official-epic-x-parcool:Uq0vPJIE' }
+    if (project.hasProperty('renderMods') || project.hasProperty('allMods') && project.hasProperty('clientRendering')) {
+        localRuntime 'maven.modrinth:sodium:Pb3OXVqC'
+        localRuntime 'maven.modrinth:iris:t3ruzodq'
+    }
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.compilerArgs.addAll(['-Xmaxerrs','500']) }
+tasks.named('test', Test) { useJUnitPlatform() }
+tasks.named('jar', Jar) {
+    exclude 'dev/rpgprogression/verification/**'
+    exclude 'data/rpgprogression/structure/empty.nbt'
+    from(project.files('LICENSE', 'ASSET-CREDITS.txt','THIRD-PARTY-NOTICES.txt')) { into 'META-INF' }
+    from('licenses') { into 'META-INF/licenses' }
+    manifest { attributes('Implementation-Version':project.version) }
+}
