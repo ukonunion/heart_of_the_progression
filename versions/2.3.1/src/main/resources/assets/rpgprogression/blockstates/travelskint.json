@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rpgprogression:block/travelskint"
+    },
+    "facing=east": {
+      "model": "rpgprogression:block/travelskint",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rpgprogression:block/travelskint",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rpgprogression:block/travelskint",
+      "y": 270
+    }
+  }
+}
