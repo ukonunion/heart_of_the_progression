@@ -1,0 +1,564 @@
+[
+  {
+    "id": "epicfight:wooden_dagger",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:wooden_greatsword",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:wooden_spear",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:wooden_tachi",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:wooden_longsword",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:stone_dagger",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:stone_greatsword",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:stone_spear",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:stone_tachi",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:stone_longsword",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:golden_dagger",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:golden_greatsword",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:golden_spear",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:golden_tachi",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:golden_longsword",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:iron_dagger",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 13,
+      "agility": 15
+    }
+  },
+  {
+    "id": "epicfight:iron_greatsword",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 13,
+      "strength": 15
+    }
+  },
+  {
+    "id": "epicfight:iron_spear",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 13,
+      "strength": 15
+    }
+  },
+  {
+    "id": "epicfight:iron_tachi",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 13,
+      "agility": 13,
+      "strength": 12
+    }
+  },
+  {
+    "id": "epicfight:iron_longsword",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 13,
+      "agility": 12,
+      "strength": 13
+    }
+  },
+  {
+    "id": "epicfight:diamond_dagger",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 15,
+      "agility": 20
+    }
+  },
+  {
+    "id": "epicfight:diamond_greatsword",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 15,
+      "strength": 20
+    }
+  },
+  {
+    "id": "epicfight:diamond_spear",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 15,
+      "strength": 20
+    }
+  },
+  {
+    "id": "epicfight:diamond_tachi",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 15,
+      "agility": 15,
+      "strength": 15
+    }
+  },
+  {
+    "id": "epicfight:diamond_longsword",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 15,
+      "agility": 15,
+      "strength": 15
+    }
+  },
+  {
+    "id": "epicfight:netherite_dagger",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 17,
+      "agility": 25
+    }
+  },
+  {
+    "id": "epicfight:netherite_greatsword",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 17,
+      "strength": 25
+    }
+  },
+  {
+    "id": "epicfight:netherite_spear",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 17,
+      "strength": 25
+    }
+  },
+  {
+    "id": "epicfight:netherite_tachi",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 17,
+      "agility": 18,
+      "strength": 17
+    }
+  },
+  {
+    "id": "epicfight:netherite_longsword",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "intelligence": 17,
+      "agility": 17,
+      "strength": 18
+    }
+  },
+  {
+    "id": "epicfight:uchigatana",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {
+      "agility": 15,
+      "endurance": 15
+    }
+  },
+  {
+    "id": "epicfight:glove",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:bokken",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "epicfight:uchigatana_sheath",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:iron_helmet",
+    "toolMinimum": 0,
+    "armorMinimum": 15,
+    "requirements": {
+      "endurance": 15,
+      "vitality": 15
+    }
+  },
+  {
+    "id": "minecraft:iron_chestplate",
+    "toolMinimum": 0,
+    "armorMinimum": 15,
+    "requirements": {
+      "endurance": 15,
+      "vitality": 15
+    }
+  },
+  {
+    "id": "minecraft:iron_leggings",
+    "toolMinimum": 0,
+    "armorMinimum": 15,
+    "requirements": {
+      "endurance": 15,
+      "vitality": 15
+    }
+  },
+  {
+    "id": "minecraft:iron_boots",
+    "toolMinimum": 0,
+    "armorMinimum": 15,
+    "requirements": {
+      "endurance": 15,
+      "vitality": 15
+    }
+  },
+  {
+    "id": "minecraft:iron_axe",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 15,
+      "strength": 13
+    }
+  },
+  {
+    "id": "minecraft:iron_sword",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 15
+    }
+  },
+  {
+    "id": "minecraft:iron_pickaxe",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 15
+    }
+  },
+  {
+    "id": "minecraft:iron_shovel",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 15
+    }
+  },
+  {
+    "id": "minecraft:iron_hoe",
+    "toolMinimum": 15,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 15
+    }
+  },
+  {
+    "id": "minecraft:diamond_helmet",
+    "toolMinimum": 0,
+    "armorMinimum": 20,
+    "requirements": {
+      "endurance": 20,
+      "vitality": 20
+    }
+  },
+  {
+    "id": "minecraft:diamond_chestplate",
+    "toolMinimum": 0,
+    "armorMinimum": 20,
+    "requirements": {
+      "endurance": 20,
+      "vitality": 20
+    }
+  },
+  {
+    "id": "minecraft:diamond_leggings",
+    "toolMinimum": 0,
+    "armorMinimum": 20,
+    "requirements": {
+      "endurance": 20,
+      "vitality": 20
+    }
+  },
+  {
+    "id": "minecraft:diamond_boots",
+    "toolMinimum": 0,
+    "armorMinimum": 20,
+    "requirements": {
+      "endurance": 20,
+      "vitality": 20
+    }
+  },
+  {
+    "id": "minecraft:diamond_axe",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 20,
+      "strength": 15
+    }
+  },
+  {
+    "id": "minecraft:diamond_sword",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 20
+    }
+  },
+  {
+    "id": "minecraft:diamond_pickaxe",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 20
+    }
+  },
+  {
+    "id": "minecraft:diamond_shovel",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 20
+    }
+  },
+  {
+    "id": "minecraft:diamond_hoe",
+    "toolMinimum": 20,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 20
+    }
+  },
+  {
+    "id": "minecraft:netherite_helmet",
+    "toolMinimum": 0,
+    "armorMinimum": 25,
+    "requirements": {
+      "endurance": 25,
+      "vitality": 25
+    }
+  },
+  {
+    "id": "minecraft:netherite_chestplate",
+    "toolMinimum": 0,
+    "armorMinimum": 25,
+    "requirements": {
+      "endurance": 25,
+      "vitality": 25
+    }
+  },
+  {
+    "id": "minecraft:netherite_leggings",
+    "toolMinimum": 0,
+    "armorMinimum": 25,
+    "requirements": {
+      "endurance": 25,
+      "vitality": 25
+    }
+  },
+  {
+    "id": "minecraft:netherite_boots",
+    "toolMinimum": 0,
+    "armorMinimum": 25,
+    "requirements": {
+      "endurance": 25,
+      "vitality": 25
+    }
+  },
+  {
+    "id": "minecraft:netherite_axe",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 25,
+      "strength": 17
+    }
+  },
+  {
+    "id": "minecraft:netherite_sword",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 25
+    }
+  },
+  {
+    "id": "minecraft:netherite_pickaxe",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 25
+    }
+  },
+  {
+    "id": "minecraft:netherite_shovel",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 25
+    }
+  },
+  {
+    "id": "minecraft:netherite_hoe",
+    "toolMinimum": 25,
+    "armorMinimum": 0,
+    "requirements": {
+      "endurance": 25
+    }
+  },
+  {
+    "id": "minecraft:wooden_sword",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:stone_axe",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:golden_pickaxe",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:leather_chestplate",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:chainmail_chestplate",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:golden_chestplate",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:trident",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:stick",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {}
+  },
+  {
+    "id": "minecraft:mace",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {
+      "strength": 30,
+      "endurance": 30
+    }
+  },
+  {
+    "id": "minecraft:bow",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {
+      "agility": 15
+    }
+  },
+  {
+    "id": "minecraft:crossbow",
+    "toolMinimum": 0,
+    "armorMinimum": 0,
+    "requirements": {
+      "agility": 15
+    }
+  }
+]
