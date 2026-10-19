@@ -1,0 +1,28 @@
+# Пример отдельных секций. Объедините с секциями serverconfig, не дублируя заголовки.
+[experience]
+baseLevelXP = 500.0
+levelXPCurve = "STAGED"
+[combatXP]
+multiplier = 1.0
+entityOverrides = ["minecraft:zombie=20", "minecraft:cow=0"]
+[miningXP]
+multiplier = 1.0
+blockOverrides = ["minecraft:diamond_ore=25", "#minecraft:logs=2"]
+[fishingXP]
+multiplier = 1.0
+itemOverrides = ["minecraft:cod=10", "minecraft:name_tag=40"]
+[cookingXP]
+furnaceXPPerItem = 4.0
+campfireXPPerItem = 3.0
+multiplier = 1.0
+itemOverrides = ["minecraft:cooked_beef=6", "minecraft:iron_ingot=5"]
+[spark]
+startingPotential = 10
+baseReservoir = 25.0
+reservoirPerPotential = 1.0
+dimensionTravelCost = 25.0
+baseFullRecoverySeconds = 1200.0
+recoverySpeedPerPotential = 0.1
+[mana]
+unitRegenPerSecond = 0.2
+regenDelaySeconds = 2.0
