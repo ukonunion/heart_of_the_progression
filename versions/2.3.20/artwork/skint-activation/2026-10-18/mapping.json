@@ -1,0 +1,20 @@
+{
+  "providedBy": "user",
+  "files": [
+    {
+      "file": "skint_ocean.nbt",
+      "sha256": "bbbfdee22258e5872270b195da9b7821544c4e00db4c6f86c3fe5078e36df29b",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_charged_en.png",
+      "sha256": "9618d029540301166984b553e7ca65330294297587595ae1e96eb57867be7203",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_charged_ru.png",
+      "sha256": "4cbe5d9d16f5fac1b80793d6d967fd9ed21ae56f7e813087d86dd9c5e657695d",
+      "byteIdentical": true
+    }
+  ]
+}
