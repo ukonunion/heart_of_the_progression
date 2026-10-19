@@ -1,0 +1,50 @@
+{
+  "providedBy": "user",
+  "dimensions": [
+    7,
+    3,
+    7
+  ],
+  "templates": [
+    {
+      "file": "skint_cave_1.nbt",
+      "sha256": "0ef9865bbd8f15599a9b6e87b3920f4d9cf743f99cddd2d44843c1d507bcfdfb",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_cave_2.nbt",
+      "sha256": "9301772fa3089da1b0cd8798eeeb0bb1a4fa125cab3204671dbe2c47d639a97d",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_end.nbt",
+      "sha256": "1f55e542407e6a15dbe3e10734a323eef6191be33f025eea47666a137807ad29",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_main_base.nbt",
+      "sha256": "eb737467de541b969b3114a5901fce65ea681e2a68f50ed41b54eac2d2af1f11",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_main_mossy.nbt",
+      "sha256": "2aababb1770aa991b89ee7058d75da5d0c9da781d35dc360cf687d1f27689fe3",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_main_red_sand.nbt",
+      "sha256": "59d591a438e62c6adf5ba9808c79cb6b0f346e178ed93eb1fc8b320234784a19",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_main_sand.nbt",
+      "sha256": "bd6825abe5f2b7baac77a89c00ed3192f49d497c6855d7d9dede47d4983b85de",
+      "byteIdentical": true
+    },
+    {
+      "file": "skint_nether.nbt",
+      "sha256": "e77ced2074c0e87a6dbec152ab1cefeeb8a69e9f7b34c39f0dbd30d5774de3f7",
+      "byteIdentical": true
+    }
+  ]
+}

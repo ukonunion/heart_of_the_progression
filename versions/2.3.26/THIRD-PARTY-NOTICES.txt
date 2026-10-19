@@ -1,0 +1,21 @@
+Bonfires teleportation adaptation
+
+Original project: https://github.com/Wehavecookies56/Bonfires/
+Source revision: 5d9820a1139460d6b391fe887158c2e32f741ab3 (branch 1.20.1)
+Original author: Wehavecookies56 and Bonfires contributors.
+Source file: src/main/java/wehavecookies56/bonfires/world/BonfireTeleporter.java
+License: GNU Lesser General Public License, version 3 (LGPL-3.0-only).
+
+The adapted file dev/rpgprogression/skint/BonfireTravel.java retains that license.
+Changes dated 2026-10-15: NeoForge 1.21.1 API; safe arrival collision, floor,
+world-border and hazard checks; explicit dimension transitions without respawn,
+rest, Estus, healing, reinforcement or other Bonfires features.
+Bonfires textures, models, sounds and UI assets are not included.
+
+All other project code retains its existing MIT license. User-provided artwork
+retains its respective rights (see ASSET-CREDITS.txt).
+LGPL-3.0 and the incorporated GPL-3.0 license texts are in META-INF/licenses
+in the JAR and in licenses/ in the complete source distribution. This release
+includes the complete corresponding source and build scripts, allowing the
+LGPL file to be modified and the combined work to be rebuilt. No restrictions
+are imposed on reverse engineering for debugging changes to the LGPL part.

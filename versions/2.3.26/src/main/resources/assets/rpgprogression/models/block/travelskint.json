@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "neoforge:obj",
+  "model": "rpgprogression:models/block/travelskint.obj",
+  "automatic_culling": false,
+  "flip_v": true,
+  "emissive_ambient": false,
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "texture0": "rpgprogression:block/travelskint/texture_0",
+    "texture1": "rpgprogression:block/travelskint/texture_1",
+    "texture2": "rpgprogression:block/travelskint/texture_2",
+    "texture3": "rpgprogression:block/travelskint/texture_3",
+    "texture4": "rpgprogression:block/travelskint/texture_4",
+    "texture5": "rpgprogression:block/travelskint/texture_5",
+    "texture6": "rpgprogression:block/travelskint/texture_6",
+    "texture7": "rpgprogression:block/travelskint/texture_7",
+    "texture8": "rpgprogression:block/travelskint/texture_8",
+    "texture9": "rpgprogression:block/travelskint/texture_9",
+    "texture10": "rpgprogression:block/travelskint/texture_10",
+    "texture11": "rpgprogression:block/travelskint/texture_11",
+    "particle": "rpgprogression:block/travelskint/texture_0"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    }
+  }
+}
