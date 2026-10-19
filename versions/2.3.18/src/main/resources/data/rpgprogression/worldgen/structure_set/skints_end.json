@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "rpgprogression:skint_end",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 32,
+    "salt": 193726519,
+    "spread_type": "triangular"
+  }
+}
