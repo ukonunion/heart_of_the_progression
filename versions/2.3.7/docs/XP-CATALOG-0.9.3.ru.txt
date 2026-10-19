@@ -1,0 +1,2150 @@
+RPG PROGRESSION 0.9.3 — СПРАВОЧНИК XP
+
+Настройки по умолчанию. Реестры работающей игры с ParCool, Epic Fight и Iron's.
+Награды и условия описаны в LEVELING-REPORT-0.9.3.ru.txt.
+
+БЛОКИ: ID | твёрдость стандартного состояния | множитель руды | XP
+epicfight:fracture_block | 0 | 1 | 1
+geckolib:fertilizer | 0 | 1 | 1
+geckolib:gecko_habitat | 0 | 1 | 1
+irons_lib:player_statue | 1.5 | 1 | 2
+irons_lib:transmog_table | 2.5 | 1 | 2
+irons_patreon_lib:player_statue | 1.5 | 1 | 2
+irons_patreon_lib:transmog_table | 2.5 | 1 | 2
+irons_spellbooks:alchemist_cauldron | 2 | 1 | 2
+irons_spellbooks:arcane_anvil | 5 | 1 | 4
+irons_spellbooks:arcane_debris | 20 | 1 | 11
+irons_spellbooks:armor_pile | 5 | 1 | 4
+irons_spellbooks:blood_cauldron | 2 | 1 | 2
+irons_spellbooks:bone_vault | 50 | 1 | 26
+irons_spellbooks:book_stack | 0.2 | 1 | 1
+irons_spellbooks:brazier | 5 | 1 | 4
+irons_spellbooks:brazier_soul | 5 | 1 | 4
+irons_spellbooks:cinderous_soul_rune | 40 | 1 | 21
+irons_spellbooks:cinderous_vault | 50 | 1 | 26
+irons_spellbooks:cooked_ice_spider_egg | 0.5 | 1 | 1
+irons_spellbooks:deepslate_mithril_ore | 20 | 3 | 33
+irons_spellbooks:firefly_jar | 0.3 | 1 | 1
+irons_spellbooks:grimy_tiles | 3 | 1 | 3
+irons_spellbooks:ice_spider_egg | 3 | 1 | 3
+irons_spellbooks:inscription_table | 2.5 | 1 | 2
+irons_spellbooks:mithril_ore | 20 | 3 | 33
+irons_spellbooks:nether_brick_pillar | 2 | 1 | 2
+irons_spellbooks:pedestal | 3.5 | 1 | 3
+irons_spellbooks:portal_frame | 10 | 1 | 6
+irons_spellbooks:scroll_forge | 5 | 1 | 4
+irons_spellbooks:trial_spawner | 50 | 1 | 26
+irons_spellbooks:tyros_statue | 1.5 | 1 | 2
+irons_spellbooks:vault | 50 | 1 | 26
+irons_spellbooks:wisewood_bookshelf | 1.5 | 1 | 2
+irons_spellbooks:wisewood_planks | 2 | 1 | 2
+minecraft:acacia_button | 0.5 | 1 | 1
+minecraft:acacia_door | 3 | 1 | 3
+minecraft:acacia_fence | 2 | 1 | 2
+minecraft:acacia_fence_gate | 2 | 1 | 2
+minecraft:acacia_hanging_sign | 1 | 1 | 2
+minecraft:acacia_leaves | 0.2 | 1 | 1
+minecraft:acacia_log | 2 | 1 | 2
+minecraft:acacia_planks | 2 | 1 | 2
+minecraft:acacia_pressure_plate | 0.5 | 1 | 1
+minecraft:acacia_sapling | 0 | 1 | 1
+minecraft:acacia_sign | 1 | 1 | 2
+minecraft:acacia_slab | 2 | 1 | 2
+minecraft:acacia_stairs | 2 | 1 | 2
+minecraft:acacia_trapdoor | 3 | 1 | 3
+minecraft:acacia_wall_hanging_sign | 1 | 1 | 2
+minecraft:acacia_wall_sign | 1 | 1 | 2
+minecraft:acacia_wood | 2 | 1 | 2
+minecraft:activator_rail | 0.7 | 1 | 1
+minecraft:allium | 0 | 1 | 1
+minecraft:amethyst_block | 1.5 | 1 | 2
+minecraft:amethyst_cluster | 1.5 | 1 | 2
+minecraft:ancient_debris | 30 | 6 | 96
+minecraft:andesite | 1.5 | 1 | 2
+minecraft:andesite_slab | 1.5 | 1 | 2
+minecraft:andesite_stairs | 1.5 | 1 | 2
+minecraft:andesite_wall | 1.5 | 1 | 2
+minecraft:anvil | 5 | 1 | 4
+minecraft:attached_melon_stem | 0 | 1 | 1
+minecraft:attached_pumpkin_stem | 0 | 1 | 1
+minecraft:azalea | 0 | 1 | 1
+minecraft:azalea_leaves | 0.2 | 1 | 1
+minecraft:azure_bluet | 0 | 1 | 1
+minecraft:bamboo | 1 | 1 | 2
+minecraft:bamboo_block | 2 | 1 | 2
+minecraft:bamboo_button | 0.5 | 1 | 1
+minecraft:bamboo_door | 3 | 1 | 3
+minecraft:bamboo_fence | 2 | 1 | 2
+minecraft:bamboo_fence_gate | 2 | 1 | 2
+minecraft:bamboo_hanging_sign | 1 | 1 | 2
+minecraft:bamboo_mosaic | 2 | 1 | 2
+minecraft:bamboo_mosaic_slab | 2 | 1 | 2
+minecraft:bamboo_mosaic_stairs | 2 | 1 | 2
+minecraft:bamboo_planks | 2 | 1 | 2
+minecraft:bamboo_pressure_plate | 0.5 | 1 | 1
+minecraft:bamboo_sapling | 1 | 1 | 2
+minecraft:bamboo_sign | 1 | 1 | 2
+minecraft:bamboo_slab | 2 | 1 | 2
+minecraft:bamboo_stairs | 2 | 1 | 2
+minecraft:bamboo_trapdoor | 3 | 1 | 3
+minecraft:bamboo_wall_hanging_sign | 1 | 1 | 2
+minecraft:bamboo_wall_sign | 1 | 1 | 2
+minecraft:barrel | 2.5 | 1 | 2
+minecraft:basalt | 1.25 | 1 | 2
+minecraft:beacon | 3 | 1 | 3
+minecraft:bee_nest | 0.3 | 1 | 1
+minecraft:beehive | 0.6 | 1 | 1
+minecraft:beetroots | 0 | 1 | 1
+minecraft:bell | 5 | 1 | 4
+minecraft:big_dripleaf | 0.1 | 1 | 1
+minecraft:big_dripleaf_stem | 0.1 | 1 | 1
+minecraft:birch_button | 0.5 | 1 | 1
+minecraft:birch_door | 3 | 1 | 3
+minecraft:birch_fence | 2 | 1 | 2
+minecraft:birch_fence_gate | 2 | 1 | 2
+minecraft:birch_hanging_sign | 1 | 1 | 2
+minecraft:birch_leaves | 0.2 | 1 | 1
+minecraft:birch_log | 2 | 1 | 2
+minecraft:birch_planks | 2 | 1 | 2
+minecraft:birch_pressure_plate | 0.5 | 1 | 1
+minecraft:birch_sapling | 0 | 1 | 1
+minecraft:birch_sign | 1 | 1 | 2
+minecraft:birch_slab | 2 | 1 | 2
+minecraft:birch_stairs | 2 | 1 | 2
+minecraft:birch_trapdoor | 3 | 1 | 3
+minecraft:birch_wall_hanging_sign | 1 | 1 | 2
+minecraft:birch_wall_sign | 1 | 1 | 2
+minecraft:birch_wood | 2 | 1 | 2
+minecraft:black_banner | 1 | 1 | 2
+minecraft:black_bed | 0.2 | 1 | 1
+minecraft:black_candle | 0.1 | 1 | 1
+minecraft:black_candle_cake | 0.5 | 1 | 1
+minecraft:black_carpet | 0.1 | 1 | 1
+minecraft:black_concrete | 1.8 | 1 | 2
+minecraft:black_concrete_powder | 0.5 | 1 | 1
+minecraft:black_glazed_terracotta | 1.4 | 1 | 2
+minecraft:black_shulker_box | 2 | 1 | 2
+minecraft:black_stained_glass | 0.3 | 1 | 1
+minecraft:black_stained_glass_pane | 0.3 | 1 | 1
+minecraft:black_terracotta | 1.25 | 1 | 2
+minecraft:black_wall_banner | 1 | 1 | 2
+minecraft:black_wool | 0.8 | 1 | 1
+minecraft:blackstone | 1.5 | 1 | 2
+minecraft:blackstone_slab | 2 | 1 | 2
+minecraft:blackstone_stairs | 1.5 | 1 | 2
+minecraft:blackstone_wall | 1.5 | 1 | 2
+minecraft:blast_furnace | 3.5 | 1 | 3
+minecraft:blue_banner | 1 | 1 | 2
+minecraft:blue_bed | 0.2 | 1 | 1
+minecraft:blue_candle | 0.1 | 1 | 1
+minecraft:blue_candle_cake | 0.5 | 1 | 1
+minecraft:blue_carpet | 0.1 | 1 | 1
+minecraft:blue_concrete | 1.8 | 1 | 2
+minecraft:blue_concrete_powder | 0.5 | 1 | 1
+minecraft:blue_glazed_terracotta | 1.4 | 1 | 2
+minecraft:blue_ice | 2.8 | 1 | 2
+minecraft:blue_orchid | 0 | 1 | 1
+minecraft:blue_shulker_box | 2 | 1 | 2
+minecraft:blue_stained_glass | 0.3 | 1 | 1
+minecraft:blue_stained_glass_pane | 0.3 | 1 | 1
+minecraft:blue_terracotta | 1.25 | 1 | 2
+minecraft:blue_wall_banner | 1 | 1 | 2
+minecraft:blue_wool | 0.8 | 1 | 1
+minecraft:bone_block | 2 | 1 | 2
+minecraft:bookshelf | 1.5 | 1 | 2
+minecraft:brain_coral | 0 | 1 | 1
+minecraft:brain_coral_block | 1.5 | 1 | 2
+minecraft:brain_coral_fan | 0 | 1 | 1
+minecraft:brain_coral_wall_fan | 0 | 1 | 1
+minecraft:brewing_stand | 0.5 | 1 | 1
+minecraft:brick_slab | 2 | 1 | 2
+minecraft:brick_stairs | 2 | 1 | 2
+minecraft:brick_wall | 2 | 1 | 2
+minecraft:bricks | 2 | 1 | 2
+minecraft:brown_banner | 1 | 1 | 2
+minecraft:brown_bed | 0.2 | 1 | 1
+minecraft:brown_candle | 0.1 | 1 | 1
+minecraft:brown_candle_cake | 0.5 | 1 | 1
+minecraft:brown_carpet | 0.1 | 1 | 1
+minecraft:brown_concrete | 1.8 | 1 | 2
+minecraft:brown_concrete_powder | 0.5 | 1 | 1
+minecraft:brown_glazed_terracotta | 1.4 | 1 | 2
+minecraft:brown_mushroom | 0 | 1 | 1
+minecraft:brown_mushroom_block | 0.2 | 1 | 1
+minecraft:brown_shulker_box | 2 | 1 | 2
+minecraft:brown_stained_glass | 0.3 | 1 | 1
+minecraft:brown_stained_glass_pane | 0.3 | 1 | 1
+minecraft:brown_terracotta | 1.25 | 1 | 2
+minecraft:brown_wall_banner | 1 | 1 | 2
+minecraft:brown_wool | 0.8 | 1 | 1
+minecraft:bubble_column | 0 | 1 | 1
+minecraft:bubble_coral | 0 | 1 | 1
+minecraft:bubble_coral_block | 1.5 | 1 | 2
+minecraft:bubble_coral_fan | 0 | 1 | 1
+minecraft:bubble_coral_wall_fan | 0 | 1 | 1
+minecraft:budding_amethyst | 1.5 | 1 | 2
+minecraft:cactus | 0.4 | 1 | 1
+minecraft:cake | 0.5 | 1 | 1
+minecraft:calcite | 0.75 | 1 | 1
+minecraft:calibrated_sculk_sensor | 1.5 | 1 | 2
+minecraft:campfire | 2 | 1 | 2
+minecraft:candle | 0.1 | 1 | 1
+minecraft:candle_cake | 0.5 | 1 | 1
+minecraft:carrots | 0 | 1 | 1
+minecraft:cartography_table | 2.5 | 1 | 2
+minecraft:carved_pumpkin | 1 | 1 | 2
+minecraft:cauldron | 2 | 1 | 2
+minecraft:cave_vines | 0 | 1 | 1
+minecraft:cave_vines_plant | 0 | 1 | 1
+minecraft:chain | 5 | 1 | 4
+minecraft:cherry_button | 0.5 | 1 | 1
+minecraft:cherry_door | 3 | 1 | 3
+minecraft:cherry_fence | 2 | 1 | 2
+minecraft:cherry_fence_gate | 2 | 1 | 2
+minecraft:cherry_hanging_sign | 1 | 1 | 2
+minecraft:cherry_leaves | 0.2 | 1 | 1
+minecraft:cherry_log | 2 | 1 | 2
+minecraft:cherry_planks | 2 | 1 | 2
+minecraft:cherry_pressure_plate | 0.5 | 1 | 1
+minecraft:cherry_sapling | 0 | 1 | 1
+minecraft:cherry_sign | 1 | 1 | 2
+minecraft:cherry_slab | 2 | 1 | 2
+minecraft:cherry_stairs | 2 | 1 | 2
+minecraft:cherry_trapdoor | 3 | 1 | 3
+minecraft:cherry_wall_hanging_sign | 1 | 1 | 2
+minecraft:cherry_wall_sign | 1 | 1 | 2
+minecraft:cherry_wood | 2 | 1 | 2
+minecraft:chest | 2.5 | 1 | 2
+minecraft:chipped_anvil | 5 | 1 | 4
+minecraft:chiseled_bookshelf | 1.5 | 1 | 2
+minecraft:chiseled_deepslate | 3.5 | 1 | 3
+minecraft:chiseled_nether_bricks | 2 | 1 | 2
+minecraft:chiseled_polished_blackstone | 1.5 | 1 | 2
+minecraft:chiseled_quartz_block | 0.8 | 1 | 1
+minecraft:chiseled_red_sandstone | 0.8 | 1 | 1
+minecraft:chiseled_sandstone | 0.8 | 1 | 1
+minecraft:chiseled_stone_bricks | 1.5 | 1 | 2
+minecraft:chorus_flower | 0.4 | 1 | 1
+minecraft:chorus_plant | 0.4 | 1 | 1
+minecraft:clay | 0.6 | 1 | 1
+minecraft:coal_block | 5 | 1 | 4
+minecraft:coal_ore | 3 | 3 | 8
+minecraft:coarse_dirt | 0.5 | 1 | 1
+minecraft:cobbled_deepslate | 3.5 | 1 | 3
+minecraft:cobbled_deepslate_slab | 3.5 | 1 | 3
+minecraft:cobbled_deepslate_stairs | 3.5 | 1 | 3
+minecraft:cobbled_deepslate_wall | 3.5 | 1 | 3
+minecraft:cobblestone | 2 | 1 | 2
+minecraft:cobblestone_slab | 2 | 1 | 2
+minecraft:cobblestone_stairs | 2 | 1 | 2
+minecraft:cobblestone_wall | 2 | 1 | 2
+minecraft:cobweb | 4 | 1 | 3
+minecraft:cocoa | 0.2 | 1 | 1
+minecraft:comparator | 0 | 1 | 1
+minecraft:composter | 0.6 | 1 | 1
+minecraft:conduit | 3 | 1 | 3
+minecraft:copper_block | 3 | 1 | 3
+minecraft:copper_ore | 3 | 3 | 8
+minecraft:cornflower | 0 | 1 | 1
+minecraft:cracked_deepslate_bricks | 3.5 | 1 | 3
+minecraft:cracked_deepslate_tiles | 3.5 | 1 | 3
+minecraft:cracked_nether_bricks | 2 | 1 | 2
+minecraft:cracked_polished_blackstone_bricks | 1.5 | 1 | 2
+minecraft:cracked_stone_bricks | 1.5 | 1 | 2
+minecraft:crafting_table | 2.5 | 1 | 2
+minecraft:creeper_head | 1 | 1 | 2
+minecraft:creeper_wall_head | 1 | 1 | 2
+minecraft:crimson_button | 0.5 | 1 | 1
+minecraft:crimson_door | 3 | 1 | 3
+minecraft:crimson_fence | 2 | 1 | 2
+minecraft:crimson_fence_gate | 2 | 1 | 2
+minecraft:crimson_fungus | 0 | 1 | 1
+minecraft:crimson_hanging_sign | 1 | 1 | 2
+minecraft:crimson_hyphae | 2 | 1 | 2
+minecraft:crimson_nylium | 0.4 | 1 | 1
+minecraft:crimson_planks | 2 | 1 | 2
+minecraft:crimson_pressure_plate | 0.5 | 1 | 1
+minecraft:crimson_roots | 0 | 1 | 1
+minecraft:crimson_sign | 1 | 1 | 2
+minecraft:crimson_slab | 2 | 1 | 2
+minecraft:crimson_stairs | 2 | 1 | 2
+minecraft:crimson_stem | 2 | 1 | 2
+minecraft:crimson_trapdoor | 3 | 1 | 3
+minecraft:crimson_wall_hanging_sign | 1 | 1 | 2
+minecraft:crimson_wall_sign | 1 | 1 | 2
+minecraft:crying_obsidian | 50 | 1 | 26
+minecraft:cut_copper | 3 | 1 | 3
+minecraft:cut_copper_slab | 3 | 1 | 3
+minecraft:cut_copper_stairs | 3 | 1 | 3
+minecraft:cut_red_sandstone | 0.8 | 1 | 1
+minecraft:cut_red_sandstone_slab | 2 | 1 | 2
+minecraft:cut_sandstone | 0.8 | 1 | 1
+minecraft:cut_sandstone_slab | 2 | 1 | 2
+minecraft:cyan_banner | 1 | 1 | 2
+minecraft:cyan_bed | 0.2 | 1 | 1
+minecraft:cyan_candle | 0.1 | 1 | 1
+minecraft:cyan_candle_cake | 0.5 | 1 | 1
+minecraft:cyan_carpet | 0.1 | 1 | 1
+minecraft:cyan_concrete | 1.8 | 1 | 2
+minecraft:cyan_concrete_powder | 0.5 | 1 | 1
+minecraft:cyan_glazed_terracotta | 1.4 | 1 | 2
+minecraft:cyan_shulker_box | 2 | 1 | 2
+minecraft:cyan_stained_glass | 0.3 | 1 | 1
+minecraft:cyan_stained_glass_pane | 0.3 | 1 | 1
+minecraft:cyan_terracotta | 1.25 | 1 | 2
+minecraft:cyan_wall_banner | 1 | 1 | 2
+minecraft:cyan_wool | 0.8 | 1 | 1
+minecraft:damaged_anvil | 5 | 1 | 4
+minecraft:dandelion | 0 | 1 | 1
+minecraft:dark_oak_button | 0.5 | 1 | 1
+minecraft:dark_oak_door | 3 | 1 | 3
+minecraft:dark_oak_fence | 2 | 1 | 2
+minecraft:dark_oak_fence_gate | 2 | 1 | 2
+minecraft:dark_oak_hanging_sign | 1 | 1 | 2
+minecraft:dark_oak_leaves | 0.2 | 1 | 1
+minecraft:dark_oak_log | 2 | 1 | 2
+minecraft:dark_oak_planks | 2 | 1 | 2
+minecraft:dark_oak_pressure_plate | 0.5 | 1 | 1
+minecraft:dark_oak_sapling | 0 | 1 | 1
+minecraft:dark_oak_sign | 1 | 1 | 2
+minecraft:dark_oak_slab | 2 | 1 | 2
+minecraft:dark_oak_stairs | 2 | 1 | 2
+minecraft:dark_oak_trapdoor | 3 | 1 | 3
+minecraft:dark_oak_wall_hanging_sign | 1 | 1 | 2
+minecraft:dark_oak_wall_sign | 1 | 1 | 2
+minecraft:dark_oak_wood | 2 | 1 | 2
+minecraft:dark_prismarine | 1.5 | 1 | 2
+minecraft:dark_prismarine_slab | 1.5 | 1 | 2
+minecraft:dark_prismarine_stairs | 1.5 | 1 | 2
+minecraft:daylight_detector | 0.2 | 1 | 1
+minecraft:dead_brain_coral | 0 | 1 | 1
+minecraft:dead_brain_coral_block | 1.5 | 1 | 2
+minecraft:dead_brain_coral_fan | 0 | 1 | 1
+minecraft:dead_brain_coral_wall_fan | 0 | 1 | 1
+minecraft:dead_bubble_coral | 0 | 1 | 1
+minecraft:dead_bubble_coral_block | 1.5 | 1 | 2
+minecraft:dead_bubble_coral_fan | 0 | 1 | 1
+minecraft:dead_bubble_coral_wall_fan | 0 | 1 | 1
+minecraft:dead_bush | 0 | 1 | 1
+minecraft:dead_fire_coral | 0 | 1 | 1
+minecraft:dead_fire_coral_block | 1.5 | 1 | 2
+minecraft:dead_fire_coral_fan | 0 | 1 | 1
+minecraft:dead_fire_coral_wall_fan | 0 | 1 | 1
+minecraft:dead_horn_coral | 0 | 1 | 1
+minecraft:dead_horn_coral_block | 1.5 | 1 | 2
+minecraft:dead_horn_coral_fan | 0 | 1 | 1
+minecraft:dead_horn_coral_wall_fan | 0 | 1 | 1
+minecraft:dead_tube_coral | 0 | 1 | 1
+minecraft:dead_tube_coral_block | 1.5 | 1 | 2
+minecraft:dead_tube_coral_fan | 0 | 1 | 1
+minecraft:dead_tube_coral_wall_fan | 0 | 1 | 1
+minecraft:decorated_pot | 0 | 1 | 1
+minecraft:deepslate | 3 | 1 | 3
+minecraft:deepslate_brick_slab | 3.5 | 1 | 3
+minecraft:deepslate_brick_stairs | 3.5 | 1 | 3
+minecraft:deepslate_brick_wall | 3.5 | 1 | 3
+minecraft:deepslate_bricks | 3.5 | 1 | 3
+minecraft:deepslate_coal_ore | 4.5 | 3 | 10
+minecraft:deepslate_copper_ore | 4.5 | 3 | 10
+minecraft:deepslate_diamond_ore | 4.5 | 6 | 20
+minecraft:deepslate_emerald_ore | 4.5 | 6 | 20
+minecraft:deepslate_gold_ore | 4.5 | 3 | 10
+minecraft:deepslate_iron_ore | 4.5 | 3 | 10
+minecraft:deepslate_lapis_ore | 4.5 | 3 | 10
+minecraft:deepslate_redstone_ore | 4.5 | 3 | 10
+minecraft:deepslate_tile_slab | 3.5 | 1 | 3
+minecraft:deepslate_tile_stairs | 3.5 | 1 | 3
+minecraft:deepslate_tile_wall | 3.5 | 1 | 3
+minecraft:deepslate_tiles | 3.5 | 1 | 3
+minecraft:detector_rail | 0.7 | 1 | 1
+minecraft:diamond_block | 5 | 1 | 4
+minecraft:diamond_ore | 3 | 6 | 15
+minecraft:diorite | 1.5 | 1 | 2
+minecraft:diorite_slab | 1.5 | 1 | 2
+minecraft:diorite_stairs | 1.5 | 1 | 2
+minecraft:diorite_wall | 1.5 | 1 | 2
+minecraft:dirt | 0.5 | 1 | 1
+minecraft:dirt_path | 0.65 | 1 | 1
+minecraft:dispenser | 3.5 | 1 | 3
+minecraft:dragon_egg | 3 | 1 | 3
+minecraft:dragon_head | 1 | 1 | 2
+minecraft:dragon_wall_head | 1 | 1 | 2
+minecraft:dried_kelp_block | 0.5 | 1 | 1
+minecraft:dripstone_block | 1.5 | 1 | 2
+minecraft:dropper | 3.5 | 1 | 3
+minecraft:emerald_block | 5 | 1 | 4
+minecraft:emerald_ore | 3 | 6 | 15
+minecraft:enchanting_table | 5 | 1 | 4
+minecraft:end_rod | 0 | 1 | 1
+minecraft:end_stone | 3 | 1 | 3
+minecraft:end_stone_brick_slab | 3 | 1 | 3
+minecraft:end_stone_brick_stairs | 3 | 1 | 3
+minecraft:end_stone_brick_wall | 3 | 1 | 3
+minecraft:end_stone_bricks | 3 | 1 | 3
+minecraft:ender_chest | 22.5 | 1 | 12
+minecraft:exposed_copper | 3 | 1 | 3
+minecraft:exposed_cut_copper | 3 | 1 | 3
+minecraft:exposed_cut_copper_slab | 3 | 1 | 3
+minecraft:exposed_cut_copper_stairs | 3 | 1 | 3
+minecraft:farmland | 0.6 | 1 | 1
+minecraft:fern | 0 | 1 | 1
+minecraft:fire | 0 | 1 | 1
+minecraft:fire_coral | 0 | 1 | 1
+minecraft:fire_coral_block | 1.5 | 1 | 2
+minecraft:fire_coral_fan | 0 | 1 | 1
+minecraft:fire_coral_wall_fan | 0 | 1 | 1
+minecraft:fletching_table | 2.5 | 1 | 2
+minecraft:flower_pot | 0 | 1 | 1
+minecraft:flowering_azalea | 0 | 1 | 1
+minecraft:flowering_azalea_leaves | 0.2 | 1 | 1
+minecraft:frogspawn | 0 | 1 | 1
+minecraft:frosted_ice | 0.5 | 1 | 1
+minecraft:furnace | 3.5 | 1 | 3
+minecraft:gilded_blackstone | 1.5 | 1 | 2
+minecraft:glass | 0.3 | 1 | 1
+minecraft:glass_pane | 0.3 | 1 | 1
+minecraft:glow_lichen | 0.2 | 1 | 1
+minecraft:glowstone | 0.3 | 1 | 1
+minecraft:gold_block | 3 | 1 | 3
+minecraft:gold_ore | 3 | 3 | 8
+minecraft:granite | 1.5 | 1 | 2
+minecraft:granite_slab | 1.5 | 1 | 2
+minecraft:granite_stairs | 1.5 | 1 | 2
+minecraft:granite_wall | 1.5 | 1 | 2
+minecraft:grass | 0 | 1 | 1
+minecraft:grass_block | 0.6 | 1 | 1
+minecraft:gravel | 0.6 | 1 | 1
+minecraft:gray_banner | 1 | 1 | 2
+minecraft:gray_bed | 0.2 | 1 | 1
+minecraft:gray_candle | 0.1 | 1 | 1
+minecraft:gray_candle_cake | 0.5 | 1 | 1
+minecraft:gray_carpet | 0.1 | 1 | 1
+minecraft:gray_concrete | 1.8 | 1 | 2
+minecraft:gray_concrete_powder | 0.5 | 1 | 1
+minecraft:gray_glazed_terracotta | 1.4 | 1 | 2
+minecraft:gray_shulker_box | 2 | 1 | 2
+minecraft:gray_stained_glass | 0.3 | 1 | 1
+minecraft:gray_stained_glass_pane | 0.3 | 1 | 1
+minecraft:gray_terracotta | 1.25 | 1 | 2
+minecraft:gray_wall_banner | 1 | 1 | 2
+minecraft:gray_wool | 0.8 | 1 | 1
+minecraft:green_banner | 1 | 1 | 2
+minecraft:green_bed | 0.2 | 1 | 1
+minecraft:green_candle | 0.1 | 1 | 1
+minecraft:green_candle_cake | 0.5 | 1 | 1
+minecraft:green_carpet | 0.1 | 1 | 1
+minecraft:green_concrete | 1.8 | 1 | 2
+minecraft:green_concrete_powder | 0.5 | 1 | 1
+minecraft:green_glazed_terracotta | 1.4 | 1 | 2
+minecraft:green_shulker_box | 2 | 1 | 2
+minecraft:green_stained_glass | 0.3 | 1 | 1
+minecraft:green_stained_glass_pane | 0.3 | 1 | 1
+minecraft:green_terracotta | 1.25 | 1 | 2
+minecraft:green_wall_banner | 1 | 1 | 2
+minecraft:green_wool | 0.8 | 1 | 1
+minecraft:grindstone | 2 | 1 | 2
+minecraft:hanging_roots | 0 | 1 | 1
+minecraft:hay_block | 0.5 | 1 | 1
+minecraft:heavy_weighted_pressure_plate | 0.5 | 1 | 1
+minecraft:honey_block | 0 | 1 | 1
+minecraft:honeycomb_block | 0.6 | 1 | 1
+minecraft:hopper | 3 | 1 | 3
+minecraft:horn_coral | 0 | 1 | 1
+minecraft:horn_coral_block | 1.5 | 1 | 2
+minecraft:horn_coral_fan | 0 | 1 | 1
+minecraft:horn_coral_wall_fan | 0 | 1 | 1
+minecraft:ice | 0.5 | 1 | 1
+minecraft:infested_chiseled_stone_bricks | 0.75 | 1 | 1
+minecraft:infested_cobblestone | 1 | 1 | 2
+minecraft:infested_cracked_stone_bricks | 0.75 | 1 | 1
+minecraft:infested_deepslate | 1.5 | 1 | 2
+minecraft:infested_mossy_stone_bricks | 0.75 | 1 | 1
+minecraft:infested_stone | 0.75 | 1 | 1
+minecraft:infested_stone_bricks | 0.75 | 1 | 1
+minecraft:iron_bars | 5 | 1 | 4
+minecraft:iron_block | 5 | 1 | 4
+minecraft:iron_door | 5 | 1 | 4
+minecraft:iron_ore | 3 | 3 | 8
+minecraft:iron_trapdoor | 5 | 1 | 4
+minecraft:jack_o_lantern | 1 | 1 | 2
+minecraft:jukebox | 2 | 1 | 2
+minecraft:jungle_button | 0.5 | 1 | 1
+minecraft:jungle_door | 3 | 1 | 3
+minecraft:jungle_fence | 2 | 1 | 2
+minecraft:jungle_fence_gate | 2 | 1 | 2
+minecraft:jungle_hanging_sign | 1 | 1 | 2
+minecraft:jungle_leaves | 0.2 | 1 | 1
+minecraft:jungle_log | 2 | 1 | 2
+minecraft:jungle_planks | 2 | 1 | 2
+minecraft:jungle_pressure_plate | 0.5 | 1 | 1
+minecraft:jungle_sapling | 0 | 1 | 1
+minecraft:jungle_sign | 1 | 1 | 2
+minecraft:jungle_slab | 2 | 1 | 2
+minecraft:jungle_stairs | 2 | 1 | 2
+minecraft:jungle_trapdoor | 3 | 1 | 3
+minecraft:jungle_wall_hanging_sign | 1 | 1 | 2
+minecraft:jungle_wall_sign | 1 | 1 | 2
+minecraft:jungle_wood | 2 | 1 | 2
+minecraft:kelp | 0 | 1 | 1
+minecraft:kelp_plant | 0 | 1 | 1
+minecraft:ladder | 0.4 | 1 | 1
+minecraft:lantern | 3.5 | 1 | 3
+minecraft:lapis_block | 3 | 1 | 3
+minecraft:lapis_ore | 3 | 3 | 8
+minecraft:large_amethyst_bud | 1.5 | 1 | 2
+minecraft:large_fern | 0 | 1 | 1
+minecraft:lava | 100 | 1 | 51
+minecraft:lava_cauldron | 2 | 1 | 2
+minecraft:lectern | 2.5 | 1 | 2
+minecraft:lever | 0.5 | 1 | 1
+minecraft:light_blue_banner | 1 | 1 | 2
+minecraft:light_blue_bed | 0.2 | 1 | 1
+minecraft:light_blue_candle | 0.1 | 1 | 1
+minecraft:light_blue_candle_cake | 0.5 | 1 | 1
+minecraft:light_blue_carpet | 0.1 | 1 | 1
+minecraft:light_blue_concrete | 1.8 | 1 | 2
+minecraft:light_blue_concrete_powder | 0.5 | 1 | 1
+minecraft:light_blue_glazed_terracotta | 1.4 | 1 | 2
+minecraft:light_blue_shulker_box | 2 | 1 | 2
+minecraft:light_blue_stained_glass | 0.3 | 1 | 1
+minecraft:light_blue_stained_glass_pane | 0.3 | 1 | 1
+minecraft:light_blue_terracotta | 1.25 | 1 | 2
+minecraft:light_blue_wall_banner | 1 | 1 | 2
+minecraft:light_blue_wool | 0.8 | 1 | 1
+minecraft:light_gray_banner | 1 | 1 | 2
+minecraft:light_gray_bed | 0.2 | 1 | 1
+minecraft:light_gray_candle | 0.1 | 1 | 1
+minecraft:light_gray_candle_cake | 0.5 | 1 | 1
+minecraft:light_gray_carpet | 0.1 | 1 | 1
+minecraft:light_gray_concrete | 1.8 | 1 | 2
+minecraft:light_gray_concrete_powder | 0.5 | 1 | 1
+minecraft:light_gray_glazed_terracotta | 1.4 | 1 | 2
+minecraft:light_gray_shulker_box | 2 | 1 | 2
+minecraft:light_gray_stained_glass | 0.3 | 1 | 1
+minecraft:light_gray_stained_glass_pane | 0.3 | 1 | 1
+minecraft:light_gray_terracotta | 1.25 | 1 | 2
+minecraft:light_gray_wall_banner | 1 | 1 | 2
+minecraft:light_gray_wool | 0.8 | 1 | 1
+minecraft:light_weighted_pressure_plate | 0.5 | 1 | 1
+minecraft:lightning_rod | 3 | 1 | 3
+minecraft:lilac | 0 | 1 | 1
+minecraft:lily_of_the_valley | 0 | 1 | 1
+minecraft:lily_pad | 0 | 1 | 1
+minecraft:lime_banner | 1 | 1 | 2
+minecraft:lime_bed | 0.2 | 1 | 1
+minecraft:lime_candle | 0.1 | 1 | 1
+minecraft:lime_candle_cake | 0.5 | 1 | 1
+minecraft:lime_carpet | 0.1 | 1 | 1
+minecraft:lime_concrete | 1.8 | 1 | 2
+minecraft:lime_concrete_powder | 0.5 | 1 | 1
+minecraft:lime_glazed_terracotta | 1.4 | 1 | 2
+minecraft:lime_shulker_box | 2 | 1 | 2
+minecraft:lime_stained_glass | 0.3 | 1 | 1
+minecraft:lime_stained_glass_pane | 0.3 | 1 | 1
+minecraft:lime_terracotta | 1.25 | 1 | 2
+minecraft:lime_wall_banner | 1 | 1 | 2
+minecraft:lime_wool | 0.8 | 1 | 1
+minecraft:lodestone | 3.5 | 1 | 3
+minecraft:loom | 2.5 | 1 | 2
+minecraft:magenta_banner | 1 | 1 | 2
+minecraft:magenta_bed | 0.2 | 1 | 1
+minecraft:magenta_candle | 0.1 | 1 | 1
+minecraft:magenta_candle_cake | 0.5 | 1 | 1
+minecraft:magenta_carpet | 0.1 | 1 | 1
+minecraft:magenta_concrete | 1.8 | 1 | 2
+minecraft:magenta_concrete_powder | 0.5 | 1 | 1
+minecraft:magenta_glazed_terracotta | 1.4 | 1 | 2
+minecraft:magenta_shulker_box | 2 | 1 | 2
+minecraft:magenta_stained_glass | 0.3 | 1 | 1
+minecraft:magenta_stained_glass_pane | 0.3 | 1 | 1
+minecraft:magenta_terracotta | 1.25 | 1 | 2
+minecraft:magenta_wall_banner | 1 | 1 | 2
+minecraft:magenta_wool | 0.8 | 1 | 1
+minecraft:magma_block | 0.5 | 1 | 1
+minecraft:mangrove_button | 0.5 | 1 | 1
+minecraft:mangrove_door | 3 | 1 | 3
+minecraft:mangrove_fence | 2 | 1 | 2
+minecraft:mangrove_fence_gate | 2 | 1 | 2
+minecraft:mangrove_hanging_sign | 1 | 1 | 2
+minecraft:mangrove_leaves | 0.2 | 1 | 1
+minecraft:mangrove_log | 2 | 1 | 2
+minecraft:mangrove_planks | 2 | 1 | 2
+minecraft:mangrove_pressure_plate | 0.5 | 1 | 1
+minecraft:mangrove_propagule | 0 | 1 | 1
+minecraft:mangrove_roots | 0.7 | 1 | 1
+minecraft:mangrove_sign | 1 | 1 | 2
+minecraft:mangrove_slab | 2 | 1 | 2
+minecraft:mangrove_stairs | 2 | 1 | 2
+minecraft:mangrove_trapdoor | 3 | 1 | 3
+minecraft:mangrove_wall_hanging_sign | 1 | 1 | 2
+minecraft:mangrove_wall_sign | 1 | 1 | 2
+minecraft:mangrove_wood | 2 | 1 | 2
+minecraft:medium_amethyst_bud | 1.5 | 1 | 2
+minecraft:melon | 1 | 1 | 2
+minecraft:melon_stem | 0 | 1 | 1
+minecraft:moss_block | 0.1 | 1 | 1
+minecraft:moss_carpet | 0.1 | 1 | 1
+minecraft:mossy_cobblestone | 2 | 1 | 2
+minecraft:mossy_cobblestone_slab | 2 | 1 | 2
+minecraft:mossy_cobblestone_stairs | 2 | 1 | 2
+minecraft:mossy_cobblestone_wall | 2 | 1 | 2
+minecraft:mossy_stone_brick_slab | 1.5 | 1 | 2
+minecraft:mossy_stone_brick_stairs | 1.5 | 1 | 2
+minecraft:mossy_stone_brick_wall | 1.5 | 1 | 2
+minecraft:mossy_stone_bricks | 1.5 | 1 | 2
+minecraft:mud | 0.5 | 1 | 1
+minecraft:mud_brick_slab | 1.5 | 1 | 2
+minecraft:mud_brick_stairs | 1.5 | 1 | 2
+minecraft:mud_brick_wall | 1.5 | 1 | 2
+minecraft:mud_bricks | 1.5 | 1 | 2
+minecraft:muddy_mangrove_roots | 0.7 | 1 | 1
+minecraft:mushroom_stem | 0.2 | 1 | 1
+minecraft:mycelium | 0.6 | 1 | 1
+minecraft:nether_brick_fence | 2 | 1 | 2
+minecraft:nether_brick_slab | 2 | 1 | 2
+minecraft:nether_brick_stairs | 2 | 1 | 2
+minecraft:nether_brick_wall | 2 | 1 | 2
+minecraft:nether_bricks | 2 | 1 | 2
+minecraft:nether_gold_ore | 3 | 3 | 8
+minecraft:nether_quartz_ore | 3 | 3 | 8
+minecraft:nether_sprouts | 0 | 1 | 1
+minecraft:nether_wart | 0 | 1 | 1
+minecraft:nether_wart_block | 1 | 1 | 2
+minecraft:netherite_block | 50 | 1 | 26
+minecraft:netherrack | 0.4 | 1 | 1
+minecraft:note_block | 0.8 | 1 | 1
+minecraft:oak_button | 0.5 | 1 | 1
+minecraft:oak_door | 3 | 1 | 3
+minecraft:oak_fence | 2 | 1 | 2
+minecraft:oak_fence_gate | 2 | 1 | 2
+minecraft:oak_hanging_sign | 1 | 1 | 2
+minecraft:oak_leaves | 0.2 | 1 | 1
+minecraft:oak_log | 2 | 1 | 2
+minecraft:oak_planks | 2 | 1 | 2
+minecraft:oak_pressure_plate | 0.5 | 1 | 1
+minecraft:oak_sapling | 0 | 1 | 1
+minecraft:oak_sign | 1 | 1 | 2
+minecraft:oak_slab | 2 | 1 | 2
+minecraft:oak_stairs | 2 | 1 | 2
+minecraft:oak_trapdoor | 3 | 1 | 3
+minecraft:oak_wall_hanging_sign | 1 | 1 | 2
+minecraft:oak_wall_sign | 1 | 1 | 2
+minecraft:oak_wood | 2 | 1 | 2
+minecraft:observer | 3 | 1 | 3
+minecraft:obsidian | 50 | 1 | 26
+minecraft:ochre_froglight | 0.3 | 1 | 1
+minecraft:orange_banner | 1 | 1 | 2
+minecraft:orange_bed | 0.2 | 1 | 1
+minecraft:orange_candle | 0.1 | 1 | 1
+minecraft:orange_candle_cake | 0.5 | 1 | 1
+minecraft:orange_carpet | 0.1 | 1 | 1
+minecraft:orange_concrete | 1.8 | 1 | 2
+minecraft:orange_concrete_powder | 0.5 | 1 | 1
+minecraft:orange_glazed_terracotta | 1.4 | 1 | 2
+minecraft:orange_shulker_box | 2 | 1 | 2
+minecraft:orange_stained_glass | 0.3 | 1 | 1
+minecraft:orange_stained_glass_pane | 0.3 | 1 | 1
+minecraft:orange_terracotta | 1.25 | 1 | 2
+minecraft:orange_tulip | 0 | 1 | 1
+minecraft:orange_wall_banner | 1 | 1 | 2
+minecraft:orange_wool | 0.8 | 1 | 1
+minecraft:oxeye_daisy | 0 | 1 | 1
+minecraft:oxidized_copper | 3 | 1 | 3
+minecraft:oxidized_cut_copper | 3 | 1 | 3
+minecraft:oxidized_cut_copper_slab | 3 | 1 | 3
+minecraft:oxidized_cut_copper_stairs | 3 | 1 | 3
+minecraft:packed_ice | 0.5 | 1 | 1
+minecraft:packed_mud | 1 | 1 | 2
+minecraft:pearlescent_froglight | 0.3 | 1 | 1
+minecraft:peony | 0 | 1 | 1
+minecraft:petrified_oak_slab | 2 | 1 | 2
+minecraft:piglin_head | 1 | 1 | 2
+minecraft:piglin_wall_head | 1 | 1 | 2
+minecraft:pink_banner | 1 | 1 | 2
+minecraft:pink_bed | 0.2 | 1 | 1
+minecraft:pink_candle | 0.1 | 1 | 1
+minecraft:pink_candle_cake | 0.5 | 1 | 1
+minecraft:pink_carpet | 0.1 | 1 | 1
+minecraft:pink_concrete | 1.8 | 1 | 2
+minecraft:pink_concrete_powder | 0.5 | 1 | 1
+minecraft:pink_glazed_terracotta | 1.4 | 1 | 2
+minecraft:pink_petals | 0 | 1 | 1
+minecraft:pink_shulker_box | 2 | 1 | 2
+minecraft:pink_stained_glass | 0.3 | 1 | 1
+minecraft:pink_stained_glass_pane | 0.3 | 1 | 1
+minecraft:pink_terracotta | 1.25 | 1 | 2
+minecraft:pink_tulip | 0 | 1 | 1
+minecraft:pink_wall_banner | 1 | 1 | 2
+minecraft:pink_wool | 0.8 | 1 | 1
+minecraft:piston | 1.5 | 1 | 2
+minecraft:piston_head | 1.5 | 1 | 2
+minecraft:pitcher_crop | 0 | 1 | 1
+minecraft:pitcher_plant | 0 | 1 | 1
+minecraft:player_head | 1 | 1 | 2
+minecraft:player_wall_head | 1 | 1 | 2
+minecraft:podzol | 0.5 | 1 | 1
+minecraft:pointed_dripstone | 1.5 | 1 | 2
+minecraft:polished_andesite | 1.5 | 1 | 2
+minecraft:polished_andesite_slab | 1.5 | 1 | 2
+minecraft:polished_andesite_stairs | 1.5 | 1 | 2
+minecraft:polished_basalt | 1.25 | 1 | 2
+minecraft:polished_blackstone | 2 | 1 | 2
+minecraft:polished_blackstone_brick_slab | 2 | 1 | 2
+minecraft:polished_blackstone_brick_stairs | 1.5 | 1 | 2
+minecraft:polished_blackstone_brick_wall | 1.5 | 1 | 2
+minecraft:polished_blackstone_bricks | 1.5 | 1 | 2
+minecraft:polished_blackstone_button | 0.5 | 1 | 1
+minecraft:polished_blackstone_pressure_plate | 0.5 | 1 | 1
+minecraft:polished_blackstone_slab | 2 | 1 | 2
+minecraft:polished_blackstone_stairs | 2 | 1 | 2
+minecraft:polished_blackstone_wall | 2 | 1 | 2
+minecraft:polished_deepslate | 3.5 | 1 | 3
+minecraft:polished_deepslate_slab | 3.5 | 1 | 3
+minecraft:polished_deepslate_stairs | 3.5 | 1 | 3
+minecraft:polished_deepslate_wall | 3.5 | 1 | 3
+minecraft:polished_diorite | 1.5 | 1 | 2
+minecraft:polished_diorite_slab | 1.5 | 1 | 2
+minecraft:polished_diorite_stairs | 1.5 | 1 | 2
+minecraft:polished_granite | 1.5 | 1 | 2
+minecraft:polished_granite_slab | 1.5 | 1 | 2
+minecraft:polished_granite_stairs | 1.5 | 1 | 2
+minecraft:poppy | 0 | 1 | 1
+minecraft:potatoes | 0 | 1 | 1
+minecraft:potted_acacia_sapling | 0 | 1 | 1
+minecraft:potted_allium | 0 | 1 | 1
+minecraft:potted_azalea_bush | 0 | 1 | 1
+minecraft:potted_azure_bluet | 0 | 1 | 1
+minecraft:potted_bamboo | 0 | 1 | 1
+minecraft:potted_birch_sapling | 0 | 1 | 1
+minecraft:potted_blue_orchid | 0 | 1 | 1
+minecraft:potted_brown_mushroom | 0 | 1 | 1
+minecraft:potted_cactus | 0 | 1 | 1
+minecraft:potted_cherry_sapling | 0 | 1 | 1
+minecraft:potted_cornflower | 0 | 1 | 1
+minecraft:potted_crimson_fungus | 0 | 1 | 1
+minecraft:potted_crimson_roots | 0 | 1 | 1
+minecraft:potted_dandelion | 0 | 1 | 1
+minecraft:potted_dark_oak_sapling | 0 | 1 | 1
+minecraft:potted_dead_bush | 0 | 1 | 1
+minecraft:potted_fern | 0 | 1 | 1
+minecraft:potted_flowering_azalea_bush | 0 | 1 | 1
+minecraft:potted_jungle_sapling | 0 | 1 | 1
+minecraft:potted_lily_of_the_valley | 0 | 1 | 1
+minecraft:potted_mangrove_propagule | 0 | 1 | 1
+minecraft:potted_oak_sapling | 0 | 1 | 1
+minecraft:potted_orange_tulip | 0 | 1 | 1
+minecraft:potted_oxeye_daisy | 0 | 1 | 1
+minecraft:potted_pink_tulip | 0 | 1 | 1
+minecraft:potted_poppy | 0 | 1 | 1
+minecraft:potted_red_mushroom | 0 | 1 | 1
+minecraft:potted_red_tulip | 0 | 1 | 1
+minecraft:potted_spruce_sapling | 0 | 1 | 1
+minecraft:potted_torchflower | 0 | 1 | 1
+minecraft:potted_warped_fungus | 0 | 1 | 1
+minecraft:potted_warped_roots | 0 | 1 | 1
+minecraft:potted_white_tulip | 0 | 1 | 1
+minecraft:potted_wither_rose | 0 | 1 | 1
+minecraft:powder_snow | 0.25 | 1 | 1
+minecraft:powder_snow_cauldron | 2 | 1 | 2
+minecraft:powered_rail | 0.7 | 1 | 1
+minecraft:prismarine | 1.5 | 1 | 2
+minecraft:prismarine_brick_slab | 1.5 | 1 | 2
+minecraft:prismarine_brick_stairs | 1.5 | 1 | 2
+minecraft:prismarine_bricks | 1.5 | 1 | 2
+minecraft:prismarine_slab | 1.5 | 1 | 2
+minecraft:prismarine_stairs | 1.5 | 1 | 2
+minecraft:prismarine_wall | 1.5 | 1 | 2
+minecraft:pumpkin | 1 | 1 | 2
+minecraft:pumpkin_stem | 0 | 1 | 1
+minecraft:purple_banner | 1 | 1 | 2
+minecraft:purple_bed | 0.2 | 1 | 1
+minecraft:purple_candle | 0.1 | 1 | 1
+minecraft:purple_candle_cake | 0.5 | 1 | 1
+minecraft:purple_carpet | 0.1 | 1 | 1
+minecraft:purple_concrete | 1.8 | 1 | 2
+minecraft:purple_concrete_powder | 0.5 | 1 | 1
+minecraft:purple_glazed_terracotta | 1.4 | 1 | 2
+minecraft:purple_shulker_box | 2 | 1 | 2
+minecraft:purple_stained_glass | 0.3 | 1 | 1
+minecraft:purple_stained_glass_pane | 0.3 | 1 | 1
+minecraft:purple_terracotta | 1.25 | 1 | 2
+minecraft:purple_wall_banner | 1 | 1 | 2
+minecraft:purple_wool | 0.8 | 1 | 1
+minecraft:purpur_block | 1.5 | 1 | 2
+minecraft:purpur_pillar | 1.5 | 1 | 2
+minecraft:purpur_slab | 2 | 1 | 2
+minecraft:purpur_stairs | 1.5 | 1 | 2
+minecraft:quartz_block | 0.8 | 1 | 1
+minecraft:quartz_bricks | 0.8 | 1 | 1
+minecraft:quartz_pillar | 0.8 | 1 | 1
+minecraft:quartz_slab | 2 | 1 | 2
+minecraft:quartz_stairs | 0.8 | 1 | 1
+minecraft:rail | 0.7 | 1 | 1
+minecraft:raw_copper_block | 5 | 1 | 4
+minecraft:raw_gold_block | 5 | 1 | 4
+minecraft:raw_iron_block | 5 | 1 | 4
+minecraft:red_banner | 1 | 1 | 2
+minecraft:red_bed | 0.2 | 1 | 1
+minecraft:red_candle | 0.1 | 1 | 1
+minecraft:red_candle_cake | 0.5 | 1 | 1
+minecraft:red_carpet | 0.1 | 1 | 1
+minecraft:red_concrete | 1.8 | 1 | 2
+minecraft:red_concrete_powder | 0.5 | 1 | 1
+minecraft:red_glazed_terracotta | 1.4 | 1 | 2
+minecraft:red_mushroom | 0 | 1 | 1
+minecraft:red_mushroom_block | 0.2 | 1 | 1
+minecraft:red_nether_brick_slab | 2 | 1 | 2
+minecraft:red_nether_brick_stairs | 2 | 1 | 2
+minecraft:red_nether_brick_wall | 2 | 1 | 2
+minecraft:red_nether_bricks | 2 | 1 | 2
+minecraft:red_sand | 0.5 | 1 | 1
+minecraft:red_sandstone | 0.8 | 1 | 1
+minecraft:red_sandstone_slab | 2 | 1 | 2
+minecraft:red_sandstone_stairs | 0.8 | 1 | 1
+minecraft:red_sandstone_wall | 0.8 | 1 | 1
+minecraft:red_shulker_box | 2 | 1 | 2
+minecraft:red_stained_glass | 0.3 | 1 | 1
+minecraft:red_stained_glass_pane | 0.3 | 1 | 1
+minecraft:red_terracotta | 1.25 | 1 | 2
+minecraft:red_tulip | 0 | 1 | 1
+minecraft:red_wall_banner | 1 | 1 | 2
+minecraft:red_wool | 0.8 | 1 | 1
+minecraft:redstone_block | 5 | 1 | 4
+minecraft:redstone_lamp | 0.3 | 1 | 1
+minecraft:redstone_ore | 3 | 3 | 8
+minecraft:redstone_torch | 0 | 1 | 1
+minecraft:redstone_wall_torch | 0 | 1 | 1
+minecraft:redstone_wire | 0 | 1 | 1
+minecraft:reinforced_deepslate | 55 | 1 | 29
+minecraft:repeater | 0 | 1 | 1
+minecraft:respawn_anchor | 50 | 1 | 26
+minecraft:rooted_dirt | 0.5 | 1 | 1
+minecraft:rose_bush | 0 | 1 | 1
+minecraft:sand | 0.5 | 1 | 1
+minecraft:sandstone | 0.8 | 1 | 1
+minecraft:sandstone_slab | 2 | 1 | 2
+minecraft:sandstone_stairs | 0.8 | 1 | 1
+minecraft:sandstone_wall | 0.8 | 1 | 1
+minecraft:scaffolding | 0 | 1 | 1
+minecraft:sculk | 0.2 | 1 | 1
+minecraft:sculk_catalyst | 3 | 1 | 3
+minecraft:sculk_sensor | 1.5 | 1 | 2
+minecraft:sculk_shrieker | 3 | 1 | 3
+minecraft:sculk_vein | 0.2 | 1 | 1
+minecraft:sea_lantern | 0.3 | 1 | 1
+minecraft:sea_pickle | 0 | 1 | 1
+minecraft:seagrass | 0 | 1 | 1
+minecraft:shroomlight | 1 | 1 | 2
+minecraft:shulker_box | 2 | 1 | 2
+minecraft:skeleton_skull | 1 | 1 | 2
+minecraft:skeleton_wall_skull | 1 | 1 | 2
+minecraft:slime_block | 0 | 1 | 1
+minecraft:small_amethyst_bud | 1.5 | 1 | 2
+minecraft:small_dripleaf | 0 | 1 | 1
+minecraft:smithing_table | 2.5 | 1 | 2
+minecraft:smoker | 3.5 | 1 | 3
+minecraft:smooth_basalt | 1.25 | 1 | 2
+minecraft:smooth_quartz | 2 | 1 | 2
+minecraft:smooth_quartz_slab | 2 | 1 | 2
+minecraft:smooth_quartz_stairs | 2 | 1 | 2
+minecraft:smooth_red_sandstone | 2 | 1 | 2
+minecraft:smooth_red_sandstone_slab | 2 | 1 | 2
+minecraft:smooth_red_sandstone_stairs | 2 | 1 | 2
+minecraft:smooth_sandstone | 2 | 1 | 2
+minecraft:smooth_sandstone_slab | 2 | 1 | 2
+minecraft:smooth_sandstone_stairs | 2 | 1 | 2
+minecraft:smooth_stone | 2 | 1 | 2
+minecraft:smooth_stone_slab | 2 | 1 | 2
+minecraft:sniffer_egg | 0.5 | 1 | 1
+minecraft:snow | 0.1 | 1 | 1
+minecraft:snow_block | 0.2 | 1 | 1
+minecraft:soul_campfire | 2 | 1 | 2
+minecraft:soul_fire | 0 | 1 | 1
+minecraft:soul_lantern | 3.5 | 1 | 3
+minecraft:soul_sand | 0.5 | 1 | 1
+minecraft:soul_soil | 0.5 | 1 | 1
+minecraft:soul_torch | 0 | 1 | 1
+minecraft:soul_wall_torch | 0 | 1 | 1
+minecraft:spawner | 5 | 1 | 4
+minecraft:sponge | 0.6 | 1 | 1
+minecraft:spore_blossom | 0 | 1 | 1
+minecraft:spruce_button | 0.5 | 1 | 1
+minecraft:spruce_door | 3 | 1 | 3
+minecraft:spruce_fence | 2 | 1 | 2
+minecraft:spruce_fence_gate | 2 | 1 | 2
+minecraft:spruce_hanging_sign | 1 | 1 | 2
+minecraft:spruce_leaves | 0.2 | 1 | 1
+minecraft:spruce_log | 2 | 1 | 2
+minecraft:spruce_planks | 2 | 1 | 2
+minecraft:spruce_pressure_plate | 0.5 | 1 | 1
+minecraft:spruce_sapling | 0 | 1 | 1
+minecraft:spruce_sign | 1 | 1 | 2
+minecraft:spruce_slab | 2 | 1 | 2
+minecraft:spruce_stairs | 2 | 1 | 2
+minecraft:spruce_trapdoor | 3 | 1 | 3
+minecraft:spruce_wall_hanging_sign | 1 | 1 | 2
+minecraft:spruce_wall_sign | 1 | 1 | 2
+minecraft:spruce_wood | 2 | 1 | 2
+minecraft:sticky_piston | 1.5 | 1 | 2
+minecraft:stone | 1.5 | 1 | 2
+minecraft:stone_brick_slab | 2 | 1 | 2
+minecraft:stone_brick_stairs | 1.5 | 1 | 2
+minecraft:stone_brick_wall | 1.5 | 1 | 2
+minecraft:stone_bricks | 1.5 | 1 | 2
+minecraft:stone_button | 0.5 | 1 | 1
+minecraft:stone_pressure_plate | 0.5 | 1 | 1
+minecraft:stone_slab | 2 | 1 | 2
+minecraft:stone_stairs | 1.5 | 1 | 2
+minecraft:stonecutter | 3.5 | 1 | 3
+minecraft:stripped_acacia_log | 2 | 1 | 2
+minecraft:stripped_acacia_wood | 2 | 1 | 2
+minecraft:stripped_bamboo_block | 2 | 1 | 2
+minecraft:stripped_birch_log | 2 | 1 | 2
+minecraft:stripped_birch_wood | 2 | 1 | 2
+minecraft:stripped_cherry_log | 2 | 1 | 2
+minecraft:stripped_cherry_wood | 2 | 1 | 2
+minecraft:stripped_crimson_hyphae | 2 | 1 | 2
+minecraft:stripped_crimson_stem | 2 | 1 | 2
+minecraft:stripped_dark_oak_log | 2 | 1 | 2
+minecraft:stripped_dark_oak_wood | 2 | 1 | 2
+minecraft:stripped_jungle_log | 2 | 1 | 2
+minecraft:stripped_jungle_wood | 2 | 1 | 2
+minecraft:stripped_mangrove_log | 2 | 1 | 2
+minecraft:stripped_mangrove_wood | 2 | 1 | 2
+minecraft:stripped_oak_log | 2 | 1 | 2
+minecraft:stripped_oak_wood | 2 | 1 | 2
+minecraft:stripped_spruce_log | 2 | 1 | 2
+minecraft:stripped_spruce_wood | 2 | 1 | 2
+minecraft:stripped_warped_hyphae | 2 | 1 | 2
+minecraft:stripped_warped_stem | 2 | 1 | 2
+minecraft:structure_void | 0 | 1 | 1
+minecraft:sugar_cane | 0 | 1 | 1
+minecraft:sunflower | 0 | 1 | 1
+minecraft:suspicious_gravel | 0.25 | 1 | 1
+minecraft:suspicious_sand | 0.25 | 1 | 1
+minecraft:sweet_berry_bush | 0 | 1 | 1
+minecraft:tall_grass | 0 | 1 | 1
+minecraft:tall_seagrass | 0 | 1 | 1
+minecraft:target | 0.5 | 1 | 1
+minecraft:terracotta | 1.25 | 1 | 2
+minecraft:tinted_glass | 0.3 | 1 | 1
+minecraft:tnt | 0 | 1 | 1
+minecraft:torch | 0 | 1 | 1
+minecraft:torchflower | 0 | 1 | 1
+minecraft:torchflower_crop | 0 | 1 | 1
+minecraft:trapped_chest | 2.5 | 1 | 2
+minecraft:tripwire | 0 | 1 | 1
+minecraft:tripwire_hook | 0 | 1 | 1
+minecraft:tube_coral | 0 | 1 | 1
+minecraft:tube_coral_block | 1.5 | 1 | 2
+minecraft:tube_coral_fan | 0 | 1 | 1
+minecraft:tube_coral_wall_fan | 0 | 1 | 1
+minecraft:tuff | 1.5 | 1 | 2
+minecraft:turtle_egg | 0.5 | 1 | 1
+minecraft:twisting_vines | 0 | 1 | 1
+minecraft:twisting_vines_plant | 0 | 1 | 1
+minecraft:verdant_froglight | 0.3 | 1 | 1
+minecraft:vine | 0.2 | 1 | 1
+minecraft:wall_torch | 0 | 1 | 1
+minecraft:warped_button | 0.5 | 1 | 1
+minecraft:warped_door | 3 | 1 | 3
+minecraft:warped_fence | 2 | 1 | 2
+minecraft:warped_fence_gate | 2 | 1 | 2
+minecraft:warped_fungus | 0 | 1 | 1
+minecraft:warped_hanging_sign | 1 | 1 | 2
+minecraft:warped_hyphae | 2 | 1 | 2
+minecraft:warped_nylium | 0.4 | 1 | 1
+minecraft:warped_planks | 2 | 1 | 2
+minecraft:warped_pressure_plate | 0.5 | 1 | 1
+minecraft:warped_roots | 0 | 1 | 1
+minecraft:warped_sign | 1 | 1 | 2
+minecraft:warped_slab | 2 | 1 | 2
+minecraft:warped_stairs | 2 | 1 | 2
+minecraft:warped_stem | 2 | 1 | 2
+minecraft:warped_trapdoor | 3 | 1 | 3
+minecraft:warped_wall_hanging_sign | 1 | 1 | 2
+minecraft:warped_wall_sign | 1 | 1 | 2
+minecraft:warped_wart_block | 1 | 1 | 2
+minecraft:water | 100 | 1 | 51
+minecraft:water_cauldron | 2 | 1 | 2
+minecraft:waxed_copper_block | 3 | 1 | 3
+minecraft:waxed_cut_copper | 3 | 1 | 3
+minecraft:waxed_cut_copper_slab | 3 | 1 | 3
+minecraft:waxed_cut_copper_stairs | 3 | 1 | 3
+minecraft:waxed_exposed_copper | 3 | 1 | 3
+minecraft:waxed_exposed_cut_copper | 3 | 1 | 3
+minecraft:waxed_exposed_cut_copper_slab | 3 | 1 | 3
+minecraft:waxed_exposed_cut_copper_stairs | 3 | 1 | 3
+minecraft:waxed_oxidized_copper | 3 | 1 | 3
+minecraft:waxed_oxidized_cut_copper | 3 | 1 | 3
+minecraft:waxed_oxidized_cut_copper_slab | 3 | 1 | 3
+minecraft:waxed_oxidized_cut_copper_stairs | 3 | 1 | 3
+minecraft:waxed_weathered_copper | 3 | 1 | 3
+minecraft:waxed_weathered_cut_copper | 3 | 1 | 3
+minecraft:waxed_weathered_cut_copper_slab | 3 | 1 | 3
+minecraft:waxed_weathered_cut_copper_stairs | 3 | 1 | 3
+minecraft:weathered_copper | 3 | 1 | 3
+minecraft:weathered_cut_copper | 3 | 1 | 3
+minecraft:weathered_cut_copper_slab | 3 | 1 | 3
+minecraft:weathered_cut_copper_stairs | 3 | 1 | 3
+minecraft:weeping_vines | 0 | 1 | 1
+minecraft:weeping_vines_plant | 0 | 1 | 1
+minecraft:wet_sponge | 0.6 | 1 | 1
+minecraft:wheat | 0 | 1 | 1
+minecraft:white_banner | 1 | 1 | 2
+minecraft:white_bed | 0.2 | 1 | 1
+minecraft:white_candle | 0.1 | 1 | 1
+minecraft:white_candle_cake | 0.5 | 1 | 1
+minecraft:white_carpet | 0.1 | 1 | 1
+minecraft:white_concrete | 1.8 | 1 | 2
+minecraft:white_concrete_powder | 0.5 | 1 | 1
+minecraft:white_glazed_terracotta | 1.4 | 1 | 2
+minecraft:white_shulker_box | 2 | 1 | 2
+minecraft:white_stained_glass | 0.3 | 1 | 1
+minecraft:white_stained_glass_pane | 0.3 | 1 | 1
+minecraft:white_terracotta | 1.25 | 1 | 2
+minecraft:white_tulip | 0 | 1 | 1
+minecraft:white_wall_banner | 1 | 1 | 2
+minecraft:white_wool | 0.8 | 1 | 1
+minecraft:wither_rose | 0 | 1 | 1
+minecraft:wither_skeleton_skull | 1 | 1 | 2
+minecraft:wither_skeleton_wall_skull | 1 | 1 | 2
+minecraft:yellow_banner | 1 | 1 | 2
+minecraft:yellow_bed | 0.2 | 1 | 1
+minecraft:yellow_candle | 0.1 | 1 | 1
+minecraft:yellow_candle_cake | 0.5 | 1 | 1
+minecraft:yellow_carpet | 0.1 | 1 | 1
+minecraft:yellow_concrete | 1.8 | 1 | 2
+minecraft:yellow_concrete_powder | 0.5 | 1 | 1
+minecraft:yellow_glazed_terracotta | 1.4 | 1 | 2
+minecraft:yellow_shulker_box | 2 | 1 | 2
+minecraft:yellow_stained_glass | 0.3 | 1 | 1
+minecraft:yellow_stained_glass_pane | 0.3 | 1 | 1
+minecraft:yellow_terracotta | 1.25 | 1 | 2
+minecraft:yellow_wall_banner | 1 | 1 | 2
+minecraft:yellow_wool | 0.8 | 1 | 1
+minecraft:zombie_head | 1 | 1 | 2
+minecraft:zombie_wall_head | 1 | 1 | 2
+parcool:iron_zipline_hook | 1 | 1 | 2
+parcool:wooden_zipline_hook | 1 | 1 | 2
+
+МОБЫ: ID | максимальное HP при создании | множитель категории | XP
+Размеры, варианты, экипировка и эффекты спавна не моделируются.
+epicfight:wither_ghost | 20 | 0.5 | 5
+epicfight:wither_skeleton_minion | 20 | 2 | 20
+geckolib:bat | 1 | 0.5 | 0
+geckolib:bike | 1 | 0.5 | 0
+geckolib:cool_kid | 1 | 0.5 | 0
+geckolib:fake_glass | 1 | 0.5 | 0
+geckolib:gremlin | 1 | 0.5 | 0
+geckolib:mutant_zombie | 1 | 0.5 | 0
+geckolib:parasite | 1 | 2 | 1
+geckolib:race_car | 1 | 0.5 | 0
+irons_spellbooks:apothecarist | 60 | 0.5 | 15
+irons_spellbooks:archevoker | 60 | 2 | 60
+irons_spellbooks:catacombs_zombie | 20 | 2 | 20
+irons_spellbooks:citadel_keeper | 60 | 2 | 60
+irons_spellbooks:cryomancer | 60 | 0.5 | 15
+irons_spellbooks:cultist | 60 | 2 | 60
+irons_spellbooks:cursed_armor_stand | 60 | 0.5 | 15
+irons_spellbooks:dead_king | 500 | 2 | 500
+irons_spellbooks:dead_king_corpse | 500 | 0.5 | 125
+irons_spellbooks:debug_wizard | 30 | 2 | 30
+irons_spellbooks:fire_boss | 1000 | 2 | 1000
+irons_spellbooks:firefly_swarm | 20 | 0.5 | 5
+irons_spellbooks:ice_spider | 50 | 2 | 50
+irons_spellbooks:magehunter_vindicator | 24 | 2 | 24
+irons_spellbooks:necromancer | 25 | 2 | 25
+irons_spellbooks:priest | 60 | 0.5 | 15
+irons_spellbooks:pyromancer | 60 | 0.5 | 15
+irons_spellbooks:scapegoat | 1 | 0.5 | 0
+irons_spellbooks:spectral_steed | 15 | 0.5 | 4
+irons_spellbooks:summoned_claymore | 40 | 0.5 | 10
+irons_spellbooks:summoned_polar_bear | 30 | 0.5 | 8
+irons_spellbooks:summoned_rapier | 15 | 0.5 | 4
+irons_spellbooks:summoned_skeleton | 20 | 2 | 20
+irons_spellbooks:summoned_sword | 25 | 0.5 | 6
+irons_spellbooks:summoned_vex | 14 | 2 | 14
+irons_spellbooks:summoned_zombie | 20 | 2 | 20
+irons_spellbooks:wisp | 20 | 0.5 | 5
+minecraft:allay | 20 | 0.5 | 5
+minecraft:axolotl | 14 | 0.5 | 4
+minecraft:bat | 6 | 0.5 | 2
+minecraft:bee | 10 | 0.5 | 3
+minecraft:blaze | 20 | 2 | 20
+minecraft:camel | 32 | 0.5 | 8
+minecraft:cat | 10 | 0.5 | 3
+minecraft:cave_spider | 12 | 2 | 12
+minecraft:chicken | 4 | 0.5 | 1
+minecraft:cod | 3 | 0.5 | 1
+minecraft:cow | 10 | 0.5 | 3
+minecraft:creeper | 20 | 2 | 20
+minecraft:dolphin | 10 | 0.5 | 3
+minecraft:donkey | 53 | 0.5 | 13
+minecraft:drowned | 20 | 2 | 20
+minecraft:elder_guardian | 80 | 2 | 80
+minecraft:ender_dragon | 200 | 10 | 1000
+minecraft:enderman | 40 | 2 | 40
+minecraft:endermite | 8 | 2 | 8
+minecraft:evoker | 24 | 2 | 24
+minecraft:fox | 10 | 0.5 | 3
+minecraft:frog | 10 | 0.5 | 3
+minecraft:ghast | 10 | 2 | 10
+minecraft:giant | 100 | 2 | 100
+minecraft:glow_squid | 10 | 0.5 | 3
+minecraft:goat | 10 | 0.5 | 3
+minecraft:guardian | 30 | 2 | 30
+minecraft:hoglin | 40 | 2 | 40
+minecraft:horse | 53 | 0.5 | 13
+minecraft:husk | 20 | 2 | 20
+minecraft:illusioner | 32 | 2 | 32
+minecraft:iron_golem | 100 | 0.5 | 25
+minecraft:llama | 53 | 0.5 | 13
+minecraft:magma_cube | 20 | 2 | 20
+minecraft:mooshroom | 10 | 0.5 | 3
+minecraft:mule | 53 | 0.5 | 13
+minecraft:ocelot | 10 | 0.5 | 3
+minecraft:panda | 20 | 0.5 | 5
+minecraft:parrot | 6 | 0.5 | 2
+minecraft:phantom | 20 | 2 | 20
+minecraft:pig | 10 | 0.5 | 3
+minecraft:piglin | 16 | 2 | 16
+minecraft:piglin_brute | 50 | 2 | 50
+minecraft:pillager | 24 | 2 | 24
+minecraft:polar_bear | 30 | 0.5 | 8
+minecraft:pufferfish | 3 | 0.5 | 1
+minecraft:rabbit | 3 | 0.5 | 1
+minecraft:ravager | 100 | 2 | 100
+minecraft:salmon | 3 | 0.5 | 1
+minecraft:sheep | 8 | 0.5 | 2
+minecraft:shulker | 30 | 2 | 30
+minecraft:silverfish | 8 | 2 | 8
+minecraft:skeleton | 20 | 2 | 20
+minecraft:skeleton_horse | 15 | 0.5 | 4
+minecraft:slime | 20 | 2 | 20
+minecraft:sniffer | 14 | 0.5 | 4
+minecraft:snow_golem | 4 | 0.5 | 1
+minecraft:spider | 16 | 2 | 16
+minecraft:squid | 10 | 0.5 | 3
+minecraft:stray | 20 | 2 | 20
+minecraft:strider | 20 | 0.5 | 5
+minecraft:tadpole | 6 | 0.5 | 2
+minecraft:trader_llama | 53 | 0.5 | 13
+minecraft:tropical_fish | 3 | 0.5 | 1
+minecraft:turtle | 30 | 0.5 | 8
+minecraft:vex | 14 | 2 | 14
+minecraft:villager | 20 | 0.5 | 5
+minecraft:vindicator | 24 | 2 | 24
+minecraft:wandering_trader | 20 | 0.5 | 5
+minecraft:warden | 500 | 10 | 2500
+minecraft:witch | 26 | 2 | 26
+minecraft:wither | 300 | 10 | 1500
+minecraft:wither_skeleton | 20 | 2 | 20
+minecraft:wolf | 8 | 0.5 | 2
+minecraft:zoglin | 40 | 2 | 40
+minecraft:zombie | 20 | 2 | 20
+minecraft:zombie_horse | 15 | 0.5 | 4
+minecraft:zombie_villager | 20 | 2 | 20
+minecraft:zombified_piglin | 20 | 2 | 20
+
+УРОВНИ: уровень | XP до следующего | всего XP от старта | очки атрибутов | очки дерева
+1 | 100 | 0 | 0 | 0
+2 | 101 | 100 | 1 | 0
+3 | 102 | 201 | 2 | 0
+4 | 103 | 303 | 3 | 0
+5 | 105 | 406 | 4 | 1
+6 | 106 | 511 | 5 | 1
+7 | 107 | 617 | 6 | 1
+8 | 108 | 724 | 7 | 1
+9 | 109 | 832 | 8 | 1
+10 | 110 | 941 | 9 | 2
+11 | 112 | 1051 | 10 | 2
+12 | 113 | 1163 | 11 | 2
+13 | 114 | 1276 | 12 | 2
+14 | 115 | 1390 | 13 | 2
+15 | 117 | 1505 | 14 | 3
+16 | 118 | 1622 | 15 | 3
+17 | 119 | 1740 | 16 | 3
+18 | 121 | 1859 | 17 | 3
+19 | 122 | 1980 | 18 | 3
+20 | 123 | 2102 | 19 | 4
+21 | 125 | 2225 | 20 | 4
+22 | 126 | 2350 | 21 | 4
+23 | 128 | 2476 | 22 | 4
+24 | 129 | 2604 | 23 | 4
+25 | 130 | 2733 | 24 | 5
+26 | 132 | 2863 | 25 | 5
+27 | 133 | 2995 | 26 | 5
+28 | 135 | 3128 | 27 | 5
+29 | 136 | 3263 | 28 | 5
+30 | 138 | 3399 | 29 | 6
+31 | 139 | 3537 | 30 | 6
+32 | 141 | 3676 | 31 | 6
+33 | 142 | 3817 | 32 | 6
+34 | 144 | 3959 | 33 | 6
+35 | 146 | 4103 | 34 | 7
+36 | 147 | 4249 | 35 | 7
+37 | 149 | 4396 | 36 | 7
+38 | 151 | 4545 | 37 | 7
+39 | 152 | 4696 | 38 | 7
+40 | 154 | 4848 | 39 | 8
+41 | 156 | 5002 | 40 | 8
+42 | 157 | 5158 | 41 | 8
+43 | 159 | 5315 | 42 | 8
+44 | 161 | 5474 | 43 | 8
+45 | 163 | 5635 | 44 | 9
+46 | 164 | 5798 | 45 | 9
+47 | 166 | 5962 | 46 | 9
+48 | 168 | 6128 | 47 | 9
+49 | 170 | 6296 | 48 | 9
+50 | 172 | 6466 | 49 | 10
+51 | 174 | 6638 | 50 | 10
+52 | 176 | 6812 | 51 | 10
+53 | 178 | 6988 | 52 | 10
+54 | 180 | 7166 | 53 | 10
+55 | 182 | 7346 | 54 | 11
+56 | 184 | 7528 | 55 | 11
+57 | 186 | 7712 | 56 | 11
+58 | 188 | 7898 | 57 | 11
+59 | 190 | 8086 | 58 | 11
+60 | 192 | 8276 | 59 | 12
+61 | 194 | 8468 | 60 | 12
+62 | 196 | 8662 | 61 | 12
+63 | 198 | 8858 | 62 | 12
+64 | 201 | 9056 | 63 | 12
+65 | 203 | 9257 | 64 | 13
+66 | 205 | 9460 | 65 | 13
+67 | 207 | 9665 | 66 | 13
+68 | 210 | 9872 | 67 | 13
+69 | 212 | 10082 | 68 | 13
+70 | 214 | 10294 | 69 | 14
+71 | 217 | 10508 | 70 | 14
+72 | 219 | 10725 | 71 | 14
+73 | 222 | 10944 | 72 | 14
+74 | 224 | 11166 | 73 | 14
+75 | 227 | 11390 | 74 | 15
+76 | 229 | 11617 | 75 | 15
+77 | 232 | 11846 | 76 | 15
+78 | 234 | 12078 | 77 | 15
+79 | 237 | 12312 | 78 | 15
+80 | 239 | 12549 | 79 | 16
+81 | 242 | 12788 | 80 | 16
+82 | 245 | 13030 | 81 | 16
+83 | 247 | 13275 | 82 | 16
+84 | 250 | 13522 | 83 | 16
+85 | 253 | 13772 | 84 | 17
+86 | 256 | 14025 | 85 | 17
+87 | 259 | 14281 | 86 | 17
+88 | 262 | 14540 | 87 | 17
+89 | 264 | 14802 | 88 | 17
+90 | 267 | 15066 | 89 | 18
+91 | 270 | 15333 | 90 | 18
+92 | 273 | 15603 | 91 | 18
+93 | 276 | 15876 | 92 | 18
+94 | 279 | 16152 | 93 | 18
+95 | 283 | 16431 | 94 | 19
+96 | 286 | 16714 | 95 | 19
+97 | 289 | 17000 | 96 | 19
+98 | 292 | 17289 | 97 | 19
+99 | 295 | 17581 | 98 | 19
+100 | 299 | 17876 | 99 | 20
+101 | 302 | 18175 | 100 | 20
+102 | 305 | 18477 | 101 | 20
+103 | 309 | 18782 | 102 | 20
+104 | 312 | 19091 | 103 | 20
+105 | 316 | 19403 | 104 | 21
+106 | 319 | 19719 | 105 | 21
+107 | 323 | 20038 | 106 | 21
+108 | 326 | 20361 | 107 | 21
+109 | 330 | 20687 | 108 | 21
+110 | 333 | 21017 | 109 | 22
+111 | 337 | 21350 | 110 | 22
+112 | 341 | 21687 | 111 | 22
+113 | 345 | 22028 | 112 | 22
+114 | 349 | 22373 | 113 | 22
+115 | 352 | 22722 | 114 | 23
+116 | 356 | 23074 | 115 | 23
+117 | 360 | 23430 | 116 | 23
+118 | 364 | 23790 | 117 | 23
+119 | 368 | 24154 | 118 | 23
+120 | 372 | 24522 | 119 | 24
+121 | 377 | 24894 | 120 | 24
+122 | 381 | 25271 | 121 | 24
+123 | 385 | 25652 | 122 | 24
+124 | 389 | 26037 | 123 | 24
+125 | 394 | 26426 | 124 | 25
+126 | 398 | 26820 | 125 | 25
+127 | 402 | 27218 | 126 | 25
+128 | 407 | 27620 | 127 | 25
+129 | 411 | 28027 | 128 | 25
+130 | 416 | 28438 | 129 | 26
+131 | 421 | 28854 | 130 | 26
+132 | 425 | 29275 | 131 | 26
+133 | 430 | 29700 | 132 | 26
+134 | 435 | 30130 | 133 | 26
+135 | 440 | 30565 | 134 | 27
+136 | 444 | 31005 | 135 | 27
+137 | 449 | 31449 | 136 | 27
+138 | 454 | 31898 | 137 | 27
+139 | 459 | 32352 | 138 | 27
+140 | 465 | 32811 | 139 | 28
+141 | 470 | 33276 | 140 | 28
+142 | 475 | 33746 | 141 | 28
+143 | 480 | 34221 | 142 | 28
+144 | 486 | 34701 | 143 | 28
+145 | 491 | 35187 | 144 | 29
+146 | 496 | 35678 | 145 | 29
+147 | 502 | 36174 | 146 | 29
+148 | 507 | 36676 | 147 | 29
+149 | 513 | 37183 | 148 | 29
+150 | 519 | 37696 | 149 | 30
+151 | 525 | 38215 | 150 | 30
+152 | 530 | 38740 | 151 | 30
+153 | 536 | 39270 | 152 | 30
+154 | 542 | 39806 | 153 | 30
+155 | 548 | 40348 | 154 | 31
+156 | 554 | 40896 | 155 | 31
+157 | 561 | 41450 | 156 | 31
+158 | 567 | 42011 | 157 | 31
+159 | 573 | 42578 | 158 | 31
+160 | 579 | 43151 | 159 | 32
+161 | 586 | 43730 | 160 | 32
+162 | 592 | 44316 | 161 | 32
+163 | 599 | 44908 | 162 | 32
+164 | 606 | 45507 | 163 | 32
+165 | 612 | 46113 | 164 | 33
+166 | 619 | 46725 | 165 | 33
+167 | 626 | 47344 | 166 | 33
+168 | 633 | 47970 | 167 | 33
+169 | 640 | 48603 | 168 | 33
+170 | 647 | 49243 | 169 | 34
+171 | 654 | 49890 | 170 | 34
+172 | 662 | 50544 | 171 | 34
+173 | 669 | 51206 | 172 | 34
+174 | 676 | 51875 | 173 | 34
+175 | 684 | 52551 | 174 | 35
+176 | 692 | 53235 | 175 | 35
+177 | 699 | 53927 | 176 | 35
+178 | 707 | 54626 | 177 | 35
+179 | 715 | 55333 | 178 | 35
+180 | 723 | 56048 | 179 | 36
+181 | 731 | 56771 | 180 | 36
+182 | 739 | 57502 | 181 | 36
+183 | 747 | 58241 | 182 | 36
+184 | 755 | 58988 | 183 | 36
+185 | 764 | 59743 | 184 | 37
+186 | 772 | 60507 | 185 | 37
+187 | 781 | 61279 | 186 | 37
+188 | 790 | 62060 | 187 | 37
+189 | 798 | 62850 | 188 | 37
+190 | 807 | 63648 | 189 | 38
+191 | 816 | 64455 | 190 | 38
+192 | 825 | 65271 | 191 | 38
+193 | 834 | 66096 | 192 | 38
+194 | 844 | 66930 | 193 | 38
+195 | 853 | 67774 | 194 | 39
+196 | 863 | 68627 | 195 | 39
+197 | 872 | 69490 | 196 | 39
+198 | 882 | 70362 | 197 | 39
+199 | 892 | 71244 | 198 | 39
+200 | 902 | 72136 | 199 | 40
+201 | 912 | 73038 | 200 | 40
+202 | 922 | 73950 | 201 | 40
+203 | 932 | 74872 | 202 | 40
+204 | 942 | 75804 | 203 | 40
+205 | 953 | 76746 | 204 | 41
+206 | 963 | 77699 | 205 | 41
+207 | 974 | 78662 | 206 | 41
+208 | 985 | 79636 | 207 | 41
+209 | 996 | 80621 | 208 | 41
+210 | 1007 | 81617 | 209 | 42
+211 | 1018 | 82624 | 210 | 42
+212 | 1029 | 83642 | 211 | 42
+213 | 1041 | 84671 | 212 | 42
+214 | 1052 | 85712 | 213 | 42
+215 | 1064 | 86764 | 214 | 43
+216 | 1076 | 87828 | 215 | 43
+217 | 1088 | 88904 | 216 | 43
+218 | 1100 | 89992 | 217 | 43
+219 | 1112 | 91092 | 218 | 43
+220 | 1124 | 92204 | 219 | 44
+221 | 1137 | 93328 | 220 | 44
+222 | 1150 | 94465 | 221 | 44
+223 | 1162 | 95615 | 222 | 44
+224 | 1175 | 96777 | 223 | 44
+225 | 1188 | 97952 | 224 | 45
+226 | 1202 | 99140 | 225 | 45
+227 | 1215 | 100342 | 226 | 45
+228 | 1228 | 101557 | 227 | 45
+229 | 1242 | 102785 | 228 | 45
+230 | 1256 | 104027 | 229 | 46
+231 | 1270 | 105283 | 230 | 46
+232 | 1284 | 106553 | 231 | 46
+233 | 1298 | 107837 | 232 | 46
+234 | 1313 | 109135 | 233 | 46
+235 | 1327 | 110448 | 234 | 47
+236 | 1342 | 111775 | 235 | 47
+237 | 1357 | 113117 | 236 | 47
+238 | 1372 | 114474 | 237 | 47
+239 | 1387 | 115846 | 238 | 47
+240 | 1403 | 117233 | 239 | 48
+241 | 1418 | 118636 | 240 | 48
+242 | 1434 | 120054 | 241 | 48
+243 | 1450 | 121488 | 242 | 48
+244 | 1466 | 122938 | 243 | 48
+245 | 1482 | 124404 | 244 | 49
+246 | 1499 | 125886 | 245 | 49
+247 | 1515 | 127385 | 246 | 49
+248 | 1532 | 128900 | 247 | 49
+249 | 1549 | 130432 | 248 | 49
+250 | 1566 | 131981 | 249 | 50
+251 | 1584 | 133547 | 250 | 50
+252 | 1601 | 135131 | 251 | 50
+253 | 1619 | 136732 | 252 | 50
+254 | 1637 | 138351 | 253 | 50
+255 | 1655 | 139988 | 254 | 51
+256 | 1674 | 141643 | 255 | 51
+257 | 1692 | 143317 | 256 | 51
+258 | 1711 | 145009 | 257 | 51
+259 | 1730 | 146720 | 258 | 51
+260 | 1749 | 148450 | 259 | 52
+261 | 1769 | 150199 | 260 | 52
+262 | 1789 | 151968 | 261 | 52
+263 | 1808 | 153757 | 262 | 52
+264 | 1829 | 155565 | 263 | 52
+265 | 1849 | 157394 | 264 | 53
+266 | 1869 | 159243 | 265 | 53
+267 | 1890 | 161112 | 266 | 53
+268 | 1911 | 163002 | 267 | 53
+269 | 1932 | 164913 | 268 | 53
+270 | 1954 | 166845 | 269 | 54
+271 | 1976 | 168799 | 270 | 54
+272 | 1998 | 170775 | 271 | 54
+273 | 2020 | 172773 | 272 | 54
+274 | 2042 | 174793 | 273 | 54
+275 | 2065 | 176835 | 274 | 55
+276 | 2088 | 178900 | 275 | 55
+277 | 2111 | 180988 | 276 | 55
+278 | 2134 | 183099 | 277 | 55
+279 | 2158 | 185233 | 278 | 55
+280 | 2182 | 187391 | 279 | 56
+281 | 2206 | 189573 | 280 | 56
+282 | 2231 | 191779 | 281 | 56
+283 | 2256 | 194010 | 282 | 56
+284 | 2281 | 196266 | 283 | 56
+285 | 2306 | 198547 | 284 | 57
+286 | 2332 | 200853 | 285 | 57
+287 | 2358 | 203185 | 286 | 57
+288 | 2384 | 205543 | 287 | 57
+289 | 2410 | 207927 | 288 | 57
+290 | 2437 | 210337 | 289 | 58
+291 | 2464 | 212774 | 290 | 58
+292 | 2492 | 215238 | 291 | 58
+293 | 2519 | 217730 | 292 | 58
+294 | 2547 | 220249 | 293 | 58
+295 | 2576 | 222796 | 294 | 59
+296 | 2604 | 225372 | 295 | 59
+297 | 2633 | 227976 | 296 | 59
+298 | 2662 | 230609 | 297 | 59
+299 | 2692 | 233271 | 298 | 59
+300 | 2722 | 235963 | 299 | 60
+301 | 2752 | 238685 | 300 | 60
+302 | 2783 | 241437 | 301 | 60
+303 | 2814 | 244220 | 302 | 60
+304 | 2845 | 247034 | 303 | 60
+305 | 2876 | 249879 | 304 | 61
+306 | 2908 | 252755 | 305 | 61
+307 | 2941 | 255663 | 306 | 61
+308 | 2973 | 258604 | 307 | 61
+309 | 3006 | 261577 | 308 | 61
+310 | 3040 | 264583 | 309 | 62
+311 | 3074 | 267623 | 310 | 62
+312 | 3108 | 270697 | 311 | 62
+313 | 3142 | 273805 | 312 | 62
+314 | 3177 | 276947 | 313 | 62
+315 | 3213 | 280124 | 314 | 63
+316 | 3248 | 283337 | 315 | 63
+317 | 3284 | 286585 | 316 | 63
+318 | 3321 | 289869 | 317 | 63
+319 | 3358 | 293190 | 318 | 63
+320 | 3395 | 296548 | 319 | 64
+321 | 3433 | 299943 | 320 | 64
+322 | 3471 | 303376 | 321 | 64
+323 | 3509 | 306847 | 322 | 64
+324 | 3548 | 310356 | 323 | 64
+325 | 3588 | 313904 | 324 | 65
+326 | 3628 | 317492 | 325 | 65
+327 | 3668 | 321120 | 326 | 65
+328 | 3709 | 324788 | 327 | 65
+329 | 3750 | 328497 | 328 | 65
+330 | 3792 | 332247 | 329 | 66
+331 | 3834 | 336039 | 330 | 66
+332 | 3876 | 339873 | 331 | 66
+333 | 3919 | 343749 | 332 | 66
+334 | 3963 | 347668 | 333 | 66
+335 | 4007 | 351631 | 334 | 67
+336 | 4052 | 355638 | 335 | 67
+337 | 4097 | 359690 | 336 | 67
+338 | 4142 | 363787 | 337 | 67
+339 | 4188 | 367929 | 338 | 67
+340 | 4235 | 372117 | 339 | 68
+341 | 4282 | 376352 | 340 | 68
+342 | 4329 | 380634 | 341 | 68
+343 | 4377 | 384963 | 342 | 68
+344 | 4426 | 389340 | 343 | 68
+345 | 4475 | 393766 | 344 | 69
+346 | 4525 | 398241 | 345 | 69
+347 | 4575 | 402766 | 346 | 69
+348 | 4626 | 407341 | 347 | 69
+349 | 4677 | 411967 | 348 | 69
+350 | 4729 | 416644 | 349 | 70
+351 | 4782 | 421373 | 350 | 70
+352 | 4835 | 426155 | 351 | 70
+353 | 4889 | 430990 | 352 | 70
+354 | 4943 | 435879 | 353 | 70
+355 | 4998 | 440822 | 354 | 71
+356 | 5054 | 445820 | 355 | 71
+357 | 5110 | 450874 | 356 | 71
+358 | 5167 | 455984 | 357 | 71
+359 | 5224 | 461151 | 358 | 71
+360 | 5282 | 466375 | 359 | 72
+361 | 5341 | 471657 | 360 | 72
+362 | 5400 | 476998 | 361 | 72
+363 | 5460 | 482398 | 362 | 72
+364 | 5521 | 487858 | 363 | 72
+365 | 5582 | 493379 | 364 | 73
+366 | 5644 | 498961 | 365 | 73
+367 | 5707 | 504605 | 366 | 73
+368 | 5770 | 510312 | 367 | 73
+369 | 5834 | 516082 | 368 | 73
+370 | 5899 | 521916 | 369 | 74
+371 | 5965 | 527815 | 370 | 74
+372 | 6031 | 533780 | 371 | 74
+373 | 6098 | 539811 | 372 | 74
+374 | 6166 | 545909 | 373 | 74
+375 | 6234 | 552075 | 374 | 75
+376 | 6303 | 558309 | 375 | 75
+377 | 6374 | 564612 | 376 | 75
+378 | 6444 | 570986 | 377 | 75
+379 | 6516 | 577430 | 378 | 75
+380 | 6588 | 583946 | 379 | 76
+381 | 6662 | 590534 | 380 | 76
+382 | 6736 | 597196 | 381 | 76
+383 | 6810 | 603932 | 382 | 76
+384 | 6886 | 610742 | 383 | 76
+385 | 6963 | 617628 | 384 | 77
+386 | 7040 | 624591 | 385 | 77
+387 | 7118 | 631631 | 386 | 77
+388 | 7197 | 638749 | 387 | 77
+389 | 7277 | 645946 | 388 | 77
+390 | 7358 | 653223 | 389 | 78
+391 | 7440 | 660581 | 390 | 78
+392 | 7523 | 668021 | 391 | 78
+393 | 7606 | 675544 | 392 | 78
+394 | 7691 | 683150 | 393 | 78
+395 | 7776 | 690841 | 394 | 79
+396 | 7862 | 698617 | 395 | 79
+397 | 7950 | 706479 | 396 | 79
+398 | 8038 | 714429 | 397 | 79
+399 | 8127 | 722467 | 398 | 79
+400 | 8218 | 730594 | 399 | 80
+401 | 8309 | 738812 | 400 | 80
+402 | 8401 | 747121 | 401 | 80
+403 | 8495 | 755522 | 402 | 80
+404 | 8589 | 764017 | 403 | 80
+405 | 8685 | 772606 | 404 | 81
+406 | 8781 | 781291 | 405 | 81
+407 | 8879 | 790072 | 406 | 81
+408 | 8977 | 798951 | 407 | 81
+409 | 9077 | 807928 | 408 | 81
+410 | 9178 | 817005 | 409 | 82
+411 | 9280 | 826183 | 410 | 82
+412 | 9383 | 835463 | 411 | 82
+413 | 9487 | 844846 | 412 | 82
+414 | 9593 | 854333 | 413 | 82
+415 | 9699 | 863926 | 414 | 83
+416 | 9807 | 873625 | 415 | 83
+417 | 9916 | 883432 | 416 | 83
+418 | 10026 | 893348 | 417 | 83
+419 | 10138 | 903374 | 418 | 83
+420 | 10250 | 913512 | 419 | 84
+421 | 10364 | 923762 | 420 | 84
+422 | 10479 | 934126 | 421 | 84
+423 | 10596 | 944605 | 422 | 84
+424 | 10713 | 955201 | 423 | 84
+425 | 10832 | 965914 | 424 | 85
+426 | 10953 | 976746 | 425 | 85
+427 | 11074 | 987699 | 426 | 85
+428 | 11198 | 998773 | 427 | 85
+429 | 11322 | 1009971 | 428 | 85
+430 | 11448 | 1021293 | 429 | 86
+431 | 11575 | 1032741 | 430 | 86
+432 | 11704 | 1044316 | 431 | 86
+433 | 11834 | 1056020 | 432 | 86
+434 | 11965 | 1067854 | 433 | 86
+435 | 12098 | 1079819 | 434 | 87
+436 | 12232 | 1091917 | 435 | 87
+437 | 12368 | 1104149 | 436 | 87
+438 | 12506 | 1116517 | 437 | 87
+439 | 12645 | 1129023 | 438 | 87
+440 | 12785 | 1141668 | 439 | 88
+441 | 12927 | 1154453 | 440 | 88
+442 | 13071 | 1167380 | 441 | 88
+443 | 13216 | 1180451 | 442 | 88
+444 | 13363 | 1193667 | 443 | 88
+445 | 13512 | 1207030 | 444 | 89
+446 | 13662 | 1220542 | 445 | 89
+447 | 13813 | 1234204 | 446 | 89
+448 | 13967 | 1248017 | 447 | 89
+449 | 14122 | 1261984 | 448 | 89
+450 | 14279 | 1276106 | 449 | 90
+451 | 14438 | 1290385 | 450 | 90
+452 | 14598 | 1304823 | 451 | 90
+453 | 14760 | 1319421 | 452 | 90
+454 | 14924 | 1334181 | 453 | 90
+455 | 15090 | 1349105 | 454 | 91
+456 | 15258 | 1364195 | 455 | 91
+457 | 15427 | 1379453 | 456 | 91
+458 | 15599 | 1394880 | 457 | 91
+459 | 15772 | 1410479 | 458 | 91
+460 | 15947 | 1426251 | 459 | 92
+461 | 16124 | 1442198 | 460 | 92
+462 | 16304 | 1458322 | 461 | 92
+463 | 16485 | 1474626 | 462 | 92
+464 | 16668 | 1491111 | 463 | 92
+465 | 16853 | 1507779 | 464 | 93
+466 | 17040 | 1524632 | 465 | 93
+467 | 17230 | 1541672 | 466 | 93
+468 | 17421 | 1558902 | 467 | 93
+469 | 17615 | 1576323 | 468 | 93
+470 | 17810 | 1593938 | 469 | 94
+471 | 18008 | 1611748 | 470 | 94
+472 | 18208 | 1629756 | 471 | 94
+473 | 18411 | 1647964 | 472 | 94
+474 | 18615 | 1666375 | 473 | 94
+475 | 18822 | 1684990 | 474 | 95
+476 | 19031 | 1703812 | 475 | 95
+477 | 19243 | 1722843 | 476 | 95
+478 | 19457 | 1742086 | 477 | 95
+479 | 19673 | 1761543 | 478 | 95
+480 | 19891 | 1781216 | 479 | 96
+481 | 20112 | 1801107 | 480 | 96
+482 | 20336 | 1821219 | 481 | 96
+483 | 20562 | 1841555 | 482 | 96
+484 | 20790 | 1862117 | 483 | 96
+485 | 21021 | 1882907 | 484 | 97
+486 | 21255 | 1903928 | 485 | 97
+487 | 21491 | 1925183 | 486 | 97
+488 | 21730 | 1946674 | 487 | 97
+489 | 21971 | 1968404 | 488 | 97
+490 | 22215 | 1990375 | 489 | 98
+491 | 22462 | 2012590 | 490 | 98
+492 | 22712 | 2035052 | 491 | 98
+493 | 22964 | 2057764 | 492 | 98
+494 | 23219 | 2080728 | 493 | 98
+495 | 23477 | 2103947 | 494 | 99
+496 | 23738 | 2127424 | 495 | 99
+497 | 24002 | 2151162 | 496 | 99
+498 | 24269 | 2175164 | 497 | 99
+499 | 24538 | 2199433 | 498 | 99
+500 | 24811 | 2223971 | 499 | 100
+501 | 25087 | 2248782 | 500 | 100
+502 | 25365 | 2273869 | 501 | 100
+503 | 25647 | 2299234 | 502 | 100
+504 | 25932 | 2324881 | 503 | 100
+505 | 26220 | 2350813 | 504 | 101
+506 | 26512 | 2377033 | 505 | 101
+507 | 26806 | 2403545 | 506 | 101
+508 | 27104 | 2430351 | 507 | 101
+509 | 27405 | 2457455 | 508 | 101
+510 | 27710 | 2484860 | 509 | 102
+511 | 28018 | 2512570 | 510 | 102
+512 | 28329 | 2540588 | 511 | 102
+513 | 28644 | 2568917 | 512 | 102
+514 | 28962 | 2597561 | 513 | 102
+515 | 29284 | 2626523 | 514 | 103
+516 | 29609 | 2655807 | 515 | 103
+517 | 29938 | 2685416 | 516 | 103
+518 | 30271 | 2715354 | 517 | 103
+519 | 30607 | 2745625 | 518 | 103
+520 | 30947 | 2776232 | 519 | 104
+521 | 31291 | 2807179 | 520 | 104
+522 | 31639 | 2838470 | 521 | 104
+523 | 31990 | 2870109 | 522 | 104
+524 | 32346 | 2902099 | 523 | 104
+525 | 32705 | 2934445 | 524 | 105
+526 | 33068 | 2967150 | 525 | 105
+527 | 33436 | 3000218 | 526 | 105
+528 | 33807 | 3033654 | 527 | 105
+529 | 34183 | 3067461 | 528 | 105
+530 | 34563 | 3101644 | 529 | 106
+531 | 34947 | 3136207 | 530 | 106
+532 | 35335 | 3171154 | 531 | 106
+533 | 35728 | 3206489 | 532 | 106
+534 | 36125 | 3242217 | 533 | 106
+535 | 36526 | 3278342 | 534 | 107
+536 | 36932 | 3314868 | 535 | 107
+537 | 37342 | 3351800 | 536 | 107
+538 | 37757 | 3389142 | 537 | 107
+539 | 38177 | 3426899 | 538 | 107
+540 | 38601 | 3465076 | 539 | 108
+541 | 39030 | 3503677 | 540 | 108
+542 | 39464 | 3542707 | 541 | 108
+543 | 39902 | 3582171 | 542 | 108
+544 | 40345 | 3622073 | 543 | 108
+545 | 40794 | 3662418 | 544 | 109
+546 | 41247 | 3703212 | 545 | 109
+547 | 41705 | 3744459 | 546 | 109
+548 | 42169 | 3786164 | 547 | 109
+549 | 42637 | 3828333 | 548 | 109
+550 | 43111 | 3870970 | 549 | 110
+551 | 43590 | 3914081 | 550 | 110
+552 | 44074 | 3957671 | 551 | 110
+553 | 44564 | 4001745 | 552 | 110
+554 | 45059 | 4046309 | 553 | 110
+555 | 45560 | 4091368 | 554 | 111
+556 | 46066 | 4136928 | 555 | 111
+557 | 46578 | 4182994 | 556 | 111
+558 | 47095 | 4229572 | 557 | 111
+559 | 47619 | 4276667 | 558 | 111
+560 | 48148 | 4324286 | 559 | 112
+561 | 48683 | 4372434 | 560 | 112
+562 | 49224 | 4421117 | 561 | 112
+563 | 49771 | 4470341 | 562 | 112
+564 | 50324 | 4520112 | 563 | 112
+565 | 50883 | 4570436 | 564 | 113
+566 | 51448 | 4621319 | 565 | 113
+567 | 52020 | 4672767 | 566 | 113
+568 | 52598 | 4724787 | 567 | 113
+569 | 53182 | 4777385 | 568 | 113
+570 | 53773 | 4830567 | 569 | 114
+571 | 54370 | 4884340 | 570 | 114
+572 | 54975 | 4938710 | 571 | 114
+573 | 55585 | 4993685 | 572 | 114
+574 | 56203 | 5049270 | 573 | 114
+575 | 56828 | 5105473 | 574 | 115
+576 | 57459 | 5162301 | 575 | 115
+577 | 58097 | 5219760 | 576 | 115
+578 | 58743 | 5277857 | 577 | 115
+579 | 59396 | 5336600 | 578 | 115
+580 | 60056 | 5395996 | 579 | 116
+581 | 60723 | 5456052 | 580 | 116
+582 | 61398 | 5516775 | 581 | 116
+583 | 62080 | 5578173 | 582 | 116
+584 | 62770 | 5640253 | 583 | 116
+585 | 63467 | 5703023 | 584 | 117
+586 | 64172 | 5766490 | 585 | 117
+587 | 64885 | 5830662 | 586 | 117
+588 | 65606 | 5895547 | 587 | 117
+589 | 66335 | 5961153 | 588 | 117
+590 | 67072 | 6027488 | 589 | 118
+591 | 67817 | 6094560 | 590 | 118
+592 | 68571 | 6162377 | 591 | 118
+593 | 69333 | 6230948 | 592 | 118
+594 | 70103 | 6300281 | 593 | 118
+595 | 70882 | 6370384 | 594 | 119
+596 | 71670 | 6441266 | 595 | 119
+597 | 72466 | 6512936 | 596 | 119
+598 | 73271 | 6585402 | 597 | 119
+599 | 74085 | 6658673 | 598 | 119
+600 | 74908 | 6732758 | 599 | 120
+601 | 75741 | 6807666 | 600 | 120
+602 | 76582 | 6883407 | 601 | 120
+603 | 77433 | 6959989 | 602 | 120
+604 | 78294 | 7037422 | 603 | 120
+605 | 79164 | 7115716 | 604 | 121
+606 | 80043 | 7194880 | 605 | 121
+607 | 80933 | 7274923 | 606 | 121
+608 | 81832 | 7355856 | 607 | 121
+609 | 82741 | 7437688 | 608 | 121
+610 | 83660 | 7520429 | 609 | 122
+611 | 84590 | 7604089 | 610 | 122
+612 | 85530 | 7688679 | 611 | 122
+613 | 86480 | 7774209 | 612 | 122
+614 | 87441 | 7860689 | 613 | 122
+615 | 88413 | 7948130 | 614 | 123
+616 | 89395 | 8036543 | 615 | 123
+617 | 90388 | 8125938 | 616 | 123
+618 | 91393 | 8216326 | 617 | 123
+619 | 92408 | 8307719 | 618 | 123
+620 | 93435 | 8400127 | 619 | 124
+621 | 94473 | 8493562 | 620 | 124
+622 | 95523 | 8588035 | 621 | 124
+623 | 96584 | 8683558 | 622 | 124
+624 | 97657 | 8780142 | 623 | 124
+625 | 98742 | 8877799 | 624 | 125
+626 | 99839 | 8976541 | 625 | 125
+627 | 100949 | 9076380 | 626 | 125
+628 | 102070 | 9177329 | 627 | 125
+629 | 103204 | 9279399 | 628 | 125
+630 | 104351 | 9382603 | 629 | 126
+631 | 105511 | 9486954 | 630 | 126
+632 | 106683 | 9592465 | 631 | 126
+633 | 107868 | 9699148 | 632 | 126
+634 | 109067 | 9807016 | 633 | 126
+635 | 110279 | 9916083 | 634 | 127
+636 | 111504 | 10026362 | 635 | 127
+637 | 112743 | 10137866 | 636 | 127
+638 | 113996 | 10250609 | 637 | 127
+639 | 115262 | 10364605 | 638 | 127
+640 | 116543 | 10479867 | 639 | 128
+641 | 117838 | 10596410 | 640 | 128
+642 | 119147 | 10714248 | 641 | 128
+643 | 120471 | 10833395 | 642 | 128
+644 | 121810 | 10953866 | 643 | 128
+645 | 123163 | 11075676 | 644 | 129
+646 | 124532 | 11198839 | 645 | 129
+647 | 125915 | 11323371 | 646 | 129
+648 | 127314 | 11449286 | 647 | 129
+649 | 128729 | 11576600 | 648 | 129
+650 | 130159 | 11705329 | 649 | 130
+651 | 131605 | 11835488 | 650 | 130
+652 | 133068 | 11967093 | 651 | 130
+653 | 134546 | 12100161 | 652 | 130
+654 | 136041 | 12234707 | 653 | 130
+655 | 137553 | 12370748 | 654 | 131
+656 | 139081 | 12508301 | 655 | 131
+657 | 140627 | 12647382 | 656 | 131
+658 | 142189 | 12788009 | 657 | 131
+659 | 143769 | 12930198 | 658 | 131
+660 | 145366 | 13073967 | 659 | 132
+661 | 146982 | 13219333 | 660 | 132
+662 | 148615 | 13366315 | 661 | 132
+663 | 150266 | 13514930 | 662 | 132
+664 | 151936 | 13665196 | 663 | 132
+665 | 153624 | 13817132 | 664 | 133
+666 | 155331 | 13970756 | 665 | 133
+667 | 157057 | 14126087 | 666 | 133
+668 | 158802 | 14283144 | 667 | 133
+669 | 160566 | 14441946 | 668 | 133
+670 | 162350 | 14602512 | 669 | 134
+671 | 164154 | 14764862 | 670 | 134
+672 | 165978 | 14929016 | 671 | 134
+673 | 167822 | 15094994 | 672 | 134
+674 | 169687 | 15262816 | 673 | 134
+675 | 171572 | 15432503 | 674 | 135
+676 | 173479 | 15604075 | 675 | 135
+677 | 175406 | 15777554 | 676 | 135
+678 | 177355 | 15952960 | 677 | 135
+679 | 179326 | 16130315 | 678 | 135
+680 | 181318 | 16309641 | 679 | 136
+681 | 183333 | 16490959 | 680 | 136
+682 | 185370 | 16674292 | 681 | 136
+683 | 187430 | 16859662 | 682 | 136
+684 | 189512 | 17047092 | 683 | 136
+685 | 191618 | 17236604 | 684 | 137
+686 | 193747 | 17428222 | 685 | 137
+687 | 195900 | 17621969 | 686 | 137
+688 | 198076 | 17817869 | 687 | 137
+689 | 200277 | 18015945 | 688 | 137
+690 | 202502 | 18216222 | 689 | 138
+691 | 204752 | 18418724 | 690 | 138
+692 | 207028 | 18623476 | 691 | 138
+693 | 209328 | 18830504 | 692 | 138
+694 | 211654 | 19039832 | 693 | 138
+695 | 214005 | 19251486 | 694 | 139
+696 | 216383 | 19465491 | 695 | 139
+697 | 218787 | 19681874 | 696 | 139
+698 | 221218 | 19900661 | 697 | 139
+699 | 223676 | 20121879 | 698 | 139
+700 | 226162 | 20345555 | 699 | 140
+701 | 228675 | 20571717 | 700 | 140
+702 | 231215 | 20800392 | 701 | 140
+703 | 233785 | 21031607 | 702 | 140
+704 | 236382 | 21265392 | 703 | 140
+705 | 239009 | 21501774 | 704 | 141
+706 | 241664 | 21740783 | 705 | 141
+707 | 244349 | 21982447 | 706 | 141
+708 | 247064 | 22226796 | 707 | 141
+709 | 249810 | 22473860 | 708 | 141
+710 | 252585 | 22723670 | 709 | 142
+711 | 255392 | 22976255 | 710 | 142
+712 | 258229 | 23231647 | 711 | 142
+713 | 261099 | 23489876 | 712 | 142
+714 | 264000 | 23750975 | 713 | 142
+715 | 266933 | 24014975 | 714 | 143
+716 | 269899 | 24281908 | 715 | 143
+717 | 272898 | 24551807 | 716 | 143
+718 | 275930 | 24824705 | 717 | 143
+719 | 278996 | 25100635 | 718 | 143
+720 | 282096 | 25379631 | 719 | 144
+721 | 285230 | 25661727 | 720 | 144
+722 | 288400 | 25946957 | 721 | 144
+723 | 291604 | 26235357 | 722 | 144
+724 | 294844 | 26526961 | 723 | 144
+725 | 298120 | 26821805 | 724 | 145
+726 | 301433 | 27119925 | 725 | 145
+727 | 304782 | 27421358 | 726 | 145
+728 | 308168 | 27726140 | 727 | 145
+729 | 311592 | 28034308 | 728 | 145
+730 | 315054 | 28345900 | 729 | 146
+731 | 318555 | 28660954 | 730 | 146
+732 | 322095 | 28979509 | 731 | 146
+733 | 325673 | 29301604 | 732 | 146
+734 | 329292 | 29627277 | 733 | 146
+735 | 332951 | 29956569 | 734 | 147
+736 | 336650 | 30289520 | 735 | 147
+737 | 340391 | 30626170 | 736 | 147
+738 | 344173 | 30966561 | 737 | 147
+739 | 347997 | 31310734 | 738 | 147
+740 | 351864 | 31658731 | 739 | 148
+741 | 355773 | 32010595 | 740 | 148
+742 | 359726 | 32366368 | 741 | 148
+743 | 363723 | 32726094 | 742 | 148
+744 | 367765 | 33089817 | 743 | 148
+745 | 371851 | 33457582 | 744 | 149
+746 | 375983 | 33829433 | 745 | 149
+747 | 380160 | 34205416 | 746 | 149
+748 | 384384 | 34585576 | 747 | 149
+749 | 388655 | 34969960 | 748 | 149
+750 | 392974 | 35358615 | 749 | 150
+751 | 397340 | 35751589 | 750 | 150
+752 | 401755 | 36148929 | 751 | 150
+753 | 406219 | 36550684 | 752 | 150
+754 | 410732 | 36956903 | 753 | 150
+755 | 415296 | 37367635 | 754 | 151
+756 | 419910 | 37782931 | 755 | 151
+757 | 424576 | 38202841 | 756 | 151
+758 | 429294 | 38627417 | 757 | 151
+759 | 434063 | 39056711 | 758 | 151
+760 | 438886 | 39490774 | 759 | 152
+761 | 443763 | 39929660 | 760 | 152
+762 | 448694 | 40373423 | 761 | 152
+763 | 453679 | 40822117 | 762 | 152
+764 | 458720 | 41275796 | 763 | 152
+765 | 463817 | 41734516 | 764 | 153
+766 | 468970 | 42198333 | 765 | 153
+767 | 474181 | 42667303 | 766 | 153
+768 | 479450 | 43141484 | 767 | 153
+769 | 484777 | 43620934 | 768 | 153
+770 | 490163 | 44105711 | 769 | 154
+771 | 495610 | 44595874 | 770 | 154
+772 | 501116 | 45091484 | 771 | 154
+773 | 506684 | 45592600 | 772 | 154
+774 | 512314 | 46099284 | 773 | 154
+775 | 518007 | 46611598 | 774 | 155
+776 | 523762 | 47129605 | 775 | 155
+777 | 529582 | 47653367 | 776 | 155
+778 | 535466 | 48182949 | 777 | 155
+779 | 541416 | 48718415 | 778 | 155
+780 | 547431 | 49259831 | 779 | 156
+781 | 553514 | 49807262 | 780 | 156
+782 | 559664 | 50360776 | 781 | 156
+783 | 565883 | 50920440 | 782 | 156
+784 | 572170 | 51486323 | 783 | 156
+785 | 578528 | 52058493 | 784 | 157
+786 | 584956 | 52637021 | 785 | 157
+787 | 591455 | 53221977 | 786 | 157
+788 | 598027 | 53813432 | 787 | 157
+789 | 604672 | 54411459 | 788 | 157
+790 | 611390 | 55016131 | 789 | 158
+791 | 618184 | 55627521 | 790 | 158
+792 | 625052 | 56245705 | 791 | 158
+793 | 631997 | 56870757 | 792 | 158
+794 | 639020 | 57502754 | 793 | 158
+795 | 646120 | 58141774 | 794 | 159
+796 | 653299 | 58787894 | 795 | 159
+797 | 660558 | 59441193 | 796 | 159
+798 | 667897 | 60101751 | 797 | 159
+799 | 675318 | 60769648 | 798 | 159
+800 | 682822 | 61444966 | 799 | 160
+801 | 690409 | 62127788 | 800 | 160
+802 | 698080 | 62818197 | 801 | 160
+803 | 705836 | 63516277 | 802 | 160
+804 | 713679 | 64222113 | 803 | 160
+805 | 721609 | 64935792 | 804 | 161
+806 | 729627 | 65657401 | 805 | 161
+807 | 737734 | 66387028 | 806 | 161
+808 | 745931 | 67124762 | 807 | 161
+809 | 754219 | 67870693 | 808 | 161
+810 | 762599 | 68624912 | 809 | 162
+811 | 771072 | 69387511 | 810 | 162
+812 | 779640 | 70158583 | 811 | 162
+813 | 788302 | 70938223 | 812 | 162
+814 | 797061 | 71726525 | 813 | 162
+815 | 805918 | 72523586 | 814 | 163
+816 | 814872 | 73329504 | 815 | 163
+817 | 823926 | 74144376 | 816 | 163
+818 | 833081 | 74968302 | 817 | 163
+819 | 842338 | 75801383 | 818 | 163
+820 | 851697 | 76643721 | 819 | 164
+821 | 861160 | 77495418 | 820 | 164
+822 | 870729 | 78356578 | 821 | 164
+823 | 880403 | 79227307 | 822 | 164
+824 | 890186 | 80107710 | 823 | 164
+825 | 900077 | 80997896 | 824 | 165
+826 | 910078 | 81897973 | 825 | 165
+827 | 920189 | 82808051 | 826 | 165
+828 | 930414 | 83728240 | 827 | 165
+829 | 940752 | 84658654 | 828 | 165
+830 | 951205 | 85599406 | 829 | 166
+831 | 961773 | 86550611 | 830 | 166
+832 | 972460 | 87512384 | 831 | 166
+833 | 983265 | 88484844 | 832 | 166
+834 | 994190 | 89468109 | 833 | 166
+835 | 1005237 | 90462299 | 834 | 167
+836 | 1016406 | 91467536 | 835 | 167
+837 | 1027699 | 92483942 | 836 | 167
+838 | 1039118 | 93511641 | 837 | 167
+839 | 1050664 | 94550759 | 838 | 167
+840 | 1062338 | 95601423 | 839 | 168
+841 | 1074142 | 96663761 | 840 | 168
+842 | 1086077 | 97737903 | 841 | 168
+843 | 1098144 | 98823980 | 842 | 168
+844 | 1110346 | 99922124 | 843 | 168
+845 | 1122683 | 101032470 | 844 | 169
+846 | 1135157 | 102155153 | 845 | 169
+847 | 1147770 | 103290310 | 846 | 169
+848 | 1160523 | 104438080 | 847 | 169
+849 | 1173418 | 105598603 | 848 | 169
+850 | 1186456 | 106772021 | 849 | 170
+851 | 1199639 | 107958477 | 850 | 170
+852 | 1212968 | 109158116 | 851 | 170
+853 | 1226445 | 110371084 | 852 | 170
+854 | 1240073 | 111597529 | 853 | 170
+855 | 1253851 | 112837602 | 854 | 171
+856 | 1267783 | 114091453 | 855 | 171
+857 | 1281869 | 115359236 | 856 | 171
+858 | 1296112 | 116641105 | 857 | 171
+859 | 1310514 | 117937217 | 858 | 171
+860 | 1325075 | 119247731 | 859 | 172
+861 | 1339798 | 120572806 | 860 | 172
+862 | 1354684 | 121912604 | 861 | 172
+863 | 1369737 | 123267288 | 862 | 172
+864 | 1384956 | 124637025 | 863 | 172
+865 | 1400344 | 126021981 | 864 | 173
+866 | 1415904 | 127422325 | 865 | 173
+867 | 1431636 | 128838229 | 866 | 173
+868 | 1447543 | 130269865 | 867 | 173
+869 | 1463627 | 131717408 | 868 | 173
+870 | 1479889 | 133181035 | 869 | 174
+871 | 1496332 | 134660924 | 870 | 174
+872 | 1512958 | 136157256 | 871 | 174
+873 | 1529769 | 137670214 | 872 | 174
+874 | 1546766 | 139199983 | 873 | 174
+875 | 1563953 | 140746749 | 874 | 175
+876 | 1581330 | 142310702 | 875 | 175
+877 | 1598900 | 143892032 | 876 | 175
+878 | 1616666 | 145490932 | 877 | 175
+879 | 1634629 | 147107598 | 878 | 175
+880 | 1652791 | 148742227 | 879 | 176
+881 | 1671156 | 150395018 | 880 | 176
+882 | 1689724 | 152066174 | 881 | 176
+883 | 1708499 | 153755898 | 882 | 176
+884 | 1727482 | 155464397 | 883 | 176
+885 | 1746676 | 157191879 | 884 | 177
+886 | 1766084 | 158938555 | 885 | 177
+887 | 1785707 | 160704639 | 886 | 177
+888 | 1805548 | 162490346 | 887 | 177
+889 | 1825610 | 164295894 | 888 | 177
+890 | 1845895 | 166121504 | 889 | 178
+891 | 1866404 | 167967399 | 890 | 178
+892 | 1887142 | 169833803 | 891 | 178
+893 | 1908111 | 171720945 | 892 | 178
+894 | 1929312 | 173629056 | 893 | 178
+895 | 1950749 | 175558368 | 894 | 179
+896 | 1972424 | 177509117 | 895 | 179
+897 | 1994339 | 179481541 | 896 | 179
+898 | 2016499 | 181475880 | 897 | 179
+899 | 2038904 | 183492379 | 898 | 179
+900 | 2061559 | 185531283 | 899 | 180
+901 | 2084465 | 187592842 | 900 | 180
+902 | 2107626 | 189677307 | 901 | 180
+903 | 2131044 | 191784933 | 902 | 180
+904 | 2154722 | 193915977 | 903 | 180
+905 | 2178663 | 196070699 | 904 | 181
+906 | 2202871 | 198249362 | 905 | 181
+907 | 2227347 | 200452233 | 906 | 181
+908 | 2252095 | 202679580 | 907 | 181
+909 | 2277119 | 204931675 | 908 | 181
+910 | 2302420 | 207208794 | 909 | 182
+911 | 2328002 | 209511214 | 910 | 182
+912 | 2353869 | 211839216 | 911 | 182
+913 | 2380023 | 214193085 | 912 | 182
+914 | 2406468 | 216573108 | 913 | 182
+915 | 2433206 | 218979576 | 914 | 183
+916 | 2460242 | 221412782 | 915 | 183
+917 | 2487578 | 223873024 | 916 | 183
+918 | 2515218 | 226360602 | 917 | 183
+919 | 2543165 | 228875820 | 918 | 183
+920 | 2571422 | 231418985 | 919 | 184
+921 | 2599993 | 233990407 | 920 | 184
+922 | 2628882 | 236590400 | 921 | 184
+923 | 2658092 | 239219282 | 922 | 184
+924 | 2687626 | 241877374 | 923 | 184
+925 | 2717489 | 244565000 | 924 | 185
+926 | 2747683 | 247282489 | 925 | 185
+927 | 2778213 | 250030172 | 926 | 185
+928 | 2809082 | 252808385 | 927 | 185
+929 | 2840294 | 255617467 | 928 | 185
+930 | 2871853 | 258457761 | 929 | 186
+931 | 2903762 | 261329614 | 930 | 186
+932 | 2936026 | 264233376 | 931 | 186
+933 | 2968649 | 267169402 | 932 | 186
+934 | 3001634 | 270138051 | 933 | 186
+935 | 3034985 | 273139685 | 934 | 187
+936 | 3068707 | 276174670 | 935 | 187
+937 | 3102804 | 279243377 | 936 | 187
+938 | 3137280 | 282346181 | 937 | 187
+939 | 3172139 | 285483461 | 938 | 187
+940 | 3207384 | 288655600 | 939 | 188
+941 | 3243022 | 291862984 | 940 | 188
+942 | 3279056 | 295106006 | 941 | 188
+943 | 3315490 | 298385062 | 942 | 188
+944 | 3352328 | 301700552 | 943 | 188
+945 | 3389577 | 305052880 | 944 | 189
+946 | 3427238 | 308442457 | 945 | 189
+947 | 3465319 | 311869695 | 946 | 189
+948 | 3503822 | 315335014 | 947 | 189
+949 | 3542754 | 318838836 | 948 | 189
+950 | 3582118 | 322381590 | 949 | 190
+951 | 3621919 | 325963708 | 950 | 190
+952 | 3662163 | 329585627 | 951 | 190
+953 | 3702853 | 333247790 | 952 | 190
+954 | 3743996 | 336950643 | 953 | 190
+955 | 3785596 | 340694639 | 954 | 191
+956 | 3827658 | 344480235 | 955 | 191
+957 | 3870188 | 348307893 | 956 | 191
+958 | 3913190 | 352178081 | 957 | 191
+959 | 3956670 | 356091271 | 958 | 191
+960 | 4000633 | 360047941 | 959 | 192
+961 | 4045084 | 364048574 | 960 | 192
+962 | 4090030 | 368093658 | 961 | 192
+963 | 4135474 | 372183688 | 962 | 192
+964 | 4181424 | 376319162 | 963 | 192
+965 | 4227884 | 380500586 | 964 | 193
+966 | 4274861 | 384728470 | 965 | 193
+967 | 4322359 | 389003331 | 966 | 193
+968 | 4370386 | 393325690 | 967 | 193
+969 | 4418945 | 397696076 | 968 | 193
+970 | 4468045 | 402115021 | 969 | 194
+971 | 4517690 | 406583066 | 970 | 194
+972 | 4567886 | 411100756 | 971 | 194
+973 | 4618641 | 415668642 | 972 | 194
+974 | 4669959 | 420287283 | 973 | 194
+975 | 4721847 | 424957242 | 974 | 195
+976 | 4774312 | 429679089 | 975 | 195
+977 | 4827360 | 434453401 | 976 | 195
+978 | 4880997 | 439280761 | 977 | 195
+979 | 4935231 | 444161758 | 978 | 195
+980 | 4990067 | 449096989 | 979 | 196
+981 | 5045512 | 454087056 | 980 | 196
+982 | 5101573 | 459132568 | 981 | 196
+983 | 5158257 | 464234141 | 982 | 196
+984 | 5215571 | 469392398 | 983 | 196
+985 | 5273522 | 474607969 | 984 | 197
+986 | 5332117 | 479881491 | 985 | 197
+987 | 5391362 | 485213608 | 986 | 197
+988 | 5451266 | 490604970 | 987 | 197
+989 | 5511836 | 496056236 | 988 | 197
+990 | 5573079 | 501568072 | 989 | 198
+991 | 5635002 | 507141151 | 990 | 198
+992 | 5697613 | 512776153 | 991 | 198
+993 | 5760920 | 518473766 | 992 | 198
+994 | 5824930 | 524234686 | 993 | 198
+995 | 5889651 | 530059616 | 994 | 199
+996 | 5955092 | 535949267 | 995 | 199
+997 | 6021260 | 541904359 | 996 | 199
+998 | 6088162 | 547925619 | 997 | 199
+999 | 6155809 | 554013781 | 998 | 199
+1000 | 6224207 | 560169590 | 999 | 200
