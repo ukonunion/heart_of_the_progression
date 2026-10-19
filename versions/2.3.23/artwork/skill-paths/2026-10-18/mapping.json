@@ -1,0 +1,26 @@
+{
+  "version": "2.3.16",
+  "state": "on iff parent skill is unlocked",
+  "removedDependency": [
+    "parcool:fast_run",
+    "parcool:long_jump"
+  ],
+  "textures": [
+    {
+      "file": "line_on.png",
+      "sha256": "02d9cdb7d7adeaf2392c321737b88b400b1aa06cec31303dbed23e396642889a"
+    },
+    {
+      "file": "line_off.png",
+      "sha256": "dda4349da8b62f5e9cc4a9044381143e8e80fdc27ef31736faebea4043e3ed78"
+    },
+    {
+      "file": "double_line_on.png",
+      "sha256": "6ae13faac5c1b7d66d3abd798db69501cefe5a90b654b0bfc16f26f9dd8bcd7a"
+    },
+    {
+      "file": "double_line_off.png",
+      "sha256": "9a5430e53689dfac1c42cb0dde85d8b3e217999338852e5dc0204c583e5cc4df"
+    }
+  ]
+}
