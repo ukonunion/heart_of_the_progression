@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "rpgprogression:skint_nether",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 32,
+    "salt": 193726518,
+    "spread_type": "triangular"
+  }
+}

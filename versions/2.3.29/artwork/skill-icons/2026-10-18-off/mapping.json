@@ -1,0 +1,254 @@
+{
+  "version": "2.3.20",
+  "source": "user attachments",
+  "state": "unlearned, regardless of availability",
+  "files": [
+    {
+      "attachment": 1,
+      "originalName": "OFF.Запладка.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/placeholder.png",
+      "skill": null,
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "036072d886d36cf304f2ac282f7de48cc9f8d17d9dabcb41d014f57fb4a61133",
+      "pixelSha256": "07b215d4e6fab83524fc9af747bedc8bad59e5ddbe2f6a75cec757391c4b985e",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 2,
+      "originalName": "OFF.Зиплайн.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/ride_zipline.png",
+      "skill": "parcool:ride_zipline",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "356036cd716b8708125cf36d576349fe6328a09f5206f72b7cbcc344c7b3ef66",
+      "pixelSha256": "29ce82b834c6d3b3c2c6674ad33817b8eea32f42878404c2ad02a28f33804ef0",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 3,
+      "originalName": "OFF.Маскировка.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/hide_in_block.png",
+      "skill": "parcool:hide_in_block",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "a960f485753ec856d6b5c0bc4598e4c44f58159861cdbbb321729f5b922cc8c1",
+      "pixelSha256": "610ef7bd36fff7a35a0249d6414aac8bf6a37a5968203e2b153ca9afe673ce64",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 4,
+      "originalName": "OFF.Перемахивание.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/vault.png",
+      "skill": "parcool:vault",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "c2e03f2fc1ed01068f44dac5af317f08734dc519bcf7fa8fc5ffbf19f1ab7f2b",
+      "pixelSha256": "c3aeb75b1699c9669a1f0d1861255d9a3d5b0d4b6be245e08e137d540328df53",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 5,
+      "originalName": "OFF.Плавание.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/fast_swim.png",
+      "skill": "parcool:fast_swim",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "bfc634b6b49e267bf3c8ac02278978608c5592ab740bfc66e23f22a25b62ac55",
+      "pixelSha256": "21706c173662a51f2ef7ac8113db66a6e02cdc5ed864ce92912e55e9abf3faee",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 6,
+      "originalName": "OFF.Подьем.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/climb_up.png",
+      "skill": "parcool:climb_up",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "a2009bccd55b6468acba2f3b0375b5e30b884169f98de5fdd6cf761165dc051f",
+      "pixelSha256": "7966923af6a0b04702efd87aa77b449bc38c002129b41e84ab00d8ff0ccd940f",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 7,
+      "originalName": "OFF.Ползанье по стене.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/wall_run.png",
+      "skill": "parcool:wall_run",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6847e080bb6e9fa9a3ab3d972c9b5ff14c745752080f93eec12624344c1381c1",
+      "pixelSha256": "d5bff010b385257f0ae3f85e383543c44a85bad6f3881fa9f530316883a037a6",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 8,
+      "originalName": "OFF.Прыжок от стены.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/wall_jump.png",
+      "skill": "parcool:wall_jump",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "30b5809c5382cb0e4dd947c4787abb4ad60cc3c17c694723f2c1714d22f62225",
+      "pixelSha256": "3305c78f479148fbcba77272f2bc16f48ee5d1b25a76971eaa3544814c30b387",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 9,
+      "originalName": "OFF.Прыжок.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/charge_jump.png",
+      "skill": "parcool:charge_jump",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "09a5e1bd9d566aa872a2c1018bead9f3c20b78654347e0a6f55f4cc06d165902",
+      "pixelSha256": "70c042e98ee5b20723caf49cf2769acdcaf68e3e30bc9c92a7a72f9d538c2487",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 10,
+      "originalName": "OFF.Свисание.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/hang_down.png",
+      "skill": "parcool:hang_down",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "96f5b4a38228ae5d40c445bc1218cf8e4c287d3a13818e38fb0fb6c65755e891",
+      "pixelSha256": "cc3eba38ddb82bc139b544b6f6faedd120e9f4df8c38fe8fb0df396f4484da5e",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 11,
+      "originalName": "OFF.Свободное падение.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/skydive.png",
+      "skill": "parcool:skydive",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "5fb717af6bdf10723039484f133060d5a1ff73747ba0f709760c44e1ffeb6a96",
+      "pixelSha256": "ab250b09c9911141ace561af926de13894dddb39a0559333eee8479bc6985cf6",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 12,
+      "originalName": "OFF.Скольжение.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/slide.png",
+      "skill": "parcool:slide",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "fdd1eb825675450fdb42c998b84440d2f5f13cf65ea86bef9a7835e2f6738d4f",
+      "pixelSha256": "9fe8babf424c6ea233475e9deb0f27bbc30bcc626d1c4f7b2a7cca44f56c771a",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 13,
+      "originalName": "OFF.Соскальзование.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/slide_down.png",
+      "skill": "parcool:slide_down",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f4cace46dff845b4916a61ade759a39c2ea8157ab34b1694cb2b569eab11234a",
+      "pixelSha256": "64b8982e6da29e065ba2cef1a89f1bd45844ab1d84adae471edc81428fb4e4a7",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 14,
+      "originalName": "OFF.Ящерка.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/crawl.png",
+      "skill": "parcool:crawl",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f3e24bc65af013d3d59cff8ecceb93710dccde72ca24c02f5a96c843900935d3",
+      "pixelSha256": "2d9580c17ac15985daa4a4cfceb20795ff0cb8f69c939cea5d592fd992d1a5e3",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 15,
+      "originalName": "OFF.Акробатический прыжок.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/trick_jump.png",
+      "skill": "parcool:trick_jump",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "ada79605a89884cbc5af7e75639ff080f78a38666c4945f1a3403edd74183cf4",
+      "pixelSha256": "16e5944d6760da09ee74349c160d12656c53ef711542faa45e0cba13564d25f5",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 16,
+      "originalName": "OFF.Бег по стене.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/horizontal_wall_run.png",
+      "skill": "parcool:horizontal_wall_run",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "3b6411c8b3e023e554005460c00b40edc3ae0b2d0b97674df2b23775d2d3176d",
+      "pixelSha256": "cfa6f919921337d24d65fdd5c196dd3d814b43dcdd73470c0a19458274ac974a",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 17,
+      "originalName": "OFF.Быстрый бег.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/fast_run.png",
+      "skill": "parcool:fast_run",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "3db7e7390ffd2470f80af3c921ec5178dcf0d2fe93ff22c55632466dda2d1b4f",
+      "pixelSha256": "f4085df8521c6eac9c583b5ddcc02892b7da121bd1e60886b63055d5748dd811",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 18,
+      "originalName": "OFF.Взбирание на столб.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/pole_climb.png",
+      "skill": "parcool:pole_climb",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "0aed4aff74a953358f964af756c71c31391b946469444c3d3d262a60cffb96ff",
+      "pixelSha256": "3e39352e6d577a8fe63b33dc061de679e6fcf18adc79d04d09dfa7a8f3e5f58e",
+      "byteIdenticalToAttachment": true
+    },
+    {
+      "attachment": 19,
+      "originalName": "OFF.Висение.png",
+      "resource": "src/main/resources/assets/rpgprogression/textures/gui/icons/off/hang_on.png",
+      "skill": "parcool:hang_on",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "d8fa52408beb275f7d8a67db937ad9aaaf2a9e14fbd523655ddc4e464fa1d2b1",
+      "pixelSha256": "a31753511604ac935844c503ed52fdd732d695498c7f64dc079820b483cfa824",
+      "byteIdenticalToAttachment": true
+    }
+  ]
+}
