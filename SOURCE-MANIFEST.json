@@ -60036,6 +60036,1479 @@
           "bytes": 18513
         }
       ]
+    },
+    {
+      "version": "1.0.10",
+      "archive": "heart-of-the-progression-1.0.10-source.zip",
+      "archive_sha256": "351083e69cba4ffcf35ddab27b403e070d442ff23c42569826d6436c5fd861c6",
+      "included_files": [
+        {
+          "path": ".gitignore",
+          "bytes": 51,
+          "sha256": "cdc71c126219c80f1e0418eab86f93cb22f16817f1b3d5a762835b57b28cf64e"
+        },
+        {
+          "path": "ASSET-CREDITS.txt",
+          "bytes": 3660,
+          "sha256": "3e6976228819c62a346d2f160960dae84089d1d3be2fa71f3da21c33d0947d8a"
+        },
+        {
+          "path": "ATTRIBUTES.ru.md",
+          "bytes": 12525,
+          "sha256": "4fef4a32f42b0371143808c78a700a45c22711f73ae25bddffdf2562279a2d18"
+        },
+        {
+          "path": "build.gradle",
+          "bytes": 6198,
+          "sha256": "6cac309d674a8e0557d8c627be18747c23b7ca400507e72cae6250097da53475"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "bytes": 37562,
+          "sha256": "4618e1c4c3e471e995d8e13adaac7300a0cfd72c76133f4ea451c161495a7791"
+        },
+        {
+          "path": "docs/ARMOR-FOOD-REPORT-0.9.0.ru.txt",
+          "bytes": 20046,
+          "sha256": "ed01ea2013ea0c940c21c16021255931f740e7ec077668fd9e1367934d2c6ee5"
+        },
+        {
+          "path": "docs/ARMOR-REPORT-0.9.1.ru.txt",
+          "bytes": 12776,
+          "sha256": "7b8922266faee4594e5d5c91ad5067f2a2d3915934cafd4fee9a9eabac4ca849"
+        },
+        {
+          "path": "docs/HUD-CHANGES-0.9.2.ru.txt",
+          "bytes": 3269,
+          "sha256": "15acaa5a77a7eca1b46cbe4ca36fa36ed70322491c464bdc0411aa0df0acb743"
+        },
+        {
+          "path": "docs/LEVELING-REPORT-0.8.1.ru.txt",
+          "bytes": 24538,
+          "sha256": "972569a56e6736e24c70caf3f302728847bb8a9113a4ff99b59bfe32dc5aac2c"
+        },
+        {
+          "path": "docs/LEVELING-REPORT-0.8.2.ru.txt",
+          "bytes": 25401,
+          "sha256": "d7cd4b0a99955ad08377f317973b5c23213762c1f678f54712846a660afcbbe2"
+        },
+        {
+          "path": "docs/LEVELING-REPORT-0.9.3.ru.txt",
+          "bytes": 10515,
+          "sha256": "3314330e50b097a6ba34b765e6b47c61468ad2c50207364df4f846e99aa58096"
+        },
+        {
+          "path": "docs/LEVELING-REPORT-1.0.0.ru.txt",
+          "bytes": 10631,
+          "sha256": "201a0164b278e6f72f2563d2328ef92ed299f744005d6ba47e95b31c790491f4"
+        },
+        {
+          "path": "docs/MODRINTH-CHANGELOG-1.0.0.en.md",
+          "bytes": 2615,
+          "sha256": "b28edcf49798ee3b43bc2ff4f4f773e9dbd5a2ff461aa1862d0f9a048730e533"
+        },
+        {
+          "path": "docs/MODRINTH-CHANGELOG-1.0.0.ru.md",
+          "bytes": 11567,
+          "sha256": "66a1d2bce581ed1c65d374933269419a9d8a626121f30d127cd1b9a47125b8c0"
+        },
+        {
+          "path": "docs/reference/menu-example.png",
+          "bytes": 15318,
+          "sha256": "55cc7eb8cae1264cbc49e008a6f049bb167ef617abf243bc52fc0d286e9aa6ff"
+        },
+        {
+          "path": "docs/XP-CATALOG-0.8.1.ru.txt",
+          "bytes": 50730,
+          "sha256": "0e39fc141323ac829ce4a53382497238fdd46ea4b81334e64df1e40282270ec6"
+        },
+        {
+          "path": "docs/XP-CATALOG-0.8.2.ru.txt",
+          "bytes": 50552,
+          "sha256": "40a91a4de569ba3a4494f21097882faeead6fa987ad14517eca4183f9ca544bb"
+        },
+        {
+          "path": "docs/XP-CATALOG-0.9.3.ru.txt",
+          "bytes": 80261,
+          "sha256": "31e37cf7f9f4261b2922e6b409d65feddf3d7d7aa3998b0b461795a4a99dd109"
+        },
+        {
+          "path": "docs/XP-CATALOG-1.0.0.ru.txt",
+          "bytes": 81652,
+          "sha256": "e4f41e877e26d71fbf73367a7c9cf5858d63537e0ed6842a25a37fdf7249ae14"
+        },
+        {
+          "path": "examples/defaultconfigs/rpgprogression-server.toml",
+          "bytes": 8215,
+          "sha256": "d49b08e6f329b8c27970f3e470998540da8a532fe115c8bd87b604fe61dc2803"
+        },
+        {
+          "path": "examples/item-requirements.toml",
+          "bytes": 621,
+          "sha256": "354cc8092c94c783522d4b965baa668816a1f264f545b43aaba046c9652ba28e"
+        },
+        {
+          "path": "examples/recipe-datapack/data/rpgprogression/recipe_requirements/defaults.json",
+          "bytes": 141,
+          "sha256": "e26b138bf4e70e501dea01e43131481cdfb589cef34604f7335b5193efce0d80"
+        },
+        {
+          "path": "examples/recipe-datapack/pack.mcmeta",
+          "bytes": 107,
+          "sha256": "60178cb66061e815dfd23101cb36ea4d1678bc4a0f17516bbe48b1df9bdcdd68"
+        },
+        {
+          "path": "examples/rpgprogression-client.toml",
+          "bytes": 214,
+          "sha256": "186767a09eb8137369d9dd8f6cd764ede02a5c0336ed362876f3b07e9dd803be"
+        },
+        {
+          "path": "examples/rpgprogression-server.toml",
+          "bytes": 8215,
+          "sha256": "d49b08e6f329b8c27970f3e470998540da8a532fe115c8bd87b604fe61dc2803"
+        },
+        {
+          "path": "examples/xp-and-resources.toml",
+          "bytes": 879,
+          "sha256": "5820f1fca93c9ce318ba7ee4aeab444ba0c68191dd09b66b361d0f9ba72ad801"
+        },
+        {
+          "path": "gradle/wrapper/gradle-wrapper.jar",
+          "bytes": 62076,
+          "sha256": "ed2c26eba7cfb93cc2b7785d05e534f07b5b48b5e7fc941921cd098628abca58"
+        },
+        {
+          "path": "gradle/wrapper/gradle-wrapper.properties",
+          "bytes": 221,
+          "sha256": "0c0c22ccb8e653a13a7df19493b11fe5ce0f5fae7ee4835223d2d2ad028799da"
+        },
+        {
+          "path": "gradle.properties",
+          "bytes": 75,
+          "sha256": "f4a80544f56d2f10bc6f7ff008426895a2f68e6f7e9e75b80dfd8186459d677b"
+        },
+        {
+          "path": "gradlew",
+          "bytes": 8496,
+          "sha256": "fb3cbfe6d066ee52bc07f62ed61ff77bde195384f52496c94280a83008d9f531"
+        },
+        {
+          "path": "gradlew.bat",
+          "bytes": 2868,
+          "sha256": "8e327fcb99d29ce0fe3ee2fec6e6a25de815a2df83a6a44a553dea89ffc92955"
+        },
+        {
+          "path": "LEVELING.ru.md",
+          "bytes": 10408,
+          "sha256": "118745f1f719996861f4cb689ad7d326a917d6d2297a1b1e5253a0b743224536"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1085,
+          "sha256": "e1984d8df69497dbbf4f84b050162442dbf5ed54f7ed2a06bc2762ffb229c395"
+        },
+        {
+          "path": "README.ru.md",
+          "bytes": 99894,
+          "sha256": "2323613cfa9f1c1d6403aa7735a9cb35c7aee4b73adc42f8feb54f9ff6888c61"
+        },
+        {
+          "path": "settings.gradle",
+          "bytes": 253,
+          "sha256": "8ab0e5ed459fb0bd3051c9cd8d864df25ef0c08203564f26bd05b921667d239b"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/attribute/AttributeManager.java",
+          "bytes": 2828,
+          "sha256": "8661a08862bc4b64ca6fca1230898ad745ab60037e110b6c2cecca9508f6abc1"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/attribute/RPGAttribute.java",
+          "bytes": 307,
+          "sha256": "edbc091949f3d3650a83dbd1def75cbf2f9e9821972cf902e64255173d718d9c"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/ClientData.java",
+          "bytes": 2287,
+          "sha256": "62ee6b3cfaec5cfd338e01ef41fd6b8b95768ca3b1f4aa0e03c33543b7a57288"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/ClientEvents.java",
+          "bytes": 3396,
+          "sha256": "cc2e0a3541918d2345769f7989554de6fbe92f496e8744944bd471eb31cda897"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/ClientRegistration.java",
+          "bytes": 1587,
+          "sha256": "81bc32837a5ca310912f5652318b1a2476474af0aa07b522d3aea198505f69cc"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/ClientSkillTree.java",
+          "bytes": 1052,
+          "sha256": "bb8a6f01911c6b5eefc0c46d1ae4adb44edf1bfc8e6f4913630b2b323b6ac326"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/CharacterScreen.java",
+          "bytes": 7579,
+          "sha256": "02761c83f26efdffccf48caa0ca38eb89f457fc4e27160c5ed51c2575fa3b85a"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/EpicSkillText.java",
+          "bytes": 2141,
+          "sha256": "c86ce5633c882046c96bac87c5823c80ef764c8cd20a4699656d3fa349a9d51e"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/GuiTextures.java",
+          "bytes": 1833,
+          "sha256": "7d20629b8ff3da9aa1993aa28a6aff36e7cd3be9f458e2cbd65b1458a9aab72b"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/GuiTooltips.java",
+          "bytes": 1091,
+          "sha256": "263163f96bcb3666c38b3e934a640c632f50526424d3166f45a66052d8e7cf48"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/SkillDescriptions.java",
+          "bytes": 1036,
+          "sha256": "a83aa4eb761f8d7714f755804889b76e9bfadbdafa284699585c454acc2a9a44"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/SkillInfoTooltip.java",
+          "bytes": 4440,
+          "sha256": "15a4c9c8707785be06544e15df8dd6dbc40da947cab9a4c621a3144d8c6ed80f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/SkillTabButton.java",
+          "bytes": 1039,
+          "sha256": "f11ba433412d20cdc679dabd02afb8575d9b43ae6e25bcda0d67ef706b6832eb"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/SkillTreeActionButton.java",
+          "bytes": 1087,
+          "sha256": "a9ee97ae2d63c0f6299e176d2cb48802d8198708a40305dd71be13944ad7a49c"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/SkillTreeButton.java",
+          "bytes": 686,
+          "sha256": "36a1d89d23dd155eb818ac0f12e14c5225ea820e64e0c7394b423f8152f2f139"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/gui/SkillTreeScreen.java",
+          "bytes": 14964,
+          "sha256": "c7624bccd0b17ce6d6284f83c5968cb25822f01bf03bf8e8699df4a347fd6b8e"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/CenteredFill.java",
+          "bytes": 612,
+          "sha256": "48b29efb4721a0a35b1f82eb016dd91f47188742224c8a93d5ec78bbc354cb60"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/CenteredHud.java",
+          "bytes": 6955,
+          "sha256": "a9e5a3b83703964854798beb995730a16a81ca3def52096ce93c33a16a554e0b"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/ExperienceChangeTracker.java",
+          "bytes": 904,
+          "sha256": "f1bb4337f5c03a854c6c3bb066892d6d68d37ee121c264b6afeecc77a5063db3"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/HealthStyle.java",
+          "bytes": 939,
+          "sha256": "02f59f979d3bdc98453fd85fb92d5ed323a06198d821a512201b72fc68cc50bd"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/HudVisibilityAnimation.java",
+          "bytes": 606,
+          "sha256": "11de3edd858ac6d3e2158456682c7c542ce1464d54960e6be92321b47b02ede6"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/IronsManaHud.java",
+          "bytes": 2821,
+          "sha256": "913a734307e5fe9da8e1277e10486556b75cae963322481d97a30ed75283cca3"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/LevelUpAnimation.java",
+          "bytes": 656,
+          "sha256": "e3b497686f32af81c90532d6bc822e0237273f797ed50d383c4ae6fc384a109d"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/LevelUpHud.java",
+          "bytes": 2789,
+          "sha256": "dee7c66451cce51ac54326b8b43ab4a44cf8fbea3d41a6ea2dd505b8c9413c8d"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/ManaIconMask.java",
+          "bytes": 3880,
+          "sha256": "a70ecbf933e183a4a02170c2524d959767e1d68623298ff87ea6ab10938c2111"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/hud/TexturedMeters.java",
+          "bytes": 2083,
+          "sha256": "f64ecd80c75d4b40c1f0eb2a2aa53299014c3be12f231f715a02481bf4cd7af7"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/client/RequirementTooltip.java",
+          "bytes": 2920,
+          "sha256": "8bcc1f1385af17a4e786d8e4cd93659b757963f0661593267737d331553ef2f5"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/command/RPGCommand.java",
+          "bytes": 3855,
+          "sha256": "0a28e420d0149903c4145a472fb103dda410d852329f35b39ee8e0fff13c98f7"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/DisabledIronsWeapons.java",
+          "bytes": 2403,
+          "sha256": "8ec346118dc7038d77deb7f0333bca2784a7185922dfb707000dd9dfced23802"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/DisabledWeaponCreative.java",
+          "bytes": 758,
+          "sha256": "73ad3bc1ff3e98d3ccd028fc03ccfc43f393e75411c3cb660e0a5f92a010ec79"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/DisabledWeaponEvents.java",
+          "bytes": 4211,
+          "sha256": "8218c843e8afe7429e944124dd49104bf0f251dc006fbdd4cee7977204331ce8"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/EpicAttackAccess.java",
+          "bytes": 100,
+          "sha256": "2fabf747069e0bfc0c07aa4c930aca1b64d4da90de5e04e2c5c68930992a2098"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/EpicFightBridge.java",
+          "bytes": 7007,
+          "sha256": "6a0d0636ec04aff60eaf5822cfd21d30aee3a08af13cd8dacc625ad97458b419"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/EpicFightCompat.java",
+          "bytes": 1772,
+          "sha256": "e0d79ae79fe2473ab74a6a2d9934e5120e62e2341379fcb3da67470745a3460e"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/EpicFightSkills.java",
+          "bytes": 5581,
+          "sha256": "c221fe664a112902c2aa9fe51612b4abfc716df390e0d11a0d21d351dadf771a"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/IronsBridge.java",
+          "bytes": 2993,
+          "sha256": "25262690034b43a5dcaf4a5c1bdf5c8459d1494b17e7475789b87a2cd2c3e2e5"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/IronsCompat.java",
+          "bytes": 1044,
+          "sha256": "6f72709467fd118ef5b314d255ed57be82982993fb4655dbbf44b179e241b066"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/OptionalMixinPlugin.java",
+          "bytes": 1454,
+          "sha256": "40825928b4bae309a5e45d5b7ee15a6ce1a55ba122ff43c722a8561ef930120f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/ParCoolBridge.java",
+          "bytes": 2797,
+          "sha256": "115824f2a04b2fcdcf1d86b8be1a5750d28513fea62e453681e4ee2f47fc6bc0"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/ParCoolCompat.java",
+          "bytes": 769,
+          "sha256": "dde1844621861cd933ceffee85e40be543313f12636b30afc25684c9a546ebba"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/ParCoolSkills.java",
+          "bytes": 3823,
+          "sha256": "9f35d2e8cb0f91e09a195bc2f4571248dabbdbb2dd775a2289144d6169eae1ca"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/RPGLocalStamina.java",
+          "bytes": 1640,
+          "sha256": "5594ea111bbbf516019e4839fdf0c2cf3f4ed83aa65513e7b9f54950ab8a6a99"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/StaminaPacketAccess.java",
+          "bytes": 142,
+          "sha256": "d8c2db28504797f0c0d97929c0df7455a89fe078e837180b0fc44a125eeb9c16"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/compat/WeaponAttackCost.java",
+          "bytes": 819,
+          "sha256": "bf7744ab02e1b839a48937b4f5fa9423569453c55f5cdc6c16110038d12cfcfc"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/config/RPGConfig.java",
+          "bytes": 13879,
+          "sha256": "740375b1d368d1e3f0d61426193e35d80853584ae38a76ea4b5c5b1848bc8932"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/defense/DefenseManager.java",
+          "bytes": 2561,
+          "sha256": "abcc5f3b848177ffcf4e628ce51abbb3f10deba543eb4fa5f835b2d3e4e71ba5"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/defense/DefenseType.java",
+          "bytes": 228,
+          "sha256": "ffa63fa35d0d7a0e5e0d2e2c2532552d98aa8c85d61d9edaec4e3d04ba99ddad"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/defense/EquipmentDefense.java",
+          "bytes": 6322,
+          "sha256": "92078f2287bafd4dc09ed3375b69075f5153f1260fe57a35a0d5925ef15cb4ef"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/effect/ModEffects.java",
+          "bytes": 927,
+          "sha256": "69696341c03319953afe90e764a2eb0a27b066536ce3f24417ab0cbf1281cb16"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/event/CommonEvents.java",
+          "bytes": 8387,
+          "sha256": "f76039881bae0d65acc6631185eb2f775cbe9abd98fdf562698d50d8d2b29908"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/event/ConfigEvents.java",
+          "bytes": 4924,
+          "sha256": "48b56b57e138b283d360c246385910a0494ed814b3a3127e35e233717e95c2bb"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/event/EpicRangedEvents.java",
+          "bytes": 1750,
+          "sha256": "fa36263f25b8d6f9c22f91c0d0f599fc8c17ed0f964e4ade90ca149969666e64"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/food/FoodManager.java",
+          "bytes": 4044,
+          "sha256": "85aec1117c735cbe37e8fba82727fa02841cb6641bc6060abcbd026bc6b1181c"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/AttributeBalanceChecks.java",
+          "bytes": 5230,
+          "sha256": "a26be3fdd9208349b43576f89a5602c8e97eb3e77f3a1ed322bc6d080b586833"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/AttributeBalanceEpicChecks.java",
+          "bytes": 2621,
+          "sha256": "130544b06ab1bfa9f5e0abd82d8a8572da6a6f6e419e97975ff489ae9deb19b7"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/AttributeBalanceParCoolChecks.java",
+          "bytes": 827,
+          "sha256": "e37acba160e108138d8289ff436a4c6f9b3935254ef9e618137ffea0e3dc47e8"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/AllIndicatorsClientFixture.java",
+          "bytes": 4487,
+          "sha256": "044b2b3e3668878e35125cb9afae16eb66e17b26a4b81508b35accb61a8977b1"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ArmorFoodReportCapture.java",
+          "bytes": 5831,
+          "sha256": "621be185bb3b2d38c04c3ee0d8138b49c7e97fcafd401af39a598c3873a60d0f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/AttributeBalanceCapture.java",
+          "bytes": 13055,
+          "sha256": "0a90ff67d59e52bd9cba979b5423d9e6251772edce08057f613f39c9c2250282"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ClientSmokeTest.java",
+          "bytes": 12080,
+          "sha256": "807fc1a583de089fe82109dd1492bb99edfc5c63e13b66379859ca68262a4b7b"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/CrawlIconCapture.java",
+          "bytes": 8397,
+          "sha256": "08c5fadef667283ffbcb7ef0cdcf9b7b33f65c078d030bad787afeeefaa04d3b"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/EpicFightClientSmoke.java",
+          "bytes": 3591,
+          "sha256": "8fb4975553c3b69258fb07586ad4d74e9174315a68be391a91f9ba5e6f486d20"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/EpicTreeClientCheck.java",
+          "bytes": 2239,
+          "sha256": "f66a7cd51cd0ad88e0a0df5fb2fd099a54050ef908ce06f75217b4947e2747cf"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/FoodClientSmoke.java",
+          "bytes": 12719,
+          "sha256": "1e63f970551ae38beb536a2d5a88e35176649b6d40524f62715f93e4d6e3164f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/HudClientSmoke.java",
+          "bytes": 6951,
+          "sha256": "ddacb45ec36bcc11c9649cd27245fdaf736834708e25e7b6ddcb22d629149341"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/IronsClientSmoke.java",
+          "bytes": 1714,
+          "sha256": "a6d5f0e7b26d7b4883cf9bcfbed39b20aff6e814778631e22c71f2096ecccf6c"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ItemTooltipCapture.java",
+          "bytes": 17587,
+          "sha256": "bffd261689239216bf335677f944d03750620f9a56fd264cdeac861f7bd60232"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ItemTooltipEpicCheck.java",
+          "bytes": 4976,
+          "sha256": "009fa6f7ed6167eaf7d4f89f559d16b78360d3218c0a10ae1732bde16e407dd8"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/LevelUpVisualCapture.java",
+          "bytes": 9022,
+          "sha256": "80e38ff4a9a5a18a31c53692e0cddfc23845ba0ddeb910d2111dbc15f8787099"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/LifecycleClientSmoke.java",
+          "bytes": 6530,
+          "sha256": "616ae49656f7de181ba0bda5839c886e44fabe137457beb25422d4a1b3b7f0d2"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ManaClientSmoke.java",
+          "bytes": 5238,
+          "sha256": "211535b4784ae58903798ffbff05d8f770418456de3b04ab1691aa8d630633ca"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/MountedHudClientSmoke.java",
+          "bytes": 3880,
+          "sha256": "7e90b045059ab936303f9e8d287b44f19f0953612cfa3f9d252c0ff755f4940f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/OptionalManaClientSmoke.java",
+          "bytes": 8876,
+          "sha256": "e4673bd3760447b815c3b3068142f5c2744cec8510ed34771ddd764640d865ba"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ParCoolClientSmoke.java",
+          "bytes": 2042,
+          "sha256": "52b3bb5bdbab4fef3dad6441054e2876fe122ed54285e6315b14dfef6b8adbfb"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ParCoolTreeClientCheck.java",
+          "bytes": 434,
+          "sha256": "da3f827c7b27ba1a26ec67af01a31e8d705f07f50ec44d0e6c1cdd144c518a50"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/ShowcaseClient.java",
+          "bytes": 21904,
+          "sha256": "64951c8b8ec3977520ef65ee60fa91464ab55d563a6c89a96e9da552a2bbcaaf"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/SkillTreeVisualCapture.java",
+          "bytes": 14527,
+          "sha256": "72ca2962149b99b238505938405f5d5558c6725474551143f66ac709ee7d2304"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/StaminaVisualCapture.java",
+          "bytes": 12426,
+          "sha256": "66da38ee89f589787aeb5b2b543a0abb6460f69087f36aea10b255bfab292199"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/TreeClientSmoke.java",
+          "bytes": 14633,
+          "sha256": "9e8a0eb25dfa86c982ff57808f29c48f893b35984e156dd291ffdc12cfff8cd1"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/client/XPReportCapture.java",
+          "bytes": 3551,
+          "sha256": "6416be155f394db50fdf0e8ce6bf070bb9fa58152a695d6d44abea6c61a13b12"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/CookingGameTests.java",
+          "bytes": 4667,
+          "sha256": "4a67a4866151546c9247b61c7bed6313dc0d33c0a3c0181a2995312ad7d5eb27"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/DisabledIronsEpicChecks.java",
+          "bytes": 1342,
+          "sha256": "75e8e9d72482d7486865b08e7d3bcd1b88224369afb962cdf9f23cb7e9e4642c"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/DisabledIronsWeaponChecks.java",
+          "bytes": 9826,
+          "sha256": "0e713a26ce102e3cb67b664439b0f18adb877d573c5d582334cfd7a397d71d99"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/EpicFightGameTests.java",
+          "bytes": 8082,
+          "sha256": "4e37288762e10fbe338e880875da55ce845ffb7acb0f34a938eac7293f50a332"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/EpicStaminaSkillGameTests.java",
+          "bytes": 6011,
+          "sha256": "6bd9435eb4770ea1e60dc7474dd8236a958f83fd98a0eca407b87679faa95c84"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/EpicTreeGameTests.java",
+          "bytes": 5266,
+          "sha256": "6b4a598ee5ffab4c22087332b4c149650742e3b6f22661972d62696056daa11d"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/FoodGameTests.java",
+          "bytes": 12314,
+          "sha256": "2ccfdf54f25bc445176d08002c0bd85584061c0113531d3076079f0965d74365"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/IronsGameTests.java",
+          "bytes": 6362,
+          "sha256": "b946c60fcd1eaafae84e921ffdbbc3581d531d1d8f2eda39eb160c3e0056f29d"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/IronsTreeGameTests.java",
+          "bytes": 827,
+          "sha256": "3f1f8f64e28225ebb103f3b50d5ecc3c0c3f96813934dba463899d3ffdb2515a"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/MobVariationChecks.java",
+          "bytes": 3143,
+          "sha256": "cac58858da79cecff5ceae5b1141281a0b84db2d179662ba2d5f0fce801c0130"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/ParCoolGameTests.java",
+          "bytes": 3724,
+          "sha256": "afef3a3227937e4a3cddb9c3e03b9a505d171d132bf923b9ea4ff9b05e94f541"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/ParCoolTreeGameTests.java",
+          "bytes": 2484,
+          "sha256": "b1787fe47a9f42226aefc99d2825769351ff915dc5e7c3665b44e594b7cdd6a3"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/RangedEpicSetup.java",
+          "bytes": 653,
+          "sha256": "242f5ec3fa4c982437b382ce6b2a5df28757f28ad8b6e28db5de5eca52b2c376"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/RangedNativeChecks.java",
+          "bytes": 7606,
+          "sha256": "bddfa45623867d2d9894c62a0c9ebcf9c5ed6385eac5cc1e4be55a21e66f2ebc"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/RequirementGameTests.java",
+          "bytes": 3581,
+          "sha256": "171c92540271a3334021dcf1e99fb35f19d041ef221951b12c70cc10f0886dc0"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/ResourceGameTests.java",
+          "bytes": 2849,
+          "sha256": "94063c9925da83d439666d289de98ab27605ae9a964c48b6da9a07cf97a85fcc"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/RPGGameTests.java",
+          "bytes": 29773,
+          "sha256": "3e1205f41ee096d06e4db6662972243946a5d5c033dbdb06c6e059a1fd4a837b"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/SkillTreeGameTests.java",
+          "bytes": 4625,
+          "sha256": "6a404c444a692d3e28da7a36f32175ebcd9f1e20822490a6ed79454b0c740347"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/gametest/SparkEffectGameTests.java",
+          "bytes": 3258,
+          "sha256": "e9fbde5950e72f1a9ee5da227d83a7318c7f5d10a0a635608502ad4900c5c5c9"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/inventory/InventoryLockManager.java",
+          "bytes": 1875,
+          "sha256": "14dfe0e35c867828bb41889ace093824a228cc095259f492228eca8d425bc100"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/inventory/InventorySlotRules.java",
+          "bytes": 1557,
+          "sha256": "fb21e4c69fc810d51d00c6fc316581b89681ce46928a7f91cf1bc0273a026797"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/ArmorDefenseMixin.java",
+          "bytes": 2788,
+          "sha256": "51a57e89cc8674e86a7bb6ceb5fe10b50ffd35ec5680190c3db51e637be8a8f1"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/CakeFoodMixin.java",
+          "bytes": 975,
+          "sha256": "32ec91e533880c55f0a693715f5d6b9312ed4606b30d067c8c7951b61ca5c5f2"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/CampfireMixin.java",
+          "bytes": 3515,
+          "sha256": "56d258569cba3c3e7b9b0cfb03989f0f530a5f783f7b4b6b2b6722516b293b53"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/client/ExperienceHudMixin.java",
+          "bytes": 1413,
+          "sha256": "f8bc91996f52c9b5fe84b47dc6bc9134b9b1326a1eec76003a4d119fad6e52d1"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/ContainerMenuMixin.java",
+          "bytes": 1824,
+          "sha256": "9bde268a65996d620e55765bd92f83d9c72e64313dd8b33d993b1c71db02b6d9"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/CraftingMenuMixin.java",
+          "bytes": 1331,
+          "sha256": "c1e09efb345e2225c31d4288289a5f7132a2d2d9c9457d3e925bb7db3d7d495d"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/CraftingQuickMoveMixin.java",
+          "bytes": 973,
+          "sha256": "63d1dd9aa1ef95337597ef15f38bfbe585ab8b3150b3395fe36dd2ec6414ac60"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/CreativeInventoryMixin.java",
+          "bytes": 1320,
+          "sha256": "b75a0cb356a13c7a1c5dbf9d1058ed83eb619a60c077c74c0854d0ff17c45614"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/CrossbowStaminaMixin.java",
+          "bytes": 1133,
+          "sha256": "04a057773b780578b4b448834904032bfde3e161dcd904fce590adc5e8b10118"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/DisabledRecipeMixin.java",
+          "bytes": 1390,
+          "sha256": "e8b64f93bede9176b1e6020e1aef797a25791518d1b9e515550de669a23935b4"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/DisabledStackMixin.java",
+          "bytes": 744,
+          "sha256": "a2e408ea7b338a3865d5593e77d06b66efd2abde447cb2502689ec16c699a3eb"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/DisabledTradeMixin.java",
+          "bytes": 793,
+          "sha256": "8a32b8190503a49a47ade0e07bccce4f853fbda2742878b4ceabd153a4d8a444"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/AttackDamageMixin.java",
+          "bytes": 1179,
+          "sha256": "c8cdb0a58292ed952fbd0aff45c9c90da7b24818ffebb139d6d1b4c48e0ef11d"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/AttackStrikeMixin.java",
+          "bytes": 1308,
+          "sha256": "1f795b8211da627c872ff0bbd49ed9ed887158bb9107af6ae806e2dda52140b1"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/BookChestLootMixin.java",
+          "bytes": 630,
+          "sha256": "ec8110c552464bb300bb87f9561f2c2289f68a4d439a212cd8d9cae93e8282f3"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/BookMobLootMixin.java",
+          "bytes": 801,
+          "sha256": "5cf2a67792fe8e1d3130be9794d7efdae84fdf327442c1c79793c23a382d95fb"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/PlayerPatchMixin.java",
+          "bytes": 2492,
+          "sha256": "34bc6185ac1be7c5379639c4c409fb6953da19835b6c452620a588f7cd0e3945"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/SkillBookMixin.java",
+          "bytes": 1055,
+          "sha256": "9954c3628665e17fdf05562d43db992c278abdb3ff1d575b35ac23ae8e85761f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/SkillChangeMixin.java",
+          "bytes": 947,
+          "sha256": "69868b5bcb8ecb36da46f27c6a5f5ff32c2b3f28d9407179875166b59a9e8a80"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/SkillPacketAccessor.java",
+          "bytes": 460,
+          "sha256": "b2bbad2bfe74fa55150268aacfa33e60b4b7ab9f88fec97d98dc04121f7a71a6"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/epicfight/StaminaPacketMixin.java",
+          "bytes": 1611,
+          "sha256": "cded2bca3c00779e0e7d2227136b5f24180a7d3f89b6f43de61c847157580d64"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/FoodDataMixin.java",
+          "bytes": 1114,
+          "sha256": "400bf467158c2230a86a5339bdd0563d62f630076080e6a662ca79c9e67a70ea"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/FoodEffectsMixin.java",
+          "bytes": 1101,
+          "sha256": "9ca6e66b6c7c9ac632b83d2a350b4c79e6cb16de6ef205c3fe8b1a255b900412"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/FurnaceResultMixin.java",
+          "bytes": 1292,
+          "sha256": "d961e9e158c776c7ccdc5798af0ae8e9cacc58cac9bf1301e4d94bdf2160eaac"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/GeneratedLootMixin.java",
+          "bytes": 1329,
+          "sha256": "c62c6fe75c6733d653907a603d60a4ca94664259039e6804de0e77bd6501f86a"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/InventoryMixin.java",
+          "bytes": 3077,
+          "sha256": "ee91e95c911f5243d20a25aa90f6bcd086bd1dc1b7f903e30f08a88c69f4375f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/InventoryWrapperMixin.java",
+          "bytes": 1008,
+          "sha256": "d52861d24ec167ea28215c82f1dd8ff8c6f49be6884d9dd48c290028b15f7148"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/CastSourceMixin.java",
+          "bytes": 712,
+          "sha256": "8a721ae49ec57eea30b09a2315836b65cc8e8f1db97ce6f5c6c1961ce77448cb"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/ClientMagicDataMixin.java",
+          "bytes": 698,
+          "sha256": "e3808ad499b6b92353e02ea88a37d80fb34d519370a499384e30685c72fd6160"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/DisabledWeaponSpellMixin.java",
+          "bytes": 1027,
+          "sha256": "ddc2671b9f80e072ef0673efe0dd09c96e2f1c37037508cb9f168608cbe07aad"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/MagicDataMixin.java",
+          "bytes": 1317,
+          "sha256": "f8413aef5dd12c964c3a343953187e8e642a9d279d987cfc40cdcc0047d7ff61"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/MagicManagerMixin.java",
+          "bytes": 744,
+          "sha256": "1c8cb03ab59a7059bd49c78a571306c5a08e9be2e0651aaf9cffe7afb3a92d70"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/ManaAttributeMixin.java",
+          "bytes": 1105,
+          "sha256": "f2e597285eba63e4246e4852ebf5f578f329e739448992adfb5b27b943be6264"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/ManaOverlayMixin.java",
+          "bytes": 712,
+          "sha256": "9a5433b64ba86e7f2a578e07aa4a60c90f7e59674d99a2941605c035e9987a61"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/ManaPotionMixin.java",
+          "bytes": 1399,
+          "sha256": "063b76d55c81de48e8bac5c1013992060c3691a025e96e1158bbacab7a2e5291"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/SpellBarMixin.java",
+          "bytes": 729,
+          "sha256": "4690fa58df5bcddb956d1512e60e5cb0ecca23f31067f4739c00c6e6bd73273f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/irons/SpellCostMixin.java",
+          "bytes": 786,
+          "sha256": "8873dda99a2c1008dddcda4f0fc71dc4a32d2bc3a47d76166c3da6dc564d1c08"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/MiningMixin.java",
+          "bytes": 1103,
+          "sha256": "4a1da1f8aebce3a3d3e3c29e0bdbac5e678430f2f838c55317c8d694ed413261"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/parcool/ActionMixin.java",
+          "bytes": 1051,
+          "sha256": "ddab97f742842e890c370e3575d7997a2db9746f3e7fa1ba2d5fa6f025867306"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/parcool/ContinuableActionMixin.java",
+          "bytes": 1214,
+          "sha256": "f6b8d239b7ccfd1b6187cef15035ffde68d2f225b99e95bd248445350e16dbe8"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/parcool/ParkourabilityMixin.java",
+          "bytes": 1639,
+          "sha256": "e1b2d1270154e8c968c4e1be8cbf7d5e19ed8e8612680e22468aecca5c3447bd"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/parcool/SkillEntryAccessor.java",
+          "bytes": 425,
+          "sha256": "f0fcf919b6747a2d20f68dbd3800f256fd1e341c39e626b9987cfd1ed7b4c70e"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/parcool/SkillUnlockMixin.java",
+          "bytes": 757,
+          "sha256": "5a7b59d67b3e89690fcf9f5948a5c28fba0f2ca800633922110bcd43297c45fb"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/PlayerMixin.java",
+          "bytes": 1456,
+          "sha256": "ff3f1de69d35e8c2d853eb47821f654f2ff95ebc214abc17bed108e96614e1ef"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/ResultSlotMixin.java",
+          "bytes": 637,
+          "sha256": "41f47a835d82b744a5174514ff92cdef8290882933eae3a4d6571a2aa4b2c04f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/ServerPlayerMixin.java",
+          "bytes": 725,
+          "sha256": "c3cf9bf04d8635b1653bfeedc05c99d368cb576baa2c27648666b314155c87f0"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/SlotMixin.java",
+          "bytes": 2061,
+          "sha256": "2595ac8a2191e0db573a8f9a13924af90d46a72f3fe7bf69c93f54c60d57f469"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/SparkEffectMixin.java",
+          "bytes": 1840,
+          "sha256": "d82fb3e273f937780483b98c187b2e7497136e247e690904d18e0ba309e1b246"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/mixin/TridentStaminaMixin.java",
+          "bytes": 1180,
+          "sha256": "4452c88a22229cdcef155154a9ce7579463c2a5838c205ed16f0dd838ed36ce9"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/network/ModNetworking.java",
+          "bytes": 8734,
+          "sha256": "17e7c55d5903db051531cb4d278b9e39fd142b3e0011d412ef4b3141f8977632"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/progression/PlayerProgression.java",
+          "bytes": 9260,
+          "sha256": "22199aa77acf50edcb5db040e38ee4202cf40ad9f27bc5e7c423b27776938244"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/progression/PlayerProgressionProvider.java",
+          "bytes": 1464,
+          "sha256": "83103fb3652917ca771ae86235749b5f3d081548bf7acd0b3169c1b5a6d4885e"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/progression/ProgressionManager.java",
+          "bytes": 3295,
+          "sha256": "7f96efc9c9da555e5b5dcbd8bd822d15c0a1930539555647aa299cf5b6583977"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/progression/ProgressionMath.java",
+          "bytes": 2136,
+          "sha256": "da6595ee448e0b439820eddc3be63c6ba426222a61dbd2625ee9b6c0a994eae9"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/recipe/CraftingResultAccess.java",
+          "bytes": 252,
+          "sha256": "6473c0c98e00abd09b88ae5095e5e5966dbd72a9d89210d993958096aa824dab"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/recipe/IntelligenceRecipeManager.java",
+          "bytes": 3818,
+          "sha256": "f1a62fa0ffcb4a94dc57aef99cdb890901f1c35c1ddddc2a9f2bcd36e5d5b1ee"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/requirements/ItemCombatStats.java",
+          "bytes": 1585,
+          "sha256": "17c1e6a8611e3b77f321ed47e75f63430d9bce5c0641748378f154096e8eabe5"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/requirements/ItemRequirements.java",
+          "bytes": 2114,
+          "sha256": "7b7ab9cb05f69596c754d69bded1873dfac01214b272724a83fd183509b3d957"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/requirements/RequirementEvents.java",
+          "bytes": 4027,
+          "sha256": "f4af280175f40c4ea5c1ebaf75bd9d8462a16e47a3dfc6dc4298336d07d8e3b1"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/requirements/RequirementRule.java",
+          "bytes": 963,
+          "sha256": "ef760f027509374f65d57d765dffb75f4a781d57bb7f1c9b76b0c654a321cc25"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/resource/ResourceMath.java",
+          "bytes": 971,
+          "sha256": "2783565d427ed0d0fdcb60488ae25b26482b422173ae063d3b8cdaf1f1dfd682"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/resource/SparkManager.java",
+          "bytes": 3139,
+          "sha256": "c732a04771f0b273dcafd57645257c67193b759b3c07b9839c2c5138bbca2eba"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/RPGProgression.java",
+          "bytes": 1128,
+          "sha256": "ebd59ac06b692a1debab4efed4de14cba5b307922c4d1f0657611f8706fa879b"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/skill/EpicSkillBranches.java",
+          "bytes": 1488,
+          "sha256": "8db9bbd8afc884409aab3761c27a4f5449582b3709567b3656cd34bcb9f3a7f8"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/skill/SkillNode.java",
+          "bytes": 1064,
+          "sha256": "4bb52ef657f06379a55e2e983ae106f8a80e5c59deedc5612ba754e7a316383a"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/skill/SkillTreeLayout.java",
+          "bytes": 3394,
+          "sha256": "fd6175d10399f9fb87c7310c66201575bfc8c8af3bd108b84d6a5c97ffceee12"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/skill/SkillTreeManager.java",
+          "bytes": 3143,
+          "sha256": "8f9e0d23706d91f286615e654cc17f0ac54c704496e0ad76964638f153ef7ed6"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/stamina/RangedStaminaManager.java",
+          "bytes": 2269,
+          "sha256": "16129a5341ab3b02516798d1c149945bae906b380c8d6e14a88091506c1d1cfd"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/stamina/StaminaManager.java",
+          "bytes": 3004,
+          "sha256": "d6f13d77ececf868950e2c5c9fd4d029900a4dc545a8be472529419cbe0518ff"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/xp/CampfireXPAccess.java",
+          "bytes": 129,
+          "sha256": "3fe26925d41076b138d38e1dd4d2f2452b23f11fa3ea7eafdd74363b4bb98f18"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/xp/FurnaceXPAccess.java",
+          "bytes": 203,
+          "sha256": "748d2572104ccd9fefc13823a66342d02a3badb2c5bae2aa366ee7fd39590556"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/xp/MobXP.java",
+          "bytes": 471,
+          "sha256": "7e4fbfc36ff0deee3dcead2eee21b96136420ff6da38f1025238af8994e7dada"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/xp/PlacedBlockTracker.java",
+          "bytes": 1236,
+          "sha256": "9829ecd7f14d58cee856d8dac94624e44359999c333f4ec20bd568fdadcb4a86"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/xp/XPManager.java",
+          "bytes": 5078,
+          "sha256": "80a24e54b9d06ce828fb8c62ec2d17a229d5af1f65950ebc629c8d58d53c7492"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/xp/XPOverrides.java",
+          "bytes": 1552,
+          "sha256": "a05942ccd9366b07dd2da56caf3bd67bd92c59d65a8f245948888b5a0276f92f"
+        },
+        {
+          "path": "src/main/java/dev/rpgprogression/xp/XPRule.java",
+          "bytes": 812,
+          "sha256": "7e303157899416b87b04a6d9be6f089db9349f0ee2b2a70e3eec4045fa510509"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/lang/en_us.json",
+          "bytes": 12139,
+          "sha256": "79bcf8c62962c5323c626ef738b2174cb4fd6c1d3c2df10893f57443f53c197e"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/lang/ru_ru.json",
+          "bytes": 17729,
+          "sha256": "77bb098598ed0b73b99ba5f8126344941f381fbd6f5634228262f7b854df7818"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/button_off.png",
+          "bytes": 165,
+          "sha256": "3d46ac3e55de7cef846d16341ba499585afa41cf4b1667b12cd1e171fff9167e"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/button_on.png",
+          "bytes": 165,
+          "sha256": "185f852d055616d4598e750afb95342d1e11cb9162d5aff74876ba3fe61c32f3"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/icons/crawl.png",
+          "bytes": 8447,
+          "sha256": "b576353abefc1ba5284cb9b6aed1c17866c5bd031840005a8134f70b64f71d8c"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/info.png",
+          "bytes": 1371,
+          "sha256": "c0fc41ff28849d1479005831fab66d1709bfb0689c9d504d3d6f7e20af6a4848"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/level_up_en.png",
+          "bytes": 549,
+          "sha256": "2f34e4ee3439e647e93ab10130dda19938ed0c30e09a0813bbb4bf4989539782"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/level_up_ru.png",
+          "bytes": 825,
+          "sha256": "a68af7d9265dac06eef6354996382202ce0038ce36eba065dbb0a82c3226fb66"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/locked.png",
+          "bytes": 179,
+          "sha256": "0d135644f2e2590e2830ecc67d3f72346ab08c0cc3325a93dfb1c4e427becb6c"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_1.png",
+          "bytes": 971,
+          "sha256": "899e5b05508567b8a98f35fd2ada4091c44b06fd27a137c2f2659543cf401127"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_2.png",
+          "bytes": 976,
+          "sha256": "b7ad704fac01ddfe05fb47d30595c09627aead2fec22dcff0dd4f533b171a0fe"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_3.png",
+          "bytes": 968,
+          "sha256": "a1e41cb8d3fc5691e4297023ed9eae72b03ffae4072046e3fd4eecc3107396f9"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_4.png",
+          "bytes": 970,
+          "sha256": "4561c969f73876defe18cbc41b06af7a89c1034e7417a2990a5a2ac00ba9e6b1"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_5.png",
+          "bytes": 956,
+          "sha256": "63bf3bc8c64889478a50950b0b9ccfdc63bcbedcb72f181b34f59913262218ed"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_6.png",
+          "bytes": 952,
+          "sha256": "8362241d0cae704aba7d53a7c0845368cf616bdbbdfd2d3b696aba519de4da2d"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_7.png",
+          "bytes": 977,
+          "sha256": "c426c007b6909def9f61158ef5bc214ab31bc7f0226f43ab0b6d17e94c7e89d0"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_empty.png",
+          "bytes": 895,
+          "sha256": "e88f224e3133f9e698f276a4aba7af315ab43fe77b934c2746b6594dc951b0a4"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/mana/mana_full.png",
+          "bytes": 932,
+          "sha256": "0d9da886e3bd4936a811f2fe717117254a9b17d35b19ee96c6f29cd6fa1a8344"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/menu_main.png",
+          "bytes": 11572,
+          "sha256": "771b8155aca083085740827adbc33751d70ae6722014afcf875394d41fef4cde"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/skill_tree.png",
+          "bytes": 1960,
+          "sha256": "a74c50a752372b081c5b834be937602bfccdb968f72457b6dbf8b809feaf3ced"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/skill_tree_background.png",
+          "bytes": 1779,
+          "sha256": "154ec1f868d5d9efae7c63da3b1acf5a0f26c0c478c7f47718953965939e372a"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/skill_tree_buttons.png",
+          "bytes": 848,
+          "sha256": "173ce11d7bce7a38ee344af20c26f12f27a2102a4ffb7ea11f37375426a192b6"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/tab_top_selected_1.png",
+          "bytes": 268,
+          "sha256": "e9f78cab6242bda52a9c512da00e15f1199064cb191fef1296e37171803300cd"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/gui/tab_top_unselected_1.png",
+          "bytes": 305,
+          "sha256": "72b0aab8f70fde85c3f2b29530d0cfececb2d1a34ee0f3f071f06c9de8e3eead"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/hardcore/absorption_hc.png",
+          "bytes": 456,
+          "sha256": "3ab1768a98b8d1ae653c1d9e68b159b391bbd26d25b93808ce8640f11ecd24ba"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/hardcore/frozen_hc.png",
+          "bytes": 442,
+          "sha256": "923c5c3cd5e721072461e912946939a8d7b362999eee32507aae90c07fec4b89"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/hardcore/main_hc.png",
+          "bytes": 484,
+          "sha256": "62893fd6d91b1dbb309311f93e79e607ad79f195456d6fef46501e8d3490f3bd"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/hardcore/poison_hc.png",
+          "bytes": 462,
+          "sha256": "7a90b0113ef0959cfffbce0e3b6d63eec2592bf6d4e0d1e6cdc6a54f62cfc72e"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/hardcore/wither_hc.png",
+          "bytes": 493,
+          "sha256": "f0f7656394545a43b77cf43e31e89f3d6a1370d572652201fe140913fa85349d"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/survival/absorption.png",
+          "bytes": 423,
+          "sha256": "7acaa4651a184ba61f7e7e57c3864772a062a33e518b4961ab62a7f158990485"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/survival/anim_health.png",
+          "bytes": 488,
+          "sha256": "0d1f8e668b4009fa7ba9e2abf85aecd984c095a3d3c43225b970a72c3166c9ac"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/survival/empty.png",
+          "bytes": 446,
+          "sha256": "5f33aeb7ebe1423dc1602240ca7ddc2987eaeda5468f37f01e6ab3e5ad8a1132"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/survival/frozen.png",
+          "bytes": 423,
+          "sha256": "be69bb592a88b33f96b1a38cbb6b55900ce95023a4fa5511d0bff9cb9d0a433f"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/survival/oxygen.png",
+          "bytes": 417,
+          "sha256": "8003e494c47d27d5181f1e54ee1ea2b8874f0bf5e745c3b26a30bc301864fde8"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/survival/poison.png",
+          "bytes": 431,
+          "sha256": "79ab5eea5a22f4597ce2a72888bde6cc404b37efadb4fd72d92a6c151551821c"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hp/survival/wither.png",
+          "bytes": 452,
+          "sha256": "7fc38ad789b431d0fc22cce849e865d057870ab199e42dc8d4ec07471b0c75f8"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hunger/hunger.png",
+          "bytes": 440,
+          "sha256": "e097f6e3f8df6df710abb7d4202a2cb37ed5be7ea787209c33925d15837b7838"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/hunger/hunger_effect.png",
+          "bytes": 429,
+          "sha256": "df59ba8a4eb5f4ea18d08916dfc2971af9b17a84eab8c7bce0f4875bbab831e2"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/hud/stamina/base_stamina.png",
+          "bytes": 445,
+          "sha256": "91bff689ee3719ce12d0928c703518dd1142b326c48244bc8f5dfa7e80b352c0"
+        },
+        {
+          "path": "src/main/resources/assets/rpgprogression/textures/mob_effect/spark_exhaustion.png",
+          "bytes": 298,
+          "sha256": "29d6191b689ef6483910f542a601e99aeec73d4264c05fa767757a751a53cd52"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/recipe_requirements/defaults.json",
+          "bytes": 135,
+          "sha256": "37db826f0119601a0b9caf0c623bd495de8de8a877c34b396765fef1e7d0d79d"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/structures/empty.nbt",
+          "bytes": 111,
+          "sha256": "704cf6e0c495ff8af01d48b128ef8814a1b02c0cee705074bfeeaaf64268c968"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/tags/blocks/rare_ores.json",
+          "bytes": 103,
+          "sha256": "f0570c253d3285eaddb5a4a5d8e2692bf3495bebf4844c33b6d7de93d0571cfe"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/tags/damage_type/is_magic.json",
+          "bytes": 242,
+          "sha256": "8a5583df548fa8222ff26199b691de4e77233aeb93ed356f99848e032d90b5d3"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/tags/entity_types/bosses.json",
+          "bytes": 92,
+          "sha256": "0b61bf681bc788f0f7ca336a4d1161698e72c69f5a0ae3ab3d5d655f95e3c983"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/tags/items/energizing_foods.json",
+          "bytes": 526,
+          "sha256": "3101270440a4d319e4613f5c598e721ebdc51becec9d14a68b717ff8dab22e47"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/tags/items/fishing_treasure.json",
+          "bytes": 163,
+          "sha256": "665468dae1e66ef9fa8bf6db42049cfbaa39ba7d917c935bad5ae3757f89823a"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/tags/items/healing_foods.json",
+          "bytes": 1290,
+          "sha256": "b106980e05bd8075048165526e69a64975ecfec68668b0301f08c05ae43a16d5"
+        },
+        {
+          "path": "src/main/resources/data/rpgprogression/tags/items/soups.json",
+          "bytes": 249,
+          "sha256": "b6aede8de5eccc55afb594f666358f5d3ca61df197bd1c563c167ea69c855f20"
+        },
+        {
+          "path": "src/main/resources/META-INF/mods.toml",
+          "bytes": 576,
+          "sha256": "9c173aee07de8b438292390e7a27223f0b7007a5c06c776d995f647400bcb1e2"
+        },
+        {
+          "path": "src/main/resources/pack.mcmeta",
+          "bytes": 79,
+          "sha256": "e031fc31e53c6b2483fbce5c272e2e80c3eddae297862592455ec3c0e570b076"
+        },
+        {
+          "path": "src/main/resources/rpgprogression.mixins.json",
+          "bytes": 1776,
+          "sha256": "7ef7687be2af25f30d4180b866c351b8ea5e484c00b374755c09d27c044bd60e"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/client/hud/ExperienceChangeTrackerTest.java",
+          "bytes": 1888,
+          "sha256": "0d4e79ce1c7ada920e29cedb30625859e03f7f4988e6b6f72fd1a9a9a1edb1bd"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/client/hud/HudMeterTest.java",
+          "bytes": 1909,
+          "sha256": "e637ceac2c315eab92deaa1814cb5c31c7bea69726b8b496078c93f5ffe62110"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/client/hud/HudVisibilityAnimationTest.java",
+          "bytes": 1380,
+          "sha256": "adb729e7a1c2d58b65808be3b143183d129d1da7ed578997e5ebf1c8f2870567"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/client/hud/LevelUpAnimationTest.java",
+          "bytes": 1487,
+          "sha256": "cb1ec670102ded22f701c14e81174e80188b1cb074c2debcb7ee9c4395328252"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/compat/WeaponAttackCostTest.java",
+          "bytes": 918,
+          "sha256": "f0e7a8667d8ddb1740412511af30b0d7db78e1d9ac3967e845b6a4676e692d6d"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/progression/ProgressionMathTest.java",
+          "bytes": 6239,
+          "sha256": "ad9131196cee007f8d708a5bf0b50594ce4e461a3ab8471049fffd04e17f771d"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/requirements/RequirementRuleTest.java",
+          "bytes": 736,
+          "sha256": "b7965b0a64b8fa0adc65f299aeee0bb113f1cd60917eb4987541497b5113257f"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/resource/ResourceMathTest.java",
+          "bytes": 1370,
+          "sha256": "ffde45156c0b08a9b504530c544126a9c4d2abcb4bdaf121df6348dabbcac45c"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/skill/EpicSkillBranchesTest.java",
+          "bytes": 1440,
+          "sha256": "9c489deb49059f6c5a1ababb38411d80a31aa8ee386d84c4ca29f497f249fc98"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/skill/SkillTreeLayoutTest.java",
+          "bytes": 1935,
+          "sha256": "fbb43791dd703e5058b7f44e3ad774fe3e7d01b0220bd8ca95a8198b0561e9ab"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/xp/MobXPTest.java",
+          "bytes": 1339,
+          "sha256": "2a38ff622a623888f146cca5c9c8b84330e41502648f9d9675d2c6c418ad2324"
+        },
+        {
+          "path": "src/test/java/dev/rpgprogression/xp/XPRuleTest.java",
+          "bytes": 647,
+          "sha256": "613bf120ad1ebfd6e332a8f24da3c77f378dc79b462204a452ab1f3ecf972198"
+        },
+        {
+          "path": "TESTING.md",
+          "bytes": 68739,
+          "sha256": "4d34c9e2b757511423e11656ac1667164f9381bf30cbae1efac38395fd1721e1"
+        },
+        {
+          "path": "TEXTURES.ru.md",
+          "bytes": 19405,
+          "sha256": "14def93c058a030ff02e8c99fbaf885cc736497723606ae5e1ebae6b9870a776"
+        },
+        {
+          "path": "VERSION-MAP.md",
+          "bytes": 2115,
+          "sha256": "607f1a00e9b67185d6b548f23a4741b8275c402938de04f8254a757c9c724b56"
+        },
+        {
+          "path": "WEAPONS.ru.md",
+          "bytes": 5367,
+          "sha256": "8241825d9d99de521b78b51e30265a55217392d2c8185a4e3e2e0719f4f90734"
+        }
+      ],
+      "omitted_files": [
+        {
+          "path": "docs/verification/heart110-capture-states.json",
+          "bytes": 1061
+        },
+        {
+          "path": "docs/verification/heart110-crawl.log",
+          "bytes": 47627
+        },
+        {
+          "path": "docs/verification/heart110-release-verification.json",
+          "bytes": 884
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.client.hud.ExperienceChangeTrackerTest.xml",
+          "bytes": 656
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.client.hud.HudMeterTest.xml",
+          "bytes": 585
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.client.hud.HudVisibilityAnimationTest.xml",
+          "bytes": 660
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.client.hud.LevelUpAnimationTest.xml",
+          "bytes": 635
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.compat.WeaponAttackCostTest.xml",
+          "bytes": 573
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.progression.ProgressionMathTest.xml",
+          "bytes": 2003
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.requirements.RequirementRuleTest.xml",
+          "bytes": 604
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.resource.ResourceMathTest.xml",
+          "bytes": 593
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.skill.EpicSkillBranchesTest.xml",
+          "bytes": 731
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.skill.SkillTreeLayoutTest.xml",
+          "bytes": 735
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.xp.MobXPTest.xml",
+          "bytes": 757
+        },
+        {
+          "path": "docs/verification/heart110-unit-TEST-dev.rpgprogression.xp.XPRuleTest.xml",
+          "bytes": 541
+        },
+        {
+          "path": "FILES.txt",
+          "bytes": 18578
+        }
+      ]
     }
   ]
 }
