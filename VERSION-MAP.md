@@ -31,3 +31,7 @@
 Исторические логи и снимки проверок в `docs/verification` сохранены в исходном виде: они отражают номер реально проверенной сборки на момент записи. Для сопоставления используйте таблицу выше. Числовые версии Minecraft, Forge и сторонних зависимостей не изменены.
 
 Original 1.8.4 is now public 1.0.0. Earlier builds use the mapping above. This relabeling preserves the technical mod ID, resource namespaces, save data and gameplay behavior. Historical verification evidence retains its original labels.
+# NeoForge 2.0.0
+
+Новый порт для Minecraft 1.21.1 и NeoForge начинается с версии **2.0.0**. Последний выпуск прежней ветки Minecraft 1.20.1 / Forge — **1.0.12**. Сопоставление исторической нумерации ниже относится к прежней ветке.
+
