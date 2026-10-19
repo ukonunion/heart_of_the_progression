@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:honey_bottle",
+    "minecraft:pumpkin_pie",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:apple",
+    "minecraft:melon_slice",
+    {
+      "id": "#c:foods/fruit",
+      "required": false
+    },
+    {
+      "id": "#c:foods/berry",
+      "required": false
+    },
+    {
+      "id": "#c:foods/pie",
+      "required": false
+    },
+    {
+      "id": "#c:foods/honey",
+      "required": false
+    }
+  ]
+}
