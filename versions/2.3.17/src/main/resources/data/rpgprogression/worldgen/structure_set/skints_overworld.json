@@ -1,0 +1,35 @@
+{
+  "structures": [
+    {
+      "structure": "rpgprogression:skint_cave_1",
+      "weight": 1
+    },
+    {
+      "structure": "rpgprogression:skint_cave_2",
+      "weight": 1
+    },
+    {
+      "structure": "rpgprogression:skint_main_base",
+      "weight": 4
+    },
+    {
+      "structure": "rpgprogression:skint_main_mossy",
+      "weight": 4
+    },
+    {
+      "structure": "rpgprogression:skint_main_red_sand",
+      "weight": 4
+    },
+    {
+      "structure": "rpgprogression:skint_main_sand",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 32,
+    "salt": 193726517,
+    "spread_type": "triangular"
+  }
+}

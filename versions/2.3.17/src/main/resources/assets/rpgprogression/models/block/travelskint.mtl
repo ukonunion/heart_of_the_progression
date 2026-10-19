@@ -1,0 +1,59 @@
+newmtl texture_0
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture0
+
+newmtl texture_1
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture1
+
+newmtl texture_2
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture2
+
+newmtl texture_3
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture3
+
+newmtl texture_4
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture4
+
+newmtl texture_5
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture5
+
+newmtl texture_6
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture6
+
+newmtl texture_7
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture7
+
+newmtl texture_8
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture8
+
+newmtl texture_9
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture9
+
+newmtl texture_10
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture10
+
+newmtl texture_11
+Kd 1 1 1
+Ka 0 0 0
+map_Kd #texture11

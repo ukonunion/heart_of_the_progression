@@ -1,0 +1,9 @@
+{
+  "type": "rpgprogression:skint",
+  "biomes": "#c:is_nether",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "template": "rpgprogression:skint_nether",
+  "placement": "nether"
+}
