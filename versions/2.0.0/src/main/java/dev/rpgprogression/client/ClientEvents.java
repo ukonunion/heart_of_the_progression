@@ -1,0 +1,53 @@
+package dev.rpgprogression.client;
+
+import dev.rpgprogression.RPGProgression;
+import dev.rpgprogression.client.gui.CharacterScreen;
+import dev.rpgprogression.client.gui.GuiTextures;
+import dev.rpgprogression.inventory.InventorySlotRules;
+import dev.rpgprogression.network.ModNetworking;
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.neoforge.client.event.ContainerScreenEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
+
+@EventBusSubscriber(modid=RPGProgression.MOD_ID,value=Dist.CLIENT)
+public final class ClientEvents {
+    @SubscribeEvent public static void replaceParCoolTree(net.neoforged.neoforge.client.event.ScreenEvent.Opening e){
+        if(e.getNewScreen()!=null&&e.getNewScreen().getClass().getName().equals("com.alrex.parcool.client.gui.screen.ParCoolSkillTreeScreen")
+                &&dev.rpgprogression.skill.SkillTreeManager.parcool())e.setNewScreen(new dev.rpgprogression.client.gui.SkillTreeScreen(new CharacterScreen()));
+    }
+    @SubscribeEvent public static void tick(ClientTickEvent.Post e) {
+        Minecraft mc=Minecraft.getInstance();if(mc.player==null)return;
+        ClientData.applyPending();
+        if(ClientData.get().exhausted&&!mc.player.isCreative()&&!mc.player.isSpectator())mc.player.setSprinting(false);
+        while(ClientRegistration.CHARACTER.consumeClick()) {
+            if(mc.screen==null) {ModNetworking.CHANNEL.sendToServer(new ModNetworking.RequestData());mc.setScreen(new CharacterScreen());}
+            else if(mc.screen instanceof CharacterScreen)mc.setScreen(null);
+        }
+    }
+    @SubscribeEvent public static void logout(net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent.LoggingOut e){ClientData.reset();}
+    @SubscribeEvent public static void characterMenuHud(net.neoforged.neoforge.client.event.RenderGuiEvent.Pre e){
+        if(Minecraft.getInstance().screen instanceof CharacterScreen||Minecraft.getInstance().screen instanceof dev.rpgprogression.client.gui.SkillTreeScreen)e.setCanceled(true);
+    }
+    @SubscribeEvent public static void characterMenuHand(net.neoforged.neoforge.client.event.RenderHandEvent e){
+        if(Minecraft.getInstance().screen instanceof CharacterScreen||Minecraft.getInstance().screen instanceof dev.rpgprogression.client.gui.SkillTreeScreen)e.setCanceled(true);
+    }
+    @SubscribeEvent public static void locks(ContainerScreenEvent.Render.Foreground e) {
+        var screen=e.getContainerScreen();var g=e.getGuiGraphics();
+        for(var slot:screen.getMenu().slots)if(InventorySlotRules.locked(slot)) {
+            int x=slot.x,y=slot.y;
+            g.pose().pushPose();g.pose().translate(0,0,300);
+            GuiTextures.draw(g,"locked",x,y,16,16,16,16);
+            g.pose().popPose();
+            int mx=e.getMouseX()-screen.getGuiLeft(),my=e.getMouseY()-screen.getGuiTop();
+            if(mx>=x&&mx<x+16&&my>=y&&my<y+16) {
+                int required=InventorySlotRules.thresholds()[slot.getContainerSlot()-9];
+                g.renderTooltip(Minecraft.getInstance().font,Component.translatable("rpgprogression.inventory.requires",required),mx,my);
+            }
+        }
+    }
+}

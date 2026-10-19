@@ -1,0 +1,156 @@
+Heart of the Progression 0.9.1 — баланс брони
+
+Minecraft 1.20.1 / Forge 47.4.23; Iron’s 1.20.1-3.16.3; Epic Fight 20.14.17; ParCool 4.0.1.1.
+Значения сняты с реестра работающей игры. Сравнение: исходный удар 10 HP, без зачарований, еды, зелий и RPG-бонусов.
+Обычная и ванильная броня: полный физический вклад; магический вклад равен нулю.
+Броня irons_spellbooks: 0,5 исходных очков брони и прочности для физического и магического урона.
+A = floor(сумма эффективных очков брони), T = сумма эффективной прочности брони.
+Эффективная броня = min(20, max(A/5, A − D/(2 + T/4))).
+Снижение урона = эффективная броня/25 × 100%. Магия суммирует только вещи Iron’s.
+Для смешанного комплекта физический расчёт суммирует полную обычную броню и половину характеристик Iron’s; магический — только половину Iron’s.
+Внутренние расчёты не округляются; строки меню и эта таблица округлены до целого. Проценты вещей нельзя складывать: комплект рассчитывается из сумм характеристик.
+Формула применяется и к настоящему урону игрока, и к оценке в меню. Существа сохраняют нативную защиту.
+Нативное сопротивление заклинаниям Iron’s действует перед бронёй: D × (2 − softCap(R)); softCap(R)=R при R≤1,5, иначе 2−0,25/(R−1).
+Сопротивления школ учитываются реальным источником; общая магическая строка меню сравнивает источник без специализации школы.
+Зачарования обычной брони дают физическую защиту. Магическая защита зачарований учитывает только вещи Iron’s.
+Физическое пробитие брони сохраняется. Iron’s защищает и от обычной minecraft:magic; урон, обходящий все эффекты, не меняется.
+RPG/еда применяются после брони и зачарований: итог = 100 × (1 − (1 − экипировка/100) × (1 − RPG/100)).
+Питание, бонусы еды и регенерация остаются такими же, как в 0.9.0.
+
+ПОЛНЫЕ КОМПЛЕКТЫ
+Материал | Исходные A / T | Физический урон | Магический урон
+minecraft:chainmail | 12 / 0 | 28% | 0%
+  Предметы: minecraft:chainmail_boots, minecraft:chainmail_leggings, minecraft:chainmail_chestplate, minecraft:chainmail_helmet
+minecraft:diamond | 20 / 8 | 70% | 0%
+  Предметы: minecraft:diamond_boots, minecraft:diamond_leggings, minecraft:diamond_chestplate, minecraft:diamond_helmet
+minecraft:gold | 11 / 0 | 24% | 0%
+  Предметы: minecraft:golden_boots, minecraft:golden_leggings, minecraft:golden_chestplate, minecraft:golden_helmet
+minecraft:iron | 15 / 0 | 40% | 0%
+  Предметы: minecraft:iron_boots, minecraft:iron_leggings, minecraft:iron_chestplate, minecraft:iron_helmet
+minecraft:leather | 7 / 0 | 8% | 0%
+  Предметы: minecraft:leather_boots, minecraft:leather_leggings, minecraft:leather_chestplate, minecraft:leather_helmet
+minecraft:netherite | 20 / 12 | 72% | 0%
+  Предметы: minecraft:netherite_boots, minecraft:netherite_leggings, minecraft:netherite_chestplate, minecraft:netherite_helmet
+geckolib:diamond | 20 / 8 | 70% | 0%
+  Предметы: geckolib:wolf_armor_boots, geckolib:wolf_armor_leggings, geckolib:wolf_armor_chestplate, geckolib:wolf_armor_helmet
+irons_spellbooks:archevoker | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:archevoker_boots, irons_spellbooks:archevoker_leggings, irons_spellbooks:archevoker_chestplate, irons_spellbooks:archevoker_helmet
+irons_spellbooks:cryomancer | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:cryomancer_boots, irons_spellbooks:cryomancer_leggings, irons_spellbooks:cryomancer_chestplate, irons_spellbooks:cryomancer_helmet
+irons_spellbooks:cultist | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:cultist_boots, irons_spellbooks:cultist_leggings, irons_spellbooks:cultist_chestplate, irons_spellbooks:cultist_helmet
+irons_spellbooks:electromancer | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:electromancer_boots, irons_spellbooks:electromancer_leggings, irons_spellbooks:electromancer_chestplate, irons_spellbooks:electromancer_helmet
+irons_spellbooks:netherite | 20 / 12 | 29% | 29%
+  Предметы: irons_spellbooks:netherite_mage_boots, irons_spellbooks:netherite_mage_leggings, irons_spellbooks:netherite_mage_chestplate, irons_spellbooks:netherite_mage_helmet
+irons_spellbooks:plagued | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:plagued_boots, irons_spellbooks:plagued_leggings, irons_spellbooks:plagued_chestplate, irons_spellbooks:plagued_helmet
+irons_spellbooks:priest | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:priest_boots, irons_spellbooks:priest_leggings, irons_spellbooks:priest_chestplate, irons_spellbooks:priest_helmet
+irons_spellbooks:pumpkin | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:pumpkin_boots, irons_spellbooks:pumpkin_leggings, irons_spellbooks:pumpkin_chestplate, irons_spellbooks:pumpkin_helmet
+irons_spellbooks:pyromancer | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:pyromancer_boots, irons_spellbooks:pyromancer_leggings, irons_spellbooks:pyromancer_chestplate, irons_spellbooks:pyromancer_helmet
+irons_spellbooks:shadowwalker | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:shadowwalker_boots, irons_spellbooks:shadowwalker_leggings, irons_spellbooks:shadowwalker_chestplate, irons_spellbooks:shadowwalker_helmet
+irons_spellbooks:wandering_magician | 15 / 0 | 8% | 8%
+  Предметы: irons_spellbooks:wandering_magician_boots, irons_spellbooks:wandering_magician_leggings, irons_spellbooks:wandering_magician_chestplate, irons_spellbooks:wandering_magician_helmet
+irons_spellbooks:wizard | 20 / 0 | 20% | 20%
+  Предметы: irons_spellbooks:wizard_boots, irons_spellbooks:wizard_leggings, irons_spellbooks:wizard_chestplate, irons_spellbooks:wizard_helmet
+
+КАЖДЫЙ ПРЕДМЕТ
+Предмет | Слот | Исходные A / T | Физический урон | Магический урон
+epicfight:stray_hat | head | 1 / 0 | 1% | 0%
+epicfight:stray_pants | legs | 2 / 0 | 2% | 0%
+epicfight:stray_robe | chest | 3 / 0 | 2% | 0%
+geckolib:gecko_armor_boots | feet | 3 / 2 | 2% | 0%
+geckolib:gecko_armor_chestplate | chest | 8 / 2 | 16% | 0%
+geckolib:gecko_armor_helmet | head | 3 / 2 | 2% | 0%
+geckolib:gecko_armor_leggings | legs | 6 / 2 | 8% | 0%
+geckolib:wolf_armor_boots | feet | 3 / 2 | 2% | 0%
+geckolib:wolf_armor_chestplate | chest | 8 / 2 | 16% | 0%
+geckolib:wolf_armor_helmet | head | 3 / 2 | 2% | 0%
+geckolib:wolf_armor_leggings | legs | 6 / 2 | 8% | 0%
+irons_spellbooks:archevoker_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:archevoker_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:archevoker_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:archevoker_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:cryomancer_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:cryomancer_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:cryomancer_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:cryomancer_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:cultist_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:cultist_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:cultist_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:cultist_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:electromancer_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:electromancer_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:electromancer_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:electromancer_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:gold_crown | head | 0 / 0 | 0% | 0%
+irons_spellbooks:infernal_sorcerer_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:netherite_mage_boots | feet | 3 / 3 | 1% | 1%
+irons_spellbooks:netherite_mage_chestplate | chest | 8 / 3 | 3% | 3%
+irons_spellbooks:netherite_mage_helmet | head | 3 / 3 | 1% | 1%
+irons_spellbooks:netherite_mage_leggings | legs | 6 / 3 | 2% | 2%
+irons_spellbooks:paladin_chestplate | chest | 8 / 4 | 3% | 3%
+irons_spellbooks:plagued_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:plagued_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:plagued_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:plagued_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:priest_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:priest_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:priest_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:priest_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:pumpkin_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:pumpkin_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:pumpkin_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:pumpkin_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:pyromancer_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:pyromancer_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:pyromancer_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:pyromancer_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:shadowwalker_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:shadowwalker_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:shadowwalker_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:shadowwalker_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:speed_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:tarnished_helmet | head | 0 / 0 | 0% | 0%
+irons_spellbooks:wandering_magician_boots | feet | 2 / 0 | 1% | 1%
+irons_spellbooks:wandering_magician_chestplate | chest | 5 / 0 | 2% | 2%
+irons_spellbooks:wandering_magician_helmet | head | 2 / 0 | 1% | 1%
+irons_spellbooks:wandering_magician_leggings | legs | 6 / 0 | 2% | 2%
+irons_spellbooks:wizard_boots | feet | 3 / 0 | 1% | 1%
+irons_spellbooks:wizard_chestplate | chest | 8 / 0 | 3% | 3%
+irons_spellbooks:wizard_hat | head | 3 / 0 | 1% | 1%
+irons_spellbooks:wizard_helmet | head | 3 / 0 | 1% | 1%
+irons_spellbooks:wizard_leggings | legs | 6 / 0 | 2% | 2%
+minecraft:chainmail_boots | feet | 1 / 0 | 1% | 0%
+minecraft:chainmail_chestplate | chest | 5 / 0 | 4% | 0%
+minecraft:chainmail_helmet | head | 2 / 0 | 2% | 0%
+minecraft:chainmail_leggings | legs | 4 / 0 | 3% | 0%
+minecraft:diamond_boots | feet | 3 / 2 | 2% | 0%
+minecraft:diamond_chestplate | chest | 8 / 2 | 16% | 0%
+minecraft:diamond_helmet | head | 3 / 2 | 2% | 0%
+minecraft:diamond_leggings | legs | 6 / 2 | 8% | 0%
+minecraft:golden_boots | feet | 1 / 0 | 1% | 0%
+minecraft:golden_chestplate | chest | 5 / 0 | 4% | 0%
+minecraft:golden_helmet | head | 2 / 0 | 2% | 0%
+minecraft:golden_leggings | legs | 3 / 0 | 2% | 0%
+minecraft:iron_boots | feet | 2 / 0 | 2% | 0%
+minecraft:iron_chestplate | chest | 6 / 0 | 5% | 0%
+minecraft:iron_helmet | head | 2 / 0 | 2% | 0%
+minecraft:iron_leggings | legs | 5 / 0 | 4% | 0%
+minecraft:leather_boots | feet | 1 / 0 | 1% | 0%
+minecraft:leather_chestplate | chest | 3 / 0 | 2% | 0%
+minecraft:leather_helmet | head | 1 / 0 | 1% | 0%
+minecraft:leather_leggings | legs | 2 / 0 | 2% | 0%
+minecraft:netherite_boots | feet | 3 / 3 | 2% | 0%
+minecraft:netherite_chestplate | chest | 8 / 3 | 17% | 0%
+minecraft:netherite_helmet | head | 3 / 3 | 2% | 0%
+minecraft:netherite_leggings | legs | 6 / 3 | 9% | 0%
+minecraft:turtle_helmet | head | 2 / 0 | 2% | 0%
+
+HUD: пользовательский oxygen.png обновлён побайтово и опущен на 3 GUI-пикселя; заполнение от центра. Остальные положения сохранены.
+Каталог включает зарегистрированные демонстрационные вещи GeckoLib; это не обещает доступность предмета в выживании.
+Проверено: 90 предметов и 19 комплектов.
